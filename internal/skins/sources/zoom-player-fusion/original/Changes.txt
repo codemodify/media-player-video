@@ -1,0 +1,2 @@
+8.1.5
+-A 'Play in Slowmotion' button has been added to the Control Bar

@@ -1,0 +1,444 @@
+{
+  "skin": 1,
+  "label": "bsplayer",
+  "base": "win95",
+  "window": {
+    "layout": ":"
+  },
+  "sheets": {
+    "art": {
+      "1x": "art/skin.png",
+      "pixelated": false
+    }
+  },
+  "sprites": {
+    "face.controller": {
+      "sheet": "art",
+      "at": [
+        0,
+        0,
+        800,
+        82
+      ]
+    },
+    "key.open.normal": {
+      "sheet": "art",
+      "at": [
+        802,
+        0,
+        30,
+        21
+      ]
+    },
+    "key.open.hover": {
+      "sheet": "art",
+      "at": [
+        834,
+        0,
+        30,
+        21
+      ]
+    },
+    "key.open.pressed": {
+      "sheet": "art",
+      "at": [
+        866,
+        0,
+        30,
+        21
+      ]
+    },
+    "key.playlist.normal": {
+      "sheet": "art",
+      "at": [
+        898,
+        0,
+        30,
+        21
+      ]
+    },
+    "key.playlist.hover": {
+      "sheet": "art",
+      "at": [
+        930,
+        0,
+        30,
+        21
+      ]
+    },
+    "key.playlist.pressed": {
+      "sheet": "art",
+      "at": [
+        962,
+        0,
+        30,
+        21
+      ]
+    },
+    "key.pause.normal": {
+      "sheet": "art",
+      "at": [
+        994,
+        0,
+        30,
+        21
+      ]
+    },
+    "key.pause.hover": {
+      "sheet": "art",
+      "at": [
+        0,
+        84,
+        30,
+        21
+      ]
+    },
+    "key.pause.pressed": {
+      "sheet": "art",
+      "at": [
+        32,
+        84,
+        30,
+        21
+      ]
+    },
+    "key.play.normal": {
+      "sheet": "art",
+      "at": [
+        64,
+        84,
+        46,
+        21
+      ]
+    },
+    "key.play.hover": {
+      "sheet": "art",
+      "at": [
+        112,
+        84,
+        46,
+        21
+      ]
+    },
+    "key.play.pressed": {
+      "sheet": "art",
+      "at": [
+        160,
+        84,
+        46,
+        21
+      ]
+    },
+    "key.stop.normal": {
+      "sheet": "art",
+      "at": [
+        208,
+        84,
+        30,
+        21
+      ]
+    },
+    "key.stop.hover": {
+      "sheet": "art",
+      "at": [
+        240,
+        84,
+        30,
+        21
+      ]
+    },
+    "key.stop.pressed": {
+      "sheet": "art",
+      "at": [
+        272,
+        84,
+        30,
+        21
+      ]
+    },
+    "key.prev.normal": {
+      "sheet": "art",
+      "at": [
+        304,
+        84,
+        30,
+        21
+      ]
+    },
+    "key.prev.hover": {
+      "sheet": "art",
+      "at": [
+        336,
+        84,
+        30,
+        21
+      ]
+    },
+    "key.prev.pressed": {
+      "sheet": "art",
+      "at": [
+        368,
+        84,
+        30,
+        21
+      ]
+    },
+    "key.next.normal": {
+      "sheet": "art",
+      "at": [
+        400,
+        84,
+        31,
+        21
+      ]
+    },
+    "key.next.hover": {
+      "sheet": "art",
+      "at": [
+        433,
+        84,
+        31,
+        21
+      ]
+    },
+    "key.next.pressed": {
+      "sheet": "art",
+      "at": [
+        466,
+        84,
+        31,
+        21
+      ]
+    },
+    "key.close.normal": {
+      "sheet": "art",
+      "at": [
+        499,
+        84,
+        16,
+        14
+      ]
+    },
+    "key.close.hover": {
+      "sheet": "art",
+      "at": [
+        517,
+        84,
+        16,
+        14
+      ]
+    },
+    "key.close.pressed": {
+      "sheet": "art",
+      "at": [
+        535,
+        84,
+        16,
+        14
+      ]
+    },
+    "seek.track": {
+      "sheet": "art",
+      "at": [
+        553,
+        84,
+        3,
+        7
+      ],
+      "slice": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "seek.fill": {
+      "sheet": "art",
+      "at": [
+        558,
+        84,
+        3,
+        7
+      ],
+      "slice": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "volume.track": {
+      "sheet": "art",
+      "at": [
+        563,
+        84,
+        152,
+        19
+      ]
+    },
+    "volume.fill": {
+      "sheet": "art",
+      "at": [
+        717,
+        84,
+        152,
+        19
+      ]
+    }
+  },
+  "layouts": {
+    "video.controller": {
+      "size": [
+        800,
+        82
+      ],
+      "art": "face.controller",
+      "slots": {
+        "open": {
+          "at": [
+            9,
+            53,
+            30,
+            21
+          ],
+          "art": {
+            "normal": "key.open.normal",
+            "hover": "key.open.hover",
+            "pressed": "key.open.pressed"
+          }
+        },
+        "playlist": {
+          "at": [
+            40,
+            53,
+            30,
+            21
+          ],
+          "art": {
+            "normal": "key.playlist.normal",
+            "hover": "key.playlist.hover",
+            "pressed": "key.playlist.pressed"
+          }
+        },
+        "pause": {
+          "at": [
+            120,
+            53,
+            30,
+            21
+          ],
+          "art": {
+            "normal": "key.pause.normal",
+            "hover": "key.pause.hover",
+            "pressed": "key.pause.pressed"
+          }
+        },
+        "play": {
+          "at": [
+            151,
+            53,
+            46,
+            21
+          ],
+          "art": {
+            "normal": "key.play.normal",
+            "hover": "key.play.hover",
+            "pressed": "key.play.pressed"
+          }
+        },
+        "stop": {
+          "at": [
+            198,
+            53,
+            30,
+            21
+          ],
+          "art": {
+            "normal": "key.stop.normal",
+            "hover": "key.stop.hover",
+            "pressed": "key.stop.pressed"
+          }
+        },
+        "prev": {
+          "at": [
+            229,
+            53,
+            30,
+            21
+          ],
+          "art": {
+            "normal": "key.prev.normal",
+            "hover": "key.prev.hover",
+            "pressed": "key.prev.pressed"
+          }
+        },
+        "next": {
+          "at": [
+            260,
+            53,
+            31,
+            21
+          ],
+          "art": {
+            "normal": "key.next.normal",
+            "hover": "key.next.hover",
+            "pressed": "key.next.pressed"
+          }
+        },
+        "close": {
+          "at": [
+            780,
+            5,
+            16,
+            14
+          ],
+          "art": {
+            "normal": "key.close.normal",
+            "hover": "key.close.hover",
+            "pressed": "key.close.pressed"
+          }
+        },
+        "seek": {
+          "at": [
+            7,
+            42,
+            786,
+            7
+          ]
+        },
+        "volume": {
+          "at": [
+            466,
+            54,
+            152,
+            19
+          ]
+        },
+        "title": {
+          "at": [
+            11,
+            9,
+            390,
+            15
+          ]
+        },
+        "elapsed": {
+          "at": [
+            410,
+            9,
+            185,
+            18
+          ]
+        },
+        "status": {
+          "at": [
+            624,
+            9,
+            150,
+            18
+          ]
+        }
+      }
+    }
+  }
+}

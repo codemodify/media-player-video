@@ -1,0 +1,3056 @@
+{
+  "base": "win95",
+  "colors": {
+    "focus": "#315DA2"
+  },
+  "family": "series-9",
+  "label": "Windows Media Player \u00b7 9 Series Default",
+  "layouts": {
+    "series9.compact": {
+      "art": "face.compact",
+      "size": [
+        346,
+        103
+      ],
+      "slots": {
+        "close": {
+          "art": {
+            "checked": "key.close",
+            "checkedHover": "key.close.hover",
+            "checkedPressed": "key.close.down",
+            "disabled": "key.close.disabled",
+            "hover": "key.close.hover",
+            "normal": "key.close",
+            "pressed": "key.close.down"
+          },
+          "at": [
+            323,
+            3,
+            16,
+            19
+          ]
+        },
+        "compact": {
+          "art": {
+            "checked": "key.compact",
+            "checkedHover": "key.compact.hover",
+            "checkedPressed": "key.compact.down",
+            "disabled": "key.compact.disabled",
+            "hover": "key.compact.hover",
+            "normal": "key.compact",
+            "pressed": "key.compact.down"
+          },
+          "at": [
+            290,
+            63,
+            20,
+            19
+          ]
+        },
+        "ffwd": {
+          "art": {
+            "checked": "key.ffwd",
+            "checkedHover": "key.ffwd.hover",
+            "checkedPressed": "key.ffwd.down",
+            "disabled": "key.ffwd.disabled",
+            "hover": "key.ffwd.hover",
+            "normal": "key.ffwd",
+            "pressed": "key.ffwd.down"
+          },
+          "at": [
+            303,
+            44,
+            36,
+            13
+          ]
+        },
+        "logo": {
+          "art": {
+            "checked": "app.icon",
+            "normal": "app.icon",
+            "pressed": "app.icon"
+          },
+          "at": [
+            269,
+            63,
+            14,
+            14
+          ]
+        },
+        "metadata": {
+          "at": [
+            63,
+            27,
+            223,
+            16
+          ]
+        },
+        "minimize": {
+          "art": {
+            "checked": "key.minimize",
+            "checkedHover": "key.minimize.hover",
+            "checkedPressed": "key.minimize.down",
+            "disabled": "key.minimize.disabled",
+            "hover": "key.minimize.hover",
+            "normal": "key.minimize",
+            "pressed": "key.minimize.down"
+          },
+          "at": [
+            307,
+            3,
+            15,
+            19
+          ]
+        },
+        "mute": {
+          "art": {
+            "checked": "key.mute.on",
+            "checkedPressed": "key.mute.down",
+            "disabled": "key.mute.disabled",
+            "hover": "key.mute.hover",
+            "normal": "key.mute",
+            "pressed": "key.mute.down"
+          },
+          "at": [
+            133,
+            68,
+            22,
+            21
+          ]
+        },
+        "next": {
+          "art": {
+            "checked": "key.next",
+            "checkedHover": "key.next.hover",
+            "checkedPressed": "key.next.down",
+            "disabled": "key.next.disabled",
+            "hover": "key.next.hover",
+            "normal": "key.next",
+            "pressed": "key.next.down"
+          },
+          "at": [
+            106,
+            68,
+            22,
+            21
+          ]
+        },
+        "open": {
+          "art": {
+            "checked": "key.compact.open",
+            "checkedHover": "key.compact.open.hover",
+            "checkedPressed": "key.compact.open.down",
+            "disabled": "key.compact.open.disabled",
+            "hover": "key.compact.open.hover",
+            "normal": "key.compact.open",
+            "pressed": "key.compact.open.down"
+          },
+          "at": [
+            277,
+            3,
+            19,
+            19
+          ]
+        },
+        "pause": {
+          "art": {
+            "checked": "key.pause",
+            "checkedHover": "key.pause.hover",
+            "checkedPressed": "key.pause.down",
+            "disabled": "key.pause.disabled",
+            "hover": "key.pause.hover",
+            "normal": "key.pause",
+            "pressed": "key.pause.down"
+          },
+          "at": [
+            20,
+            63,
+            30,
+            30
+          ]
+        },
+        "play": {
+          "art": {
+            "checked": "key.play",
+            "checkedHover": "key.play.hover",
+            "checkedPressed": "key.play.down",
+            "disabled": "key.play.disabled",
+            "hover": "key.play.hover",
+            "normal": "key.play",
+            "pressed": "key.play.down"
+          },
+          "at": [
+            20,
+            63,
+            31,
+            30
+          ]
+        },
+        "prev": {
+          "art": {
+            "checked": "key.prev",
+            "checkedHover": "key.prev.hover",
+            "checkedPressed": "key.prev.down",
+            "disabled": "key.prev.disabled",
+            "hover": "key.prev.hover",
+            "normal": "key.prev",
+            "pressed": "key.prev.down"
+          },
+          "at": [
+            81,
+            68,
+            22,
+            21
+          ]
+        },
+        "rew": {
+          "art": {
+            "checked": "key.rew",
+            "checkedHover": "key.rew.hover",
+            "checkedPressed": "key.rew.down",
+            "disabled": "key.rew.disabled",
+            "hover": "key.rew.hover",
+            "normal": "key.rew",
+            "pressed": "key.rew.down"
+          },
+          "at": [
+            18,
+            44,
+            36,
+            13
+          ]
+        },
+        "seek": {
+          "art": {
+            "checked": "seek.track",
+            "normal": "seek.track",
+            "pressed": "seek.track"
+          },
+          "at": [
+            52,
+            44,
+            255,
+            13
+          ]
+        },
+        "settings": {
+          "art": {
+            "checked": "key.skin",
+            "checkedHover": "key.skin.hover",
+            "checkedPressed": "key.skin.down",
+            "disabled": "key.skin.disabled",
+            "hover": "key.skin.hover",
+            "normal": "key.skin",
+            "pressed": "key.skin.down"
+          },
+          "at": [
+            311,
+            63,
+            20,
+            19
+          ]
+        },
+        "shape.background": {
+          "art": {
+            "checked": "face.compact",
+            "normal": "face.compact",
+            "pressed": "face.compact"
+          },
+          "at": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "stretchX": true,
+          "stretchY": true
+        },
+        "skin": {
+          "art": {
+            "checked": "key.skin",
+            "checkedHover": "key.skin.hover",
+            "checkedPressed": "key.skin.down",
+            "disabled": "key.skin.disabled",
+            "hover": "key.skin.hover",
+            "normal": "key.skin",
+            "pressed": "key.skin.down"
+          },
+          "at": [
+            311,
+            63,
+            20,
+            19
+          ]
+        },
+        "stop": {
+          "art": {
+            "checked": "key.stop",
+            "checkedHover": "key.stop.hover",
+            "checkedPressed": "key.stop.down",
+            "disabled": "key.stop.disabled",
+            "hover": "key.stop.hover",
+            "normal": "key.stop",
+            "pressed": "key.stop.down"
+          },
+          "at": [
+            54,
+            68,
+            22,
+            21
+          ]
+        },
+        "time": {
+          "at": [
+            287,
+            27,
+            49,
+            16
+          ]
+        },
+        "title": {
+          "at": [
+            21,
+            4,
+            200,
+            17
+          ]
+        },
+        "volume": {
+          "art": {
+            "checked": "volume.track",
+            "normal": "volume.track",
+            "pressed": "volume.track"
+          },
+          "at": [
+            162,
+            68,
+            68,
+            18
+          ]
+        }
+      }
+    },
+    "series9.equalizer": {
+      "art": "face.equalizer",
+      "size": [
+        334,
+        123
+      ],
+      "slots": {
+        "balance": {
+          "art": {
+            "checked": "balance.track",
+            "normal": "balance.track",
+            "pressed": "balance.track"
+          },
+          "at": [
+            44,
+            8,
+            67,
+            18
+          ],
+          "fromRight": true
+        },
+        "balance.label": {
+          "at": [
+            111,
+            11,
+            37,
+            15
+          ],
+          "fromRight": true
+        },
+        "close": {
+          "art": {
+            "checked": "key.eq.close",
+            "checkedHover": "key.eq.close.hover",
+            "checkedPressed": "key.eq.close.down",
+            "disabled": "key.eq.close.disabled",
+            "hover": "key.eq.close.hover",
+            "normal": "key.eq.close",
+            "pressed": "key.eq.close.down"
+          },
+          "at": [
+            9,
+            5,
+            15,
+            15
+          ],
+          "fromRight": true
+        },
+        "eq.0": {
+          "art": {
+            "checked": "eq.track",
+            "disabled": "eq.track.disabled",
+            "normal": "eq.track",
+            "pressed": "eq.track"
+          },
+          "at": [
+            15,
+            33,
+            18,
+            67
+          ]
+        },
+        "eq.1": {
+          "art": {
+            "checked": "eq.track",
+            "disabled": "eq.track.disabled",
+            "normal": "eq.track",
+            "pressed": "eq.track"
+          },
+          "at": [
+            46,
+            33,
+            18,
+            67
+          ]
+        },
+        "eq.2": {
+          "art": {
+            "checked": "eq.track",
+            "disabled": "eq.track.disabled",
+            "normal": "eq.track",
+            "pressed": "eq.track"
+          },
+          "at": [
+            78,
+            33,
+            18,
+            67
+          ]
+        },
+        "eq.3": {
+          "art": {
+            "checked": "eq.track",
+            "disabled": "eq.track.disabled",
+            "normal": "eq.track",
+            "pressed": "eq.track"
+          },
+          "at": [
+            109,
+            33,
+            18,
+            67
+          ]
+        },
+        "eq.4": {
+          "art": {
+            "checked": "eq.track",
+            "disabled": "eq.track.disabled",
+            "normal": "eq.track",
+            "pressed": "eq.track"
+          },
+          "at": [
+            141,
+            33,
+            18,
+            67
+          ]
+        },
+        "eq.5": {
+          "art": {
+            "checked": "eq.track",
+            "disabled": "eq.track.disabled",
+            "normal": "eq.track",
+            "pressed": "eq.track"
+          },
+          "at": [
+            172,
+            33,
+            18,
+            67
+          ]
+        },
+        "eq.6": {
+          "art": {
+            "checked": "eq.track",
+            "disabled": "eq.track.disabled",
+            "normal": "eq.track",
+            "pressed": "eq.track"
+          },
+          "at": [
+            204,
+            33,
+            18,
+            67
+          ]
+        },
+        "eq.7": {
+          "art": {
+            "checked": "eq.track",
+            "disabled": "eq.track.disabled",
+            "normal": "eq.track",
+            "pressed": "eq.track"
+          },
+          "at": [
+            235,
+            33,
+            18,
+            67
+          ]
+        },
+        "eq.8": {
+          "art": {
+            "checked": "eq.track",
+            "disabled": "eq.track.disabled",
+            "normal": "eq.track",
+            "pressed": "eq.track"
+          },
+          "at": [
+            267,
+            33,
+            18,
+            67
+          ]
+        },
+        "eq.9": {
+          "art": {
+            "checked": "eq.track",
+            "disabled": "eq.track.disabled",
+            "normal": "eq.track",
+            "pressed": "eq.track"
+          },
+          "at": [
+            298,
+            33,
+            18,
+            67
+          ]
+        },
+        "eq.area": {
+          "at": [
+            2,
+            33,
+            4,
+            67
+          ],
+          "stretchX": true
+        },
+        "eq.label.0": {
+          "at": [
+            9,
+            104,
+            30,
+            15
+          ]
+        },
+        "eq.label.1": {
+          "at": [
+            40,
+            104,
+            30,
+            15
+          ]
+        },
+        "eq.label.2": {
+          "at": [
+            72,
+            104,
+            30,
+            15
+          ]
+        },
+        "eq.label.3": {
+          "at": [
+            103,
+            104,
+            30,
+            15
+          ]
+        },
+        "eq.label.4": {
+          "at": [
+            135,
+            104,
+            30,
+            15
+          ]
+        },
+        "eq.label.5": {
+          "at": [
+            166,
+            104,
+            30,
+            15
+          ]
+        },
+        "eq.label.6": {
+          "at": [
+            198,
+            104,
+            30,
+            15
+          ]
+        },
+        "eq.label.7": {
+          "at": [
+            229,
+            104,
+            30,
+            15
+          ]
+        },
+        "eq.label.8": {
+          "at": [
+            261,
+            104,
+            30,
+            15
+          ]
+        },
+        "eq.label.9": {
+          "at": [
+            292,
+            104,
+            30,
+            15
+          ]
+        },
+        "on": {
+          "art": {
+            "checked": "key.eq.on.on",
+            "checkedPressed": "key.eq.on.down",
+            "disabled": "key.eq.on.disabled",
+            "hover": "key.eq.on.hover",
+            "normal": "key.eq.on",
+            "pressed": "key.eq.on.down"
+          },
+          "at": [
+            11,
+            8,
+            19,
+            19
+          ]
+        },
+        "preset": {
+          "art": {
+            "checked": "key.eq.preset",
+            "checkedHover": "key.eq.preset.hover",
+            "checkedPressed": "key.eq.preset.down",
+            "disabled": "key.eq.preset.disabled",
+            "hover": "key.eq.preset.hover",
+            "normal": "key.eq.preset",
+            "pressed": "key.eq.preset.down"
+          },
+          "at": [
+            55,
+            8,
+            19,
+            19
+          ]
+        },
+        "preset.label": {
+          "at": [
+            80,
+            10,
+            100,
+            17
+          ]
+        },
+        "reset": {
+          "art": {
+            "checked": "key.eq.reset",
+            "checkedHover": "key.eq.reset.hover",
+            "checkedPressed": "key.eq.reset.down",
+            "disabled": "key.eq.reset.disabled",
+            "hover": "key.eq.reset.hover",
+            "normal": "key.eq.reset",
+            "pressed": "key.eq.reset.down"
+          },
+          "at": [
+            33,
+            8,
+            19,
+            19
+          ]
+        },
+        "shape.background": {
+          "art": {
+            "checked": "face.equalizer",
+            "normal": "face.equalizer",
+            "pressed": "face.equalizer"
+          },
+          "at": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "stretchX": true,
+          "stretchY": true
+        }
+      }
+    },
+    "series9.main": {
+      "art": "face.main",
+      "size": [
+        346,
+        289
+      ],
+      "slots": {
+        "analyser": {
+          "at": [
+            19,
+            26,
+            7,
+            23
+          ],
+          "stretchX": true,
+          "stretchY": true
+        },
+        "close": {
+          "art": {
+            "checked": "key.close",
+            "checkedHover": "key.close.hover",
+            "checkedPressed": "key.close.down",
+            "disabled": "key.close.disabled",
+            "hover": "key.close.hover",
+            "normal": "key.close",
+            "pressed": "key.close.down"
+          },
+          "at": [
+            7,
+            3,
+            16,
+            19
+          ],
+          "fromRight": true
+        },
+        "audio": {
+          "art": {
+            "checked": "key.eq.on",
+            "checkedHover": "key.eq.on.hover",
+            "checkedPressed": "key.eq.on.down",
+            "disabled": "key.eq.disabled",
+            "hover": "key.eq.hover",
+            "normal": "key.eq",
+            "pressed": "key.eq.down"
+          },
+          "at": [
+            188,
+            3,
+            19,
+            19
+          ]
+        },
+        "status": {
+          "at": [
+            63,
+            5,
+            60,
+            16
+          ],
+          "fromBottom": true,
+          "stretchX": true
+        },
+        "minimize": {
+          "art": {
+            "checked": "key.minimize",
+            "checkedHover": "key.minimize.hover",
+            "checkedPressed": "key.minimize.down",
+            "disabled": "key.minimize.disabled",
+            "hover": "key.minimize.hover",
+            "normal": "key.minimize",
+            "pressed": "key.minimize.down"
+          },
+          "at": [
+            24,
+            3,
+            15,
+            19
+          ],
+          "fromRight": true
+        },
+        "open": {
+          "art": {
+            "checked": "key.open",
+            "checkedHover": "key.open.hover",
+            "checkedPressed": "key.open.down",
+            "disabled": "key.open.disabled",
+            "hover": "key.open.hover",
+            "normal": "key.open",
+            "pressed": "key.open.down"
+          },
+          "at": [
+            116,
+            3,
+            19,
+            19
+          ]
+        },
+        "playlist": {
+          "art": {
+            "checked": "key.pl.on",
+            "checkedPressed": "key.pl.down",
+            "disabled": "key.pl.disabled",
+            "hover": "key.pl.hover",
+            "normal": "key.pl",
+            "pressed": "key.pl.down"
+          },
+          "at": [
+            144,
+            3,
+            19,
+            19
+          ]
+        },
+        "shape.background": {
+          "art": {
+            "checked": "face.main",
+            "normal": "face.main",
+            "pressed": "face.main"
+          },
+          "at": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "stretchX": true,
+          "stretchY": true
+        },
+        "elapsed": {
+          "at": [
+            10,
+            5,
+            49,
+            16
+          ],
+          "fromBottom": true,
+          "fromRight": true
+        },
+        "title": {
+          "at": [
+            21,
+            4,
+            82,
+            17
+          ]
+        },
+        "screen": {
+          "at": [
+            19,
+            26,
+            7,
+            23
+          ],
+          "stretchX": true,
+          "stretchY": true
+        },
+        "full": {
+          "art": {
+            "checked": "key.vis",
+            "checkedHover": "key.vis.hover",
+            "checkedPressed": "key.vis.down",
+            "disabled": "key.vis.disabled",
+            "hover": "key.vis.hover",
+            "normal": "key.vis",
+            "pressed": "key.vis.down"
+          },
+          "at": [
+            166,
+            3,
+            19,
+            19
+          ]
+        }
+      }
+    },
+    "series9.playlist": {
+      "art": "face.playlist",
+      "size": [
+        263,
+        237
+      ],
+      "slots": {
+        "close": {
+          "art": {
+            "checked": "key.pl.close",
+            "checkedHover": "key.pl.close.hover",
+            "checkedPressed": "key.pl.close.down",
+            "disabled": "key.pl.close.disabled",
+            "hover": "key.pl.close.hover",
+            "normal": "key.pl.close",
+            "pressed": "key.pl.close.down"
+          },
+          "at": [
+            5,
+            10,
+            15,
+            15
+          ],
+          "fromRight": true
+        },
+        "grip": {
+          "art": {
+            "checked": "playlist.grip",
+            "normal": "playlist.grip",
+            "pressed": "playlist.grip"
+          },
+          "at": [
+            0,
+            81,
+            12,
+            27
+          ]
+        },
+        "header": {
+          "at": [
+            60,
+            7,
+            33,
+            20
+          ],
+          "stretchX": true
+        },
+        "list": {
+          "at": [
+            26,
+            34,
+            11,
+            29
+          ],
+          "stretchX": true,
+          "stretchY": true
+        },
+        "rows": {
+          "at": [
+            26,
+            34,
+            25,
+            29
+          ],
+          "stretchX": true,
+          "stretchY": true
+        },
+        "scroll": {
+          "at": [
+            11,
+            34,
+            14,
+            29
+          ],
+          "fromRight": true,
+          "stretchY": true
+        },
+        "shape.background": {
+          "art": {
+            "checked": "face.playlist",
+            "normal": "face.playlist",
+            "pressed": "face.playlist"
+          },
+          "at": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "stretchX": true,
+          "stretchY": true
+        },
+        "shuffle": {
+          "art": {
+            "checked": "key.shuffle.on",
+            "checkedPressed": "key.shuffle.down",
+            "disabled": "key.shuffle.disabled",
+            "hover": "key.shuffle.hover",
+            "normal": "key.shuffle",
+            "pressed": "key.shuffle.down"
+          },
+          "at": [
+            26,
+            9,
+            19,
+            19
+          ]
+        }
+      }
+    },
+    "series9.transport": {
+      "art": "face.transport",
+      "size": [
+        334,
+        60
+      ],
+      "slots": {
+        "compact": {
+          "art": {
+            "checked": "key.compact",
+            "checkedHover": "key.compact.hover",
+            "checkedPressed": "key.compact.down",
+            "disabled": "key.compact.disabled",
+            "hover": "key.compact.hover",
+            "normal": "key.compact",
+            "pressed": "key.compact.down"
+          },
+          "at": [
+            36,
+            20,
+            20,
+            19
+          ],
+          "fromRight": true
+        },
+        "ffwd": {
+          "art": {
+            "checked": "key.ffwd",
+            "checkedHover": "key.ffwd.hover",
+            "checkedPressed": "key.ffwd.down",
+            "disabled": "key.ffwd.disabled",
+            "hover": "key.ffwd.hover",
+            "normal": "key.ffwd",
+            "pressed": "key.ffwd.down"
+          },
+          "at": [
+            8,
+            1,
+            35,
+            13
+          ],
+          "fromRight": true
+        },
+        "logo": {
+          "art": {
+            "checked": "app.icon",
+            "normal": "app.icon",
+            "pressed": "app.icon"
+          },
+          "at": [
+            259,
+            20,
+            14,
+            14
+          ]
+        },
+        "mute": {
+          "art": {
+            "checked": "key.mute.on",
+            "checkedPressed": "key.mute.down",
+            "disabled": "key.mute.disabled",
+            "hover": "key.mute.hover",
+            "normal": "key.mute",
+            "pressed": "key.mute.down"
+          },
+          "at": [
+            121,
+            25,
+            22,
+            21
+          ]
+        },
+        "next": {
+          "art": {
+            "checked": "key.next",
+            "checkedHover": "key.next.hover",
+            "checkedPressed": "key.next.down",
+            "disabled": "key.next.disabled",
+            "hover": "key.next.hover",
+            "normal": "key.next",
+            "pressed": "key.next.down"
+          },
+          "at": [
+            94,
+            25,
+            22,
+            21
+          ]
+        },
+        "pause": {
+          "art": {
+            "checked": "key.pause",
+            "checkedHover": "key.pause.hover",
+            "checkedPressed": "key.pause.down",
+            "disabled": "key.pause.disabled",
+            "hover": "key.pause.hover",
+            "normal": "key.pause",
+            "pressed": "key.pause.down"
+          },
+          "at": [
+            8,
+            20,
+            30,
+            30
+          ]
+        },
+        "play": {
+          "art": {
+            "checked": "key.play",
+            "checkedHover": "key.play.hover",
+            "checkedPressed": "key.play.down",
+            "disabled": "key.play.disabled",
+            "hover": "key.play.hover",
+            "normal": "key.play",
+            "pressed": "key.play.down"
+          },
+          "at": [
+            8,
+            20,
+            31,
+            30
+          ]
+        },
+        "prev": {
+          "art": {
+            "checked": "key.prev",
+            "checkedHover": "key.prev.hover",
+            "checkedPressed": "key.prev.down",
+            "disabled": "key.prev.disabled",
+            "hover": "key.prev.hover",
+            "normal": "key.prev",
+            "pressed": "key.prev.down"
+          },
+          "at": [
+            69,
+            25,
+            22,
+            21
+          ]
+        },
+        "resize": {
+          "art": {
+            "checked": "resize",
+            "normal": "resize",
+            "pressed": "resize"
+          },
+          "at": [
+            0,
+            20,
+            17,
+            22
+          ],
+          "fromRight": true
+        },
+        "rew": {
+          "art": {
+            "checked": "key.rew",
+            "checkedHover": "key.rew.hover",
+            "checkedPressed": "key.rew.down",
+            "disabled": "key.rew.disabled",
+            "hover": "key.rew.hover",
+            "normal": "key.rew",
+            "pressed": "key.rew.down"
+          },
+          "at": [
+            6,
+            1,
+            35,
+            13
+          ]
+        },
+        "seek": {
+          "art": {
+            "checked": "seek.track",
+            "normal": "seek.track",
+            "pressed": "seek.track"
+          },
+          "at": [
+            40,
+            1,
+            39,
+            13
+          ],
+          "stretchX": true
+        },
+        "skins": {
+          "art": {
+            "checked": "key.skin",
+            "checkedHover": "key.skin.hover",
+            "checkedPressed": "key.skin.down",
+            "disabled": "key.skin.disabled",
+            "hover": "key.skin.hover",
+            "normal": "key.skin",
+            "pressed": "key.skin.down"
+          },
+          "at": [
+            15,
+            20,
+            20,
+            19
+          ],
+          "fromRight": true
+        },
+        "shape.background": {
+          "art": {
+            "checked": "face.transport",
+            "normal": "face.transport",
+            "pressed": "face.transport"
+          },
+          "at": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "stretchX": true,
+          "stretchY": true
+        },
+        "skin": {
+          "art": {
+            "checked": "key.skin",
+            "checkedHover": "key.skin.hover",
+            "checkedPressed": "key.skin.down",
+            "disabled": "key.skin.disabled",
+            "hover": "key.skin.hover",
+            "normal": "key.skin",
+            "pressed": "key.skin.down"
+          },
+          "at": [
+            15,
+            20,
+            20,
+            19
+          ],
+          "fromRight": true
+        },
+        "stop": {
+          "art": {
+            "checked": "key.stop",
+            "checkedHover": "key.stop.hover",
+            "checkedPressed": "key.stop.down",
+            "disabled": "key.stop.disabled",
+            "hover": "key.stop.hover",
+            "normal": "key.stop",
+            "pressed": "key.stop.down"
+          },
+          "at": [
+            42,
+            25,
+            22,
+            21
+          ]
+        },
+        "volume": {
+          "art": {
+            "checked": "volume.track",
+            "normal": "volume.track",
+            "pressed": "volume.track"
+          },
+          "at": [
+            150,
+            25,
+            68,
+            18
+          ]
+        }
+      }
+    },
+    "video.main": {
+      "art": "face.main",
+      "size": [
+        346,
+        289
+      ],
+      "slots": {
+        "analyser": {
+          "at": [
+            19,
+            26,
+            7,
+            23
+          ],
+          "stretchX": true,
+          "stretchY": true
+        },
+        "close": {
+          "art": {
+            "checked": "key.close",
+            "checkedHover": "key.close.hover",
+            "checkedPressed": "key.close.down",
+            "disabled": "key.close.disabled",
+            "hover": "key.close.hover",
+            "normal": "key.close",
+            "pressed": "key.close.down"
+          },
+          "at": [
+            7,
+            3,
+            16,
+            19
+          ],
+          "fromRight": true
+        },
+        "audio": {
+          "art": {
+            "checked": "key.eq.on",
+            "checkedHover": "key.eq.on.hover",
+            "checkedPressed": "key.eq.on.down",
+            "disabled": "key.eq.disabled",
+            "hover": "key.eq.hover",
+            "normal": "key.eq",
+            "pressed": "key.eq.down"
+          },
+          "at": [
+            188,
+            3,
+            19,
+            19
+          ]
+        },
+        "status": {
+          "at": [
+            63,
+            5,
+            60,
+            16
+          ],
+          "fromBottom": true,
+          "stretchX": true
+        },
+        "minimize": {
+          "art": {
+            "checked": "key.minimize",
+            "checkedHover": "key.minimize.hover",
+            "checkedPressed": "key.minimize.down",
+            "disabled": "key.minimize.disabled",
+            "hover": "key.minimize.hover",
+            "normal": "key.minimize",
+            "pressed": "key.minimize.down"
+          },
+          "at": [
+            24,
+            3,
+            15,
+            19
+          ],
+          "fromRight": true
+        },
+        "open": {
+          "art": {
+            "checked": "key.open",
+            "checkedHover": "key.open.hover",
+            "checkedPressed": "key.open.down",
+            "disabled": "key.open.disabled",
+            "hover": "key.open.hover",
+            "normal": "key.open",
+            "pressed": "key.open.down"
+          },
+          "at": [
+            116,
+            3,
+            19,
+            19
+          ]
+        },
+        "playlist": {
+          "art": {
+            "checked": "key.pl.on",
+            "checkedPressed": "key.pl.down",
+            "disabled": "key.pl.disabled",
+            "hover": "key.pl.hover",
+            "normal": "key.pl",
+            "pressed": "key.pl.down"
+          },
+          "at": [
+            144,
+            3,
+            19,
+            19
+          ]
+        },
+        "shape.background": {
+          "art": {
+            "checked": "face.main",
+            "normal": "face.main",
+            "pressed": "face.main"
+          },
+          "at": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "stretchX": true,
+          "stretchY": true
+        },
+        "elapsed": {
+          "at": [
+            10,
+            5,
+            49,
+            16
+          ],
+          "fromBottom": true,
+          "fromRight": true
+        },
+        "title": {
+          "at": [
+            21,
+            4,
+            82,
+            17
+          ]
+        },
+        "screen": {
+          "at": [
+            19,
+            26,
+            7,
+            23
+          ],
+          "stretchX": true,
+          "stretchY": true
+        },
+        "full": {
+          "art": {
+            "checked": "key.vis",
+            "checkedHover": "key.vis.hover",
+            "checkedPressed": "key.vis.down",
+            "disabled": "key.vis.disabled",
+            "hover": "key.vis.hover",
+            "normal": "key.vis",
+            "pressed": "key.vis.down"
+          },
+          "at": [
+            166,
+            3,
+            19,
+            19
+          ]
+        }
+      }
+    },
+    "video.transport": {
+      "art": "face.transport",
+      "size": [
+        334,
+        60
+      ],
+      "slots": {
+        "compact": {
+          "art": {
+            "checked": "key.compact",
+            "checkedHover": "key.compact.hover",
+            "checkedPressed": "key.compact.down",
+            "disabled": "key.compact.disabled",
+            "hover": "key.compact.hover",
+            "normal": "key.compact",
+            "pressed": "key.compact.down"
+          },
+          "at": [
+            36,
+            20,
+            20,
+            19
+          ],
+          "fromRight": true
+        },
+        "ffwd": {
+          "art": {
+            "checked": "key.ffwd",
+            "checkedHover": "key.ffwd.hover",
+            "checkedPressed": "key.ffwd.down",
+            "disabled": "key.ffwd.disabled",
+            "hover": "key.ffwd.hover",
+            "normal": "key.ffwd",
+            "pressed": "key.ffwd.down"
+          },
+          "at": [
+            8,
+            1,
+            35,
+            13
+          ],
+          "fromRight": true
+        },
+        "logo": {
+          "art": {
+            "checked": "app.icon",
+            "normal": "app.icon",
+            "pressed": "app.icon"
+          },
+          "at": [
+            259,
+            20,
+            14,
+            14
+          ]
+        },
+        "mute": {
+          "art": {
+            "checked": "key.mute.on",
+            "checkedPressed": "key.mute.down",
+            "disabled": "key.mute.disabled",
+            "hover": "key.mute.hover",
+            "normal": "key.mute",
+            "pressed": "key.mute.down"
+          },
+          "at": [
+            121,
+            25,
+            22,
+            21
+          ]
+        },
+        "next": {
+          "art": {
+            "checked": "key.next",
+            "checkedHover": "key.next.hover",
+            "checkedPressed": "key.next.down",
+            "disabled": "key.next.disabled",
+            "hover": "key.next.hover",
+            "normal": "key.next",
+            "pressed": "key.next.down"
+          },
+          "at": [
+            94,
+            25,
+            22,
+            21
+          ]
+        },
+        "pause": {
+          "art": {
+            "checked": "key.pause",
+            "checkedHover": "key.pause.hover",
+            "checkedPressed": "key.pause.down",
+            "disabled": "key.pause.disabled",
+            "hover": "key.pause.hover",
+            "normal": "key.pause",
+            "pressed": "key.pause.down"
+          },
+          "at": [
+            8,
+            20,
+            30,
+            30
+          ]
+        },
+        "play": {
+          "art": {
+            "checked": "key.play",
+            "checkedHover": "key.play.hover",
+            "checkedPressed": "key.play.down",
+            "disabled": "key.play.disabled",
+            "hover": "key.play.hover",
+            "normal": "key.play",
+            "pressed": "key.play.down"
+          },
+          "at": [
+            8,
+            20,
+            31,
+            30
+          ]
+        },
+        "prev": {
+          "art": {
+            "checked": "key.prev",
+            "checkedHover": "key.prev.hover",
+            "checkedPressed": "key.prev.down",
+            "disabled": "key.prev.disabled",
+            "hover": "key.prev.hover",
+            "normal": "key.prev",
+            "pressed": "key.prev.down"
+          },
+          "at": [
+            69,
+            25,
+            22,
+            21
+          ]
+        },
+        "resize": {
+          "art": {
+            "checked": "resize",
+            "normal": "resize",
+            "pressed": "resize"
+          },
+          "at": [
+            0,
+            20,
+            17,
+            22
+          ],
+          "fromRight": true
+        },
+        "rew": {
+          "art": {
+            "checked": "key.rew",
+            "checkedHover": "key.rew.hover",
+            "checkedPressed": "key.rew.down",
+            "disabled": "key.rew.disabled",
+            "hover": "key.rew.hover",
+            "normal": "key.rew",
+            "pressed": "key.rew.down"
+          },
+          "at": [
+            6,
+            1,
+            35,
+            13
+          ]
+        },
+        "seek": {
+          "art": {
+            "checked": "seek.track",
+            "normal": "seek.track",
+            "pressed": "seek.track"
+          },
+          "at": [
+            40,
+            1,
+            39,
+            13
+          ],
+          "stretchX": true
+        },
+        "skins": {
+          "art": {
+            "checked": "key.skin",
+            "checkedHover": "key.skin.hover",
+            "checkedPressed": "key.skin.down",
+            "disabled": "key.skin.disabled",
+            "hover": "key.skin.hover",
+            "normal": "key.skin",
+            "pressed": "key.skin.down"
+          },
+          "at": [
+            15,
+            20,
+            20,
+            19
+          ],
+          "fromRight": true
+        },
+        "shape.background": {
+          "art": {
+            "checked": "face.transport",
+            "normal": "face.transport",
+            "pressed": "face.transport"
+          },
+          "at": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "stretchX": true,
+          "stretchY": true
+        },
+        "skin": {
+          "art": {
+            "checked": "key.skin",
+            "checkedHover": "key.skin.hover",
+            "checkedPressed": "key.skin.down",
+            "disabled": "key.skin.disabled",
+            "hover": "key.skin.hover",
+            "normal": "key.skin",
+            "pressed": "key.skin.down"
+          },
+          "at": [
+            15,
+            20,
+            20,
+            19
+          ],
+          "fromRight": true
+        },
+        "stop": {
+          "art": {
+            "checked": "key.stop",
+            "checkedHover": "key.stop.hover",
+            "checkedPressed": "key.stop.down",
+            "disabled": "key.stop.disabled",
+            "hover": "key.stop.hover",
+            "normal": "key.stop",
+            "pressed": "key.stop.down"
+          },
+          "at": [
+            42,
+            25,
+            22,
+            21
+          ]
+        },
+        "volume": {
+          "art": {
+            "checked": "volume.track",
+            "normal": "volume.track",
+            "pressed": "volume.track"
+          },
+          "at": [
+            150,
+            25,
+            68,
+            18
+          ]
+        }
+      }
+    },
+    "video.playlist.edge": {
+      "art": "face.playlist.edge",
+      "size": [
+        27,
+        237
+      ],
+      "slots": {}
+    },
+    "video.playlist": {
+      "art": "face.playlist",
+      "size": [
+        263,
+        237
+      ],
+      "slots": {
+        "close": {
+          "art": {
+            "checked": "key.pl.close",
+            "checkedHover": "key.pl.close.hover",
+            "checkedPressed": "key.pl.close.down",
+            "disabled": "key.pl.close.disabled",
+            "hover": "key.pl.close.hover",
+            "normal": "key.pl.close",
+            "pressed": "key.pl.close.down"
+          },
+          "at": [
+            5,
+            10,
+            15,
+            15
+          ],
+          "fromRight": true
+        },
+        "grip": {
+          "art": {
+            "checked": "playlist.grip",
+            "normal": "playlist.grip",
+            "pressed": "playlist.grip"
+          },
+          "at": [
+            0,
+            81,
+            12,
+            27
+          ]
+        },
+        "header": {
+          "at": [
+            60,
+            7,
+            33,
+            20
+          ],
+          "stretchX": true
+        },
+        "list": {
+          "at": [
+            26,
+            34,
+            11,
+            29
+          ],
+          "stretchX": true,
+          "stretchY": true
+        },
+        "scroll": {
+          "at": [
+            11,
+            34,
+            14,
+            29
+          ],
+          "fromRight": true,
+          "stretchY": true
+        },
+        "shape.background": {
+          "art": {
+            "checked": "face.playlist",
+            "normal": "face.playlist",
+            "pressed": "face.playlist"
+          },
+          "at": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "stretchX": true,
+          "stretchY": true
+        },
+        "shuffle": {
+          "art": {
+            "checked": "key.shuffle.on",
+            "checkedPressed": "key.shuffle.down",
+            "disabled": "key.shuffle.disabled",
+            "hover": "key.shuffle.hover",
+            "normal": "key.shuffle",
+            "pressed": "key.shuffle.down"
+          },
+          "at": [
+            26,
+            9,
+            19,
+            19
+          ]
+        },
+        "queue": {
+          "at": [
+            26,
+            34,
+            25,
+            29
+          ],
+          "stretchX": true,
+          "stretchY": true
+        }
+      }
+    }
+  },
+  "lineage": "Microsoft Corporation \u00b7 original 9 Series Default (Corona)",
+  "metrics": {
+    "menuItemH": 20
+  },
+  "parts": {},
+  "sheets": {
+    "series9": {
+      "1x": "art/series9.png",
+      "2x": "art/series9@2x.png",
+      "pixelated": false
+    }
+  },
+  "skin": 1,
+  "sprites": {
+    "app.icon": {
+      "at": [
+        606,
+        886,
+        14,
+        14
+      ],
+      "sheet": "series9"
+    },
+    "app.logo": {
+      "at": [
+        622,
+        886,
+        48,
+        48
+      ],
+      "sheet": "series9"
+    },
+    "balance.thumb": {
+      "at": [
+        189,
+        886,
+        17,
+        18
+      ],
+      "sheet": "series9"
+    },
+    "balance.thumb.down": {
+      "at": [
+        227,
+        886,
+        17,
+        18
+      ],
+      "sheet": "series9"
+    },
+    "balance.thumb.hover": {
+      "at": [
+        208,
+        886,
+        17,
+        18
+      ],
+      "sheet": "series9"
+    },
+    "balance.track": {
+      "at": [
+        120,
+        886,
+        67,
+        18
+      ],
+      "sheet": "series9",
+      "slice": [
+        0,
+        8,
+        0,
+        8
+      ]
+    },
+    "eq.thumb": {
+      "at": [
+        40,
+        886,
+        18,
+        17
+      ],
+      "sheet": "series9"
+    },
+    "eq.thumb.disabled": {
+      "at": [
+        100,
+        886,
+        18,
+        17
+      ],
+      "sheet": "series9"
+    },
+    "eq.thumb.down": {
+      "at": [
+        80,
+        886,
+        18,
+        17
+      ],
+      "sheet": "series9"
+    },
+    "eq.thumb.hover": {
+      "at": [
+        60,
+        886,
+        18,
+        17
+      ],
+      "sheet": "series9"
+    },
+    "eq.track": {
+      "at": [
+        0,
+        886,
+        18,
+        67
+      ],
+      "sheet": "series9",
+      "slice": [
+        8,
+        0,
+        8,
+        0
+      ]
+    },
+    "eq.track.disabled": {
+      "at": [
+        20,
+        886,
+        18,
+        67
+      ],
+      "sheet": "series9",
+      "slice": [
+        8,
+        0,
+        8,
+        0
+      ]
+    },
+    "face.compact": {
+      "at": [
+        0,
+        717,
+        346,
+        103
+      ],
+      "sheet": "series9"
+    },
+    "face.equalizer": {
+      "at": [
+        0,
+        353,
+        334,
+        123
+      ],
+      "middle": "tile",
+      "sheet": "series9",
+      "slice": [
+        0,
+        4,
+        0,
+        3
+      ]
+    },
+    "face.main": {
+      "at": [
+        0,
+        0,
+        346,
+        289
+      ],
+      "middle": "tile",
+      "sheet": "series9",
+      "slice": [
+        33,
+        59,
+        23,
+        286
+      ]
+    },
+    "face.playlist": {
+      "at": [
+        0,
+        478,
+        263,
+        237
+      ],
+      "middle": "tile",
+      "sheet": "series9",
+      "slice": [
+        107,
+        11,
+        129,
+        26
+      ]
+    },
+    "face.playlist.edge": {
+      "at": [
+        0,
+        478,
+        27,
+        237
+      ],
+      "middle": "tile",
+      "sheet": "series9",
+      "slice": [
+        107,
+        0,
+        129,
+        26
+      ]
+    },
+    "face.transport": {
+      "at": [
+        0,
+        291,
+        334,
+        60
+      ],
+      "middle": "tile",
+      "sheet": "series9",
+      "slice": [
+        0,
+        59,
+        0,
+        274
+      ]
+    },
+    "key.close": {
+      "at": [
+        449,
+        717,
+        16,
+        19
+      ],
+      "sheet": "series9"
+    },
+    "key.close.disabled": {
+      "at": [
+        38,
+        854,
+        16,
+        19
+      ],
+      "sheet": "series9"
+    },
+    "key.close.down": {
+      "at": [
+        519,
+        822,
+        16,
+        19
+      ],
+      "sheet": "series9"
+    },
+    "key.close.hover": {
+      "at": [
+        986,
+        717,
+        16,
+        19
+      ],
+      "sheet": "series9"
+    },
+    "key.compact": {
+      "at": [
+        702,
+        717,
+        20,
+        19
+      ],
+      "sheet": "series9"
+    },
+    "key.compact.disabled": {
+      "at": [
+        291,
+        854,
+        20,
+        19
+      ],
+      "sheet": "series9"
+    },
+    "key.compact.down": {
+      "at": [
+        772,
+        822,
+        20,
+        19
+      ],
+      "sheet": "series9"
+    },
+    "key.compact.hover": {
+      "at": [
+        235,
+        822,
+        20,
+        19
+      ],
+      "sheet": "series9"
+    },
+    "key.compact.open": {
+      "at": [
+        842,
+        717,
+        19,
+        19
+      ],
+      "sheet": "series9"
+    },
+    "key.compact.open.disabled": {
+      "at": [
+        431,
+        854,
+        19,
+        19
+      ],
+      "sheet": "series9"
+    },
+    "key.compact.open.down": {
+      "at": [
+        912,
+        822,
+        19,
+        19
+      ],
+      "sheet": "series9"
+    },
+    "key.compact.open.hover": {
+      "at": [
+        375,
+        822,
+        19,
+        19
+      ],
+      "sheet": "series9"
+    },
+    "key.eq": {
+      "at": [
+        411,
+        717,
+        19,
+        19
+      ],
+      "sheet": "series9"
+    },
+    "key.eq.close": {
+      "at": [
+        787,
+        717,
+        15,
+        15
+      ],
+      "sheet": "series9"
+    },
+    "key.eq.close.disabled": {
+      "at": [
+        376,
+        854,
+        15,
+        15
+      ],
+      "sheet": "series9"
+    },
+    "key.eq.close.down": {
+      "at": [
+        857,
+        822,
+        15,
+        15
+      ],
+      "sheet": "series9"
+    },
+    "key.eq.close.hover": {
+      "at": [
+        320,
+        822,
+        15,
+        15
+      ],
+      "sheet": "series9"
+    },
+    "key.eq.disabled": {
+      "at": [
+        0,
+        854,
+        19,
+        19
+      ],
+      "sheet": "series9"
+    },
+    "key.eq.down": {
+      "at": [
+        481,
+        822,
+        19,
+        19
+      ],
+      "sheet": "series9"
+    },
+    "key.eq.hover": {
+      "at": [
+        948,
+        717,
+        19,
+        19
+      ],
+      "sheet": "series9"
+    },
+    "key.eq.on": {
+      "at": [
+        495,
+        854,
+        19,
+        19
+      ],
+      "sheet": "series9"
+    },
+    "key.eq.on.disabled": {
+      "at": [
+        313,
+        854,
+        19,
+        19
+      ],
+      "sheet": "series9"
+    },
+    "key.eq.on.down": {
+      "at": [
+        794,
+        822,
+        19,
+        19
+      ],
+      "sheet": "series9"
+    },
+    "key.eq.on.hover": {
+      "at": [
+        257,
+        822,
+        19,
+        19
+      ],
+      "sheet": "series9"
+    },
+    "key.eq.on.on": {
+      "at": [
+        561,
+        854,
+        19,
+        19
+      ],
+      "sheet": "series9"
+    },
+    "key.eq.preset": {
+      "at": [
+        766,
+        717,
+        19,
+        19
+      ],
+      "sheet": "series9"
+    },
+    "key.eq.preset.disabled": {
+      "at": [
+        355,
+        854,
+        19,
+        19
+      ],
+      "sheet": "series9"
+    },
+    "key.eq.preset.down": {
+      "at": [
+        836,
+        822,
+        19,
+        19
+      ],
+      "sheet": "series9"
+    },
+    "key.eq.preset.hover": {
+      "at": [
+        299,
+        822,
+        19,
+        19
+      ],
+      "sheet": "series9"
+    },
+    "key.eq.reset": {
+      "at": [
+        745,
+        717,
+        19,
+        19
+      ],
+      "sheet": "series9"
+    },
+    "key.eq.reset.disabled": {
+      "at": [
+        334,
+        854,
+        19,
+        19
+      ],
+      "sheet": "series9"
+    },
+    "key.eq.reset.down": {
+      "at": [
+        815,
+        822,
+        19,
+        19
+      ],
+      "sheet": "series9"
+    },
+    "key.eq.reset.hover": {
+      "at": [
+        278,
+        822,
+        19,
+        19
+      ],
+      "sheet": "series9"
+    },
+    "key.ffwd": {
+      "at": [
+        665,
+        717,
+        35,
+        13
+      ],
+      "sheet": "series9"
+    },
+    "key.ffwd.disabled": {
+      "at": [
+        254,
+        854,
+        35,
+        13
+      ],
+      "sheet": "series9"
+    },
+    "key.ffwd.down": {
+      "at": [
+        735,
+        822,
+        35,
+        13
+      ],
+      "sheet": "series9"
+    },
+    "key.ffwd.hover": {
+      "at": [
+        198,
+        822,
+        35,
+        13
+      ],
+      "sheet": "series9"
+    },
+    "key.minimize": {
+      "at": [
+        432,
+        717,
+        15,
+        19
+      ],
+      "sheet": "series9"
+    },
+    "key.minimize.disabled": {
+      "at": [
+        21,
+        854,
+        15,
+        19
+      ],
+      "sheet": "series9"
+    },
+    "key.minimize.down": {
+      "at": [
+        502,
+        822,
+        15,
+        19
+      ],
+      "sheet": "series9"
+    },
+    "key.minimize.hover": {
+      "at": [
+        969,
+        717,
+        15,
+        19
+      ],
+      "sheet": "series9"
+    },
+    "key.mute": {
+      "at": [
+        572,
+        717,
+        22,
+        21
+      ],
+      "sheet": "series9"
+    },
+    "key.mute.disabled": {
+      "at": [
+        161,
+        854,
+        22,
+        21
+      ],
+      "sheet": "series9"
+    },
+    "key.mute.down": {
+      "at": [
+        642,
+        822,
+        22,
+        21
+      ],
+      "sheet": "series9"
+    },
+    "key.mute.hover": {
+      "at": [
+        105,
+        822,
+        22,
+        21
+      ],
+      "sheet": "series9"
+    },
+    "key.mute.on": {
+      "at": [
+        537,
+        854,
+        22,
+        21
+      ],
+      "sheet": "series9"
+    },
+    "key.next": {
+      "at": [
+        548,
+        717,
+        22,
+        21
+      ],
+      "sheet": "series9"
+    },
+    "key.next.disabled": {
+      "at": [
+        137,
+        854,
+        22,
+        21
+      ],
+      "sheet": "series9"
+    },
+    "key.next.down": {
+      "at": [
+        618,
+        822,
+        22,
+        21
+      ],
+      "sheet": "series9"
+    },
+    "key.next.hover": {
+      "at": [
+        81,
+        822,
+        22,
+        21
+      ],
+      "sheet": "series9"
+    },
+    "key.open": {
+      "at": [
+        348,
+        717,
+        19,
+        19
+      ],
+      "sheet": "series9"
+    },
+    "key.open.disabled": {
+      "at": [
+        955,
+        822,
+        19,
+        19
+      ],
+      "sheet": "series9"
+    },
+    "key.open.down": {
+      "at": [
+        418,
+        822,
+        19,
+        19
+      ],
+      "sheet": "series9"
+    },
+    "key.open.hover": {
+      "at": [
+        885,
+        717,
+        19,
+        19
+      ],
+      "sheet": "series9"
+    },
+    "key.pause": {
+      "at": [
+        596,
+        717,
+        30,
+        30
+      ],
+      "sheet": "series9"
+    },
+    "key.pause.disabled": {
+      "at": [
+        185,
+        854,
+        30,
+        30
+      ],
+      "sheet": "series9"
+    },
+    "key.pause.down": {
+      "at": [
+        666,
+        822,
+        30,
+        30
+      ],
+      "sheet": "series9"
+    },
+    "key.pause.hover": {
+      "at": [
+        129,
+        822,
+        30,
+        30
+      ],
+      "sheet": "series9"
+    },
+    "key.pl": {
+      "at": [
+        369,
+        717,
+        19,
+        19
+      ],
+      "sheet": "series9"
+    },
+    "key.pl.close": {
+      "at": [
+        804,
+        717,
+        15,
+        15
+      ],
+      "sheet": "series9"
+    },
+    "key.pl.close.disabled": {
+      "at": [
+        393,
+        854,
+        15,
+        15
+      ],
+      "sheet": "series9"
+    },
+    "key.pl.close.down": {
+      "at": [
+        874,
+        822,
+        15,
+        15
+      ],
+      "sheet": "series9"
+    },
+    "key.pl.close.hover": {
+      "at": [
+        337,
+        822,
+        15,
+        15
+      ],
+      "sheet": "series9"
+    },
+    "key.pl.disabled": {
+      "at": [
+        976,
+        822,
+        19,
+        19
+      ],
+      "sheet": "series9"
+    },
+    "key.pl.down": {
+      "at": [
+        439,
+        822,
+        19,
+        19
+      ],
+      "sheet": "series9"
+    },
+    "key.pl.hover": {
+      "at": [
+        906,
+        717,
+        19,
+        19
+      ],
+      "sheet": "series9"
+    },
+    "key.pl.on": {
+      "at": [
+        474,
+        854,
+        19,
+        19
+      ],
+      "sheet": "series9"
+    },
+    "key.play": {
+      "at": [
+        467,
+        717,
+        31,
+        30
+      ],
+      "sheet": "series9"
+    },
+    "key.play.disabled": {
+      "at": [
+        56,
+        854,
+        31,
+        30
+      ],
+      "sheet": "series9"
+    },
+    "key.play.down": {
+      "at": [
+        537,
+        822,
+        31,
+        30
+      ],
+      "sheet": "series9"
+    },
+    "key.play.hover": {
+      "at": [
+        0,
+        822,
+        31,
+        30
+      ],
+      "sheet": "series9"
+    },
+    "key.prev": {
+      "at": [
+        524,
+        717,
+        22,
+        21
+      ],
+      "sheet": "series9"
+    },
+    "key.prev.disabled": {
+      "at": [
+        113,
+        854,
+        22,
+        21
+      ],
+      "sheet": "series9"
+    },
+    "key.prev.down": {
+      "at": [
+        594,
+        822,
+        22,
+        21
+      ],
+      "sheet": "series9"
+    },
+    "key.prev.hover": {
+      "at": [
+        57,
+        822,
+        22,
+        21
+      ],
+      "sheet": "series9"
+    },
+    "key.rew": {
+      "at": [
+        628,
+        717,
+        35,
+        13
+      ],
+      "sheet": "series9"
+    },
+    "key.rew.disabled": {
+      "at": [
+        217,
+        854,
+        35,
+        13
+      ],
+      "sheet": "series9"
+    },
+    "key.rew.down": {
+      "at": [
+        698,
+        822,
+        35,
+        13
+      ],
+      "sheet": "series9"
+    },
+    "key.rew.hover": {
+      "at": [
+        161,
+        822,
+        35,
+        13
+      ],
+      "sheet": "series9"
+    },
+    "key.shuffle": {
+      "at": [
+        821,
+        717,
+        19,
+        19
+      ],
+      "sheet": "series9"
+    },
+    "key.shuffle.disabled": {
+      "at": [
+        410,
+        854,
+        19,
+        19
+      ],
+      "sheet": "series9"
+    },
+    "key.shuffle.down": {
+      "at": [
+        891,
+        822,
+        19,
+        19
+      ],
+      "sheet": "series9"
+    },
+    "key.shuffle.hover": {
+      "at": [
+        354,
+        822,
+        19,
+        19
+      ],
+      "sheet": "series9"
+    },
+    "key.shuffle.on": {
+      "at": [
+        516,
+        854,
+        19,
+        19
+      ],
+      "sheet": "series9"
+    },
+    "key.skin": {
+      "at": [
+        863,
+        717,
+        20,
+        19
+      ],
+      "sheet": "series9"
+    },
+    "key.skin.disabled": {
+      "at": [
+        452,
+        854,
+        20,
+        19
+      ],
+      "sheet": "series9"
+    },
+    "key.skin.down": {
+      "at": [
+        933,
+        822,
+        20,
+        19
+      ],
+      "sheet": "series9"
+    },
+    "key.skin.hover": {
+      "at": [
+        396,
+        822,
+        20,
+        19
+      ],
+      "sheet": "series9"
+    },
+    "key.stop": {
+      "at": [
+        500,
+        717,
+        22,
+        21
+      ],
+      "sheet": "series9"
+    },
+    "key.stop.disabled": {
+      "at": [
+        89,
+        854,
+        22,
+        21
+      ],
+      "sheet": "series9"
+    },
+    "key.stop.down": {
+      "at": [
+        570,
+        822,
+        22,
+        21
+      ],
+      "sheet": "series9"
+    },
+    "key.stop.hover": {
+      "at": [
+        33,
+        822,
+        22,
+        21
+      ],
+      "sheet": "series9"
+    },
+    "key.vis": {
+      "at": [
+        390,
+        717,
+        19,
+        19
+      ],
+      "sheet": "series9"
+    },
+    "key.vis.disabled": {
+      "at": [
+        997,
+        822,
+        19,
+        19
+      ],
+      "sheet": "series9"
+    },
+    "key.vis.down": {
+      "at": [
+        460,
+        822,
+        19,
+        19
+      ],
+      "sheet": "series9"
+    },
+    "key.vis.hover": {
+      "at": [
+        927,
+        717,
+        19,
+        19
+      ],
+      "sheet": "series9"
+    },
+    "playlist.grip": {
+      "at": [
+        265,
+        886,
+        12,
+        27
+      ],
+      "sheet": "series9"
+    },
+    "resize": {
+      "at": [
+        246,
+        886,
+        17,
+        22
+      ],
+      "sheet": "series9"
+    },
+    "seek.foreground": {
+      "at": [
+        582,
+        854,
+        255,
+        13
+      ],
+      "sheet": "series9",
+      "slice": [
+        0,
+        12,
+        0,
+        12
+      ]
+    },
+    "seek.thumb": {
+      "at": [
+        839,
+        854,
+        23,
+        13
+      ],
+      "sheet": "series9"
+    },
+    "seek.thumb.down": {
+      "at": [
+        889,
+        854,
+        23,
+        13
+      ],
+      "sheet": "series9"
+    },
+    "seek.thumb.hover": {
+      "at": [
+        864,
+        854,
+        23,
+        13
+      ],
+      "sheet": "series9"
+    },
+    "seek.track": {
+      "at": [
+        279,
+        886,
+        255,
+        13
+      ],
+      "sheet": "series9",
+      "slice": [
+        0,
+        12,
+        0,
+        12
+      ]
+    },
+    "volume.foreground": {
+      "at": [
+        914,
+        854,
+        68,
+        18
+      ],
+      "sheet": "series9",
+      "slice": [
+        0,
+        5,
+        0,
+        5
+      ]
+    },
+    "volume.thumb": {
+      "at": [
+        984,
+        854,
+        10,
+        18
+      ],
+      "sheet": "series9"
+    },
+    "volume.thumb.down": {
+      "at": [
+        1008,
+        854,
+        10,
+        18
+      ],
+      "sheet": "series9"
+    },
+    "volume.thumb.hover": {
+      "at": [
+        996,
+        854,
+        10,
+        18
+      ],
+      "sheet": "series9"
+    },
+    "volume.track": {
+      "at": [
+        536,
+        886,
+        68,
+        18
+      ],
+      "sheet": "series9",
+      "slice": [
+        0,
+        5,
+        0,
+        5
+      ]
+    }
+  },
+  "summary": "Original blue/silver WMP9 artwork with inset playlist and equalizer drawers and same-window compact mode.",
+  "text": {
+    "player.current": {
+      "color": "#FFFFFF"
+    },
+    "player.info": {
+      "bold": true,
+      "color": "#00FF00",
+      "size": 8
+    },
+    "player.row": {
+      "color": "#FFFFFF",
+      "size": 10
+    },
+    "player.selected": {
+      "color": "#315DA2"
+    },
+    "player.selectedText": {
+      "color": "#FFFFFF"
+    },
+    "player.text": {
+      "bold": true,
+      "color": "#00FF00",
+      "size": 8
+    }
+  },
+  "window": {
+    "layout": ":"
+  },
+  "year": 2002
+}

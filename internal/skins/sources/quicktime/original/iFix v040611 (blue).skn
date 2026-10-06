@@ -1,0 +1,391 @@
+SkinData(Name=QuickTime iFix 040611 (Blue Button),Type=Media)
+
+// Original Theme Design by Max Rudberg and Rene - http://www.maxthemes.com/
+// ported by hills - http://beverlyhills.web.infoseek.co.jp/
+// Finished 05 Sep 2004
+// ZoomPlayer by Inmatrix, http://www.inmatrix.com
+
+
+ActiveGroups    = (1)
+
+//    Group 1 = Media Mode
+//    Group 2 = Audio Mode
+
+
+SkinFileName    = (iFix 040611.bmp)
+TimelineCursor 	= (Mac.cur)
+InstallFont     = (QTnumber.ttf)
+
+
+StartGroup(1)
+
+AudioSkin       = (0)
+iWinWidth       = (360)
+iWinHeight      = (370)
+iVidWidth       = (342)
+iVidHeight      = (257)
+iVidLeft        = (9)
+iVidTop         = (24)
+iMinWidth       = (342)
+iMinHeight      = (257)
+iTransColor	= (00FF00)
+
+EndGroup(1)
+
+
+StartGroup(2)
+
+AudioSkin       = (1)
+iWinWidth       = (360)
+iWinHeight      = (107)
+iVidWidth       = (342)
+iVidHeight      = (107)
+iVidLeft        = (9)
+iVidTop         = (24)
+iMinWidth       = (342)
+iMinHeight      = (107)
+iTransColor	= (00FF00)
+
+EndGroup(2)
+
+
+StartGroup(1)
+
+tLineFontSize   = (1)
+tLineFontYOfs   = (-20)
+tLineFontFace   = (Lucida Grande)
+tLineFontColor  = (000000)
+tLineFontStyle  = ()
+tLineBitmap     = (1)
+tLineWidth      = (<WinWidth>-109)
+tLineHeight     = (12)
+tLineLeft       = (58)
+tLineTop        = (<WinHeight>-79)
+
+// Tiled BG:
+TimeLineBG(409,374,1)
+TimeLineFG(409,374,1)
+TimeLineActive(418,356,12,12,6,0)
+
+//TimeLineStart
+CopyBitmap(409,356,2,12,56,<WinHeight>-89)
+
+TimeLineCBarBG(409,374,1)
+TimeLineCBarFG(410,374,2)
+TimeLineCBarActive(413,374,1,13,0,0)
+TimeLineCBarStart(409,356,2)
+TimeLineCBarEnd(411,356,2)
+
+EndGroup(1)
+
+
+StartGroup(2)
+
+tLineFontSize   = (1)
+tLineFontYOfs   = (-20)
+tLineFontFace   = (Lucida Grande)
+tLineFontColor  = (000000)
+tLineFontStyle  = ()
+tLineBitmap     = (1)
+tLineWidth      = (<WinWidth>-109)
+tLineHeight     = (12)
+tLineLeft       = (58)
+tLineTop        = (<WinHeight>-78)
+
+// Tiled BG:
+TimeLineBG(409,374,1)
+TimeLineFG(409,374,1)
+TimeLineActive(418,356,12,12,6,0)
+
+//TimeLineStart
+CopyBitmap(409,356,2,12,56,<WinHeight>-88)
+
+TimeLineCBarBG(409,374,1)
+TimeLineCBarFG(410,374,2)
+TimeLineCBarActive(413,374,1,13,0,0)
+TimeLineCBarStart(409,356,2)
+TimeLineCBarEnd(411,356,2)
+
+EndGroup(2)
+
+
+///////////  Draw Player   ////////////////////////////////////////////////////////////////////////////////////
+
+
+StartGroup(1)
+
+// Top Bar:
+TileBitmapH(220,235,4,22,0,0,<WinWidth>)
+CopyBitmap(220,235,4,22,<WinHalfWidth>-156,0)
+CopyBitmap(44,235,175,22,0,0)
+CopyBitmap(225,235,175,22,<WinWidth>-175,0)
+
+// Video Area:
+FillRect(9,24,<VidWidth>,<VidHeight>,000000)
+
+// QT Logo:
+CopyBitmap(514,0,150,150,<WinHalfWidth>-78,<WinHalfHeight>-115)
+
+EndGroup(1)
+
+
+StartGroup(2)
+
+// Top Bar:
+TileBitmapH(220,235,4,24,0,0,<WinWidth>)
+CopyBitmap(220,235,4,24,<WinHalfWidth>-156,0)
+CopyBitmap(44,235,175,24,0,0)
+CopyBitmap(225,235,175,24,<WinWidth>-175,0)
+
+EndGroup(2)
+
+
+StartGroup(1,2)
+
+// Controls BG:
+CopyStretchedBitmap(44,390,348,60,3,<WinHeight>-61,<WinWidth>-6,60)
+
+// BG Border Bottom:
+TileBitmapH(34,449,1,1,0,<WinHeight>-1,<WinWidth>)
+
+// BG Border Left:
+TileBitmapV(12,356,9,61,0,22,<WinHeight>-89)
+CopyBitmap(393,390,3,39,1,<WinHeight>-58)
+
+// BG Border Right:
+TileBitmapV(20,356,9,61,<WinWidth>-9,22,<WinHeight>-89)
+CopyBitmap(397,390,3,39,<WinWidth>-4,<WinHeight>-57)
+
+EndGroup(1,2)
+
+
+StartGroup(1)
+
+// Audio Mode Button:
+CreateExButton(Type=Extended,SrcX=199,SrcY=31,DownX=222,DownY=31,Width=23,Height=23,DestX=<WinWidth>-58,DestY=<WinHeight>-55,Function=exGroupToggle,FunctionParam=3,Hint=Hint=Switch to Audio Mode,TransColor=00FF00)
+
+EndGroup(1)
+
+
+StartGroup(2)
+
+// Media Mode Button:
+CreateExButton(Type=Extended,SrcX=199,SrcY=31,DownX=222,DownY=31,Width=23,Height=23,DestX=<WinWidth>-58,DestY=<WinHeight>-55,Function=exGroupToggle,FunctionParam=3,Hint=Switch to Media Mode,TransColor=00FF00)
+
+EndGroup(2)
+
+
+StartGroup(1,2)
+
+// Draw Filename Text:
+DrawExText(DestX=69,DestY=5,Width=<WinWidth>-90,Height=15,Align=Center,FontName=Lucida Grande,FontSize=12,FontColor=000000,Text=<FileBase>)
+
+// Window Close/Min/Max Buttons:
+CreateExButton(Type=Normal,Target=Main,SrcX=105,SrcY=160,Width=16,Height=16,HoverX=137,HoverY=160,DestX=9,DestY=5,Function=fnExit,TransColor=00FF00,Hint=Exit)
+CreateExButton(Type=Normal,Target=Main,SrcX=105,SrcY=177,Width=16,Height=16,HoverX=137,HoverY=177,DestX=30,DestY=5,Function=fnMinimize,TransColor=00FF00,Hint=Minimize window)
+CreateExButton(Type=Normal,Target=Main,SrcX=105,SrcY=194,Width=16,Height=16,HoverX=137,HoverY=194,DestX=51,DestY=5,Function=fnMax,TransColor=00FF00,Hint=Maximize window)
+
+// Playback Control Buttons:
+CreateExButton(Type=Normal,SrcX= 56,SrcY= 68,Activate=Play,ActiveX=134,ActiveY=68,Width=39,Height=39,DestX= <WinHalfWidth>-20,DestY=<WinHeight>-51,TransColor=00FF00,Function=fnPlay,Hint=Play/Pause)
+CreateButton(56,0,29,29,<WinHalfWidth>-93,<WinHeight>-49,fnPrevChapter,Previous Chapter/Track,00FF00)
+CreateButton(56,31,35,35,<WinHalfWidth>-60,<WinHeight>-50,fnRewind,Rewind,00FF00)
+CreateButton(56,109,35,35,<WinHalfWidth>+24,<WinHeight>-50,fnFastForward,Fast Forward,00FF00)
+CreateButton(175,0,29,29,<WinHalfWidth>+63,<WinHeight>-49,fnNextChapter,Next Chapter/Track,00FF00)
+
+// Mute Speaker Button:
+CreateExButton(Type=Normal,Target=Main,SrcX=56,SrcY=146,Width=6,Height=12,HoverX=62,HoverY=146,DestX=11,DestY=<WinHeight>-49,Function=fnMute,TransColor=00FF00,Hint=Mute)
+
+//Volume Control Slider:
+VolumeExData(SrcX=0,SrcY=0,DestX=18,DestY=<WinHeight>-49,TransColor=00FF00,Width=54,Height=13,Images=14)
+
+// Apple Playlist Toggle Button:
+CopyBitmap(1,430,21,20,1,<WinHeight>-20)
+CreateExButton(Type=Normal,Target=Main,SrcX=1,SrcY=430,Width=21,Height=20,HoverX=22,HoverY=430,DestX=1,DestY=<WinHeight>-20,Function=fnPlayList,TransColor=00FF00,Hint=Edit playlist)
+
+// Apple Left Border:
+CopyBitmap(0,390,1,60,0,<WinHeight>-60)
+
+// Resize Window:
+CopyBitmap(644,430,20,20,<WinWidth>-20,<WinHeight>-20)
+
+//Resize Right Border
+CopyBitmap(663,390,1,60,<WinWidth>-1,<WinHeight>-60)
+
+EndGroup(1,2)
+
+
+///////////  Time Line   ////////////////////////////////////////////////////////////////////////////////////
+
+StartGroup(1)
+
+// TL Border Middle:
+TileBitmapH(225,356,2,33,11,<WinHeight>-89,<WinWidth>-22)
+
+// TL Border Left:
+CopyBitmap(44,356,180,33,0,<WinHeight>-89)
+CopyBitmap(13,356,8,37,1,24)
+CopyBitmap(418,368,10,5,53,<WinHeight>-66)
+
+// TL Border Right:
+CopyBitmap(228,356,180,33,<WinWidth>-180,<WinHeight>-89)
+CopyBitmap(20,356,8,37,<WinWidth>-9,24)
+
+// Playing Times:
+DrawExText(DestX=11,DestY=<WinHeight>-75,Width=44,Height=10,Align=Center,FontName=QTnumber,FontSize=8,FontColor=CED6C6,Text=<Time>)
+DrawExText(DestX=10,DestY=<WinHeight>-76,Width=44,Height=10,Align=Center,FontName=QTnumber,FontSize=8,FontColor=4A4A4A,Text=<Time>)
+
+// EQ ON/OFF Button:
+CreateButton(431,356,8,14,<WinWidth>-43,<WinHeight>-77,fnEqualizer,Display/Hide Equalizer)
+
+// Fit Source Button:
+CreateButton(448,356,12,14,<WinWidth>-35,<WinHeight>-77,fnFitSource,Fit Source)
+
+// Aspect Ratio + Button:
+CreateButton(473,356,11,14,<WinWidth>-23,<WinHeight>-77,fnARCycle,Aspect Ratio +)
+
+// Video Top Frame Line 1:
+FillRect(7,22,<WinWidth>-14,1,4C4C4C)
+
+// Video Top Frame Line 2:
+FillRect(8,23,<WinWidth>-16,1,313131)
+
+EndGroup(1)
+
+
+StartGroup(2)
+
+// TL Border Middle:
+TileBitmapH(225,359,2,30,11,<WinHeight>-85,<WinWidth>-22)
+
+// TL Border Left:
+CopyBitmap(44,359,180,30,0,<WinHeight>-85)
+CopyBitmap(418,368,10,5,53,<WinHeight>-65)
+
+// TL Border Right:
+CopyBitmap(228,359,180,30,<WinWidth>-180,<WinHeight>-85)
+
+// Playing Times:
+DrawExText(DestX=11,DestY=<WinHeight>-74,Width=44,Height=10,Align=Center,FontName=QTnumber,FontSize=8,FontColor=CED6C6,Text=<Time>)
+DrawExText(DestX=10,DestY=<WinHeight>-75,Width=44,Height=10,Align=Center,FontName=QTnumber,FontSize=8,FontColor=4A4A4A,Text=<Time>)
+
+// EQ ON/OFF Button:
+CreateButton(431,356,8,14,<WinWidth>-43,<WinHeight>-76,fnEqualizer,Display/Hide Equalizer)
+
+// Select Skin Button:
+CreateButton(448,356,12,14,<WinWidth>-35,<WinHeight>-76,fnSkin,Select Skin)
+
+// Aspect Ratio + Button:
+CreateButton(473,356,11,14,<WinWidth>-23,<WinHeight>-76,fnARCycle,Aspect Ratio +)
+
+EndGroup(2)
+
+///////////  Playlist  ////////////////////////////////////////////////////////////////////////////////////
+
+pTransColor     = (00FF00)
+
+// Playlist Fill Background Behind (important!):
+FillPLRect(0,0,<PLWinWidth>,<PLWinHeight>,B6B6B6)
+
+// Playlist Items Counter:
+DrawExText(Target=PlayList,DestX=10,DestY=4,Width=<PLWinWidth>,Height=15,Align=Center,FontName=Lucida Grande,FontSize=12,FontColor=000000,Text=Playlist)
+
+// Playlist Display Data:
+PlayListData(DestX=7,DestY=77,MinWidth=360,MinHeight=370,Width=<PLWinWidth>-14,Height=<PLWinHeight>-119,Border=666666,Background=FFFFFF,BGSrcX=401,BGSrcY=297,BGSrcW=28,BGSrcH=26,Foreground=000000,SelectBG=3D80DF,SelectBorder=3D80DF,SelectFG=FFFFFF,Highlight=000000,ScrollBGX=0,ScrollBGY=302,ScrollBGW=11,ScrollBGH=53,ScrollFace=6F6F6F,ScrollWidth=11,ScrollFGX=11,ScrollFGY=302,ScrollFGW=11,ScrollFGH=53)
+
+// Playlist Margins:
+// Top:
+TilePLBitmapH(220,235,4,77,1,0,<PLWinWidth>-2)
+// Left:
+TilePLBitmapV(30,356,7,61,0,0,<PLWinHeight>-4)
+// Right:
+TilePLBitmapV(36,356,7,61,<PLWinWidth>-7,0,<PLWinHeight>-4)
+// Bottom:
+TilePLBitmapH(220,313,4,42,1,<PLWinHeight>-42,<PLWinWidth>-2)
+CopyPLBitmap(44,313,175,42,0,<PLWinHeight>-42)
+// Resize Playlist Window:
+CopyPLBitmap(225,313,175,42,<PLWinWidth>-175,<PLWinHeight>-42)
+
+// Playlist Top Buttons:
+CreateExButton(Type=Normal,Target=PlayList,SrcX=0,SrcY=211,Width=30,Height=23,DestX=8,DestY=30,TransColor=00FF00,Function=fnPLAddDir,Hint=Add Folder to Playlist)
+CreateExButton(Type=Normal,Target=PlayList,SrcX=180,SrcY=211,Width=30,Height=23,DestX=38,DestY=30,Function=fnPLAddFiles,Hint=Add Files to Playlist)
+CreateExButton(Type=Normal,Target=PlayList,SrcX=60,SrcY=211,Width=30,Height=23,DestX=68,DestY=30,Function=fnPLSort,Hint=Sort Playlist)
+CreateExButton(Type=Normal,Target=PlayList,SrcX=240,SrcY=211,Width=30,Height=23,DestX=98,DestY=30,Function=fnPLSaveList,Hint=Save Playlist)
+CreateExButton(Type=Normal,Target=PlayList,SrcX=120,SrcY=211,Width=30,Height=23,DestX=128,DestY=30,Function=fnPLLoadList,Hint=Load Playlist)
+CreateExButton(Type=Normal,Target=PlayList,SrcX=300,SrcY=211,Width=31,Height=23,DestX=158,DestY=30,TransColor=00FF00,Function=fnPLClear,Hint=Clear Playlist)
+
+CreateExButton(Type=Normal,Target=PlayList,SrcX=409,SrcY=211,Width=22,Height=23,DestX=<PLWinWidth>-31,DestY=30,TransColor=00FF00,Function=fnPLItemDown,Hint=Move Selected Items Down)
+CreateExButton(Type=Normal,Target=PlayList,SrcX=363,SrcY=211,Width=23,Height=23,DestX=<PLWinWidth>-54,DestY=30,TransColor=00FF00,Function=fnPLItemUp,Hint=Move Selected Items Up)
+
+// Playlist Bottom Buttons:
+CreateExButton(Type=Normal,Target=PlayList,SrcX=203,SrcY=185,DownX=236,DownY=185,Width=33,Height=25,DestX=8,DestY=<PLWinHeight>-35,ActiveX=269,ActiveY=185,Activate=RandomPlay,TransColor=00FF00,Function=fnRandomPlay,Hint=Shuffle)
+CreateExButton(Type=Normal,Target=PlayList,SrcX=303,SrcY=185,DownX=336,DownY=185,Width=33,Height=25,DestX=47,DestY=<PLWinHeight>-35,ActiveX=369,ActiveY=185,Activate=LoopPlay,TransColor=00FF00,Function=fnLoopPlay,Hint=Loop Current Track)
+
+// Playlist Top Bar Buttons:
+CreateExButton(Type=Normal,Target=Playlist,SrcX=105,SrcY=160,DownX=121,DownY=160,Width=16,Height=16,HoverX=137,HoverY=160,DestX=9,DestY=5,TransColor=00FF00,Function=fnPlayList,Hint=Close Playlist Editor)
+CreateExButton(Type=Normal,Target=Playlist,SrcX=105,SrcY=194,DownX=121,DownY=194,Width=16,Height=16,HoverX=137,HoverY=194,DestX=51,DestY=5,TransColor=00FF00,Function=fnPLMax,Hint=Maximize Window)
+CopyPLBitmap(44,235,175,77,0,0)
+CopyPLBitmap(225,235,175,77,<PLWinWidth>-175,0)
+
+//Refresh Track Durations Button:
+CreateExButton(Type=Normal,Target=Playlist,SrcX=401,SrcY=324,Width=51,Height=15,DestX=<PLWinWidth>-71,DestY=62,Function=fnPLGetDuration,TransColor=00FF00,Hint=Refresh media files' duration)
+
+// Playlist Info Text:
+DrawExText(Target=PlayList,DestX=<PLWinHalfWidth>-11,DestY=<PLWinHeight>-27,Width=<PLWinWidth>-100,Height=15,Align=Left,Case=Lower,FontName=Lucida Grande,FontSize=11,FontColor=DADADA,Text=<PlayListItems> - <PlayListTotal> total time)
+DrawExText(Target=PlayList,DestX=<PLWinHalfWidth>-11,DestY=<PLWinHeight>-28,Width=<PLWinWidth>-100,Height=15,Align=Left,Case=Lower,FontName=Lucida Grande,FontSize=11,FontColor=323232,Text=<PlayListItems> - <PlayListTotal> total time)
+
+
+///////////  Control Bar  ////////////////////////////////////////////////////////////////////////////////////
+
+cTransColor     = (00FF00)
+
+cBarFontSize    = (1)
+cBarFontYOfs    = (-20)
+cBarFontFace    = (Lucida Grande)
+cBarFontColor   = (000000)
+cBarFontStyle   = ()
+cBarButWidth	= (10)
+cBarButHeight	= (15)
+cBarTLBitmap    = (1)
+cBarWidth	= (<WinWidth>-40)
+cBarHeight   	= (12)
+cBarTLWidth     = (<cBarWidth>-1)
+cBarTLHeight    = (20)
+cBarTLLeft      = (1)
+cBarTLTop       = (0)
+
+AddBarButton(415,374,fnPlay,Play)
+AddBarButton(435,374,fnPause,Pause)
+AddBarButton(455,374,fnStop,Stop)
+AddBarButton(475,374,fnFullScreen,Toggle Fullscreen)
+AddBarButton(495,374,fnExit,Quit)
+
+
+///////////  Equalizer  ////////////////////////////////////////////////////////////////////////////////////
+
+eTransColor     = (00FF00)
+
+EQData(Width=220,Height=159, BarX=507,Bary=394,BarW=9,BarH=56,BarC=15, BarPX=44,BarPy=43, Bar0X=82,Bar0y=43, Bar1X=91,Bar1y=43, Bar2X=100,Bar2y=43, Bar3X=109,Bar3y=43, Bar4X=118,Bar4y=43, Bar5X=127,Bar5y=43, Bar6X=136,Bar6y=43, Bar7X=145,Bar7y=43, Bar8X=154,Bar8y=43, Bar9X=163,Bar9y=43)
+
+CopyEQBitmap(44,235,110,30,0,0)      // top left corner
+CopyEQBitmap(290,235,110,30,110,0)    // top right corner
+CopyEQBitmap(293,0,110,129,0,30)     // bottom left corner
+CopyEQBitmap(403,0,110,129,110,30)   // bottom right corner
+
+// Reset Button:
+CreateExButton(Type=Normal,Target=EQ,SrcX=516,SrcY=374,Width=30,Height=7,DestX=153,DestY=104,Function=fnEQReset,Hint=Reset Equalizer)
+
+// Close Button:
+CreateExButton(Type=Normal,Target=EQ,SrcX=105,SrcY=160,DownX=121,DownY=160,Width=16,Height=16,HoverX=137,HoverY=160,DestX=9,DestY=5,TransColor=00FF00,Function=fnEqualizer,Hint=Close Equalizer)
+
+// EQ ON/OFF Button:
+CreateExButton(Type=Normal,Target=EQ,SrcX=203,SrcY=160,Width=14,Height=16,DestX=24,DestY=127,ActiveX=231,ActiveY=160,Activate=EQState,Function=fnEQToggle,Hint=Enable/Disable the Equalizer)
+
+//    Preset Button:
+CreateExButton(Type=Normal,Target=EQ,SrcX=368,SrcY=160,Width=20,Height=20,DestX=189,DestY=126,Function=fnEQEditor,Hint=Select/Edit Equalizer Profiles)
+
+CopyEQBitmap(289,160,78,20,111,126)
+DrawExText(Target=EQ,DestX=44, DestY=129,FontName=Lucida Grande,FontSize=11,FontColor=DADADA,Text=On)
+DrawExText(Target=EQ,DestX=43, DestY=128,FontName=Lucida Grande,FontSize=11,FontColor=323232,Text=On)
+DrawExText(Target=EQ,DestX=123, DestY=128,FontName=Lucida Grande,FontSize=11,FontColor=000000,Text=Preset)
+
+///////////  END  ////////////////////////////////////////////////////////////////////////////////////

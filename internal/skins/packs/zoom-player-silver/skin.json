@@ -1,0 +1,781 @@
+{
+  "skin": 1,
+  "label": "zoom-player-silver",
+  "base": "win95",
+  "window": {
+    "layout": ":"
+  },
+  "sheets": {
+    "art": {
+      "1x": "art/skin.png",
+      "pixelated": false
+    }
+  },
+  "sprites": {
+    "face.main": {
+      "sheet": "art",
+      "at": [
+        0,
+        0,
+        412,
+        363
+      ],
+      "slice": [
+        21,
+        91,
+        42,
+        39
+      ]
+    },
+    "main.close.normal": {
+      "sheet": "art",
+      "at": [
+        414,
+        0,
+        20,
+        14
+      ]
+    },
+    "main.close.pressed": {
+      "sheet": "art",
+      "at": [
+        436,
+        0,
+        20,
+        14
+      ]
+    },
+    "main.maximize.normal": {
+      "sheet": "art",
+      "at": [
+        458,
+        0,
+        19,
+        14
+      ]
+    },
+    "main.minimize.normal": {
+      "sheet": "art",
+      "at": [
+        479,
+        0,
+        19,
+        14
+      ]
+    },
+    "main.full.normal": {
+      "sheet": "art",
+      "at": [
+        500,
+        0,
+        19,
+        14
+      ]
+    },
+    "main.play.normal": {
+      "sheet": "art",
+      "at": [
+        521,
+        0,
+        31,
+        31
+      ]
+    },
+    "main.play.checked": {
+      "sheet": "art",
+      "at": [
+        554,
+        0,
+        31,
+        31
+      ]
+    },
+    "main.play.checkedPressed": {
+      "sheet": "art",
+      "at": [
+        587,
+        0,
+        31,
+        31
+      ]
+    },
+    "main.prev.normal": {
+      "sheet": "art",
+      "at": [
+        620,
+        0,
+        37,
+        21
+      ]
+    },
+    "main.rew.normal": {
+      "sheet": "art",
+      "at": [
+        659,
+        0,
+        37,
+        21
+      ]
+    },
+    "main.ffwd.normal": {
+      "sheet": "art",
+      "at": [
+        698,
+        0,
+        37,
+        21
+      ]
+    },
+    "main.next.normal": {
+      "sheet": "art",
+      "at": [
+        737,
+        0,
+        37,
+        21
+      ]
+    },
+    "main.stop.normal": {
+      "sheet": "art",
+      "at": [
+        776,
+        0,
+        37,
+        21
+      ]
+    },
+    "main.open.normal": {
+      "sheet": "art",
+      "at": [
+        815,
+        0,
+        21,
+        21
+      ]
+    },
+    "main.audio.normal": {
+      "sheet": "art",
+      "at": [
+        838,
+        0,
+        21,
+        21
+      ]
+    },
+    "main.playlist.normal": {
+      "sheet": "art",
+      "at": [
+        861,
+        0,
+        21,
+        21
+      ]
+    },
+    "main.menu.normal": {
+      "sheet": "art",
+      "at": [
+        884,
+        0,
+        21,
+        21
+      ]
+    },
+    "seek.track": {
+      "sheet": "art",
+      "at": [
+        907,
+        0,
+        48,
+        13
+      ],
+      "slice": [
+        0,
+        2,
+        0,
+        2
+      ]
+    },
+    "seek.fill": {
+      "sheet": "art",
+      "at": [
+        957,
+        0,
+        48,
+        13
+      ],
+      "slice": [
+        0,
+        2,
+        0,
+        2
+      ]
+    },
+    "volume.0": {
+      "sheet": "art",
+      "at": [
+        0,
+        365,
+        48,
+        13
+      ]
+    },
+    "volume.1": {
+      "sheet": "art",
+      "at": [
+        50,
+        365,
+        48,
+        13
+      ]
+    },
+    "volume.2": {
+      "sheet": "art",
+      "at": [
+        100,
+        365,
+        48,
+        13
+      ]
+    },
+    "volume.3": {
+      "sheet": "art",
+      "at": [
+        150,
+        365,
+        48,
+        13
+      ]
+    },
+    "volume.4": {
+      "sheet": "art",
+      "at": [
+        200,
+        365,
+        48,
+        13
+      ]
+    },
+    "volume.5": {
+      "sheet": "art",
+      "at": [
+        250,
+        365,
+        48,
+        13
+      ]
+    },
+    "volume.6": {
+      "sheet": "art",
+      "at": [
+        300,
+        365,
+        48,
+        13
+      ]
+    },
+    "volume.7": {
+      "sheet": "art",
+      "at": [
+        350,
+        365,
+        48,
+        13
+      ]
+    },
+    "volume.8": {
+      "sheet": "art",
+      "at": [
+        400,
+        365,
+        48,
+        13
+      ]
+    },
+    "volume.9": {
+      "sheet": "art",
+      "at": [
+        450,
+        365,
+        48,
+        13
+      ]
+    },
+    "volume.10": {
+      "sheet": "art",
+      "at": [
+        500,
+        365,
+        48,
+        13
+      ]
+    },
+    "volume.11": {
+      "sheet": "art",
+      "at": [
+        550,
+        365,
+        48,
+        13
+      ]
+    },
+    "volume.12": {
+      "sheet": "art",
+      "at": [
+        600,
+        365,
+        48,
+        13
+      ]
+    },
+    "volume.13": {
+      "sheet": "art",
+      "at": [
+        650,
+        365,
+        48,
+        13
+      ]
+    },
+    "volume.14": {
+      "sheet": "art",
+      "at": [
+        700,
+        365,
+        48,
+        13
+      ]
+    },
+    "volume.15": {
+      "sheet": "art",
+      "at": [
+        750,
+        365,
+        48,
+        13
+      ]
+    },
+    "volume.16": {
+      "sheet": "art",
+      "at": [
+        800,
+        365,
+        48,
+        13
+      ]
+    },
+    "volume.17": {
+      "sheet": "art",
+      "at": [
+        850,
+        365,
+        48,
+        13
+      ]
+    },
+    "face.playlist": {
+      "sheet": "art",
+      "at": [
+        0,
+        380,
+        412,
+        294
+      ],
+      "slice": [
+        21,
+        91,
+        42,
+        39
+      ]
+    },
+    "playlist.shuffle.normal": {
+      "sheet": "art",
+      "at": [
+        414,
+        380,
+        21,
+        21
+      ]
+    },
+    "playlist.shuffle.pressed": {
+      "sheet": "art",
+      "at": [
+        437,
+        380,
+        21,
+        21
+      ]
+    },
+    "playlist.shuffle.checked": {
+      "sheet": "art",
+      "at": [
+        460,
+        380,
+        21,
+        21
+      ]
+    },
+    "playlist.up.normal": {
+      "sheet": "art",
+      "at": [
+        483,
+        380,
+        18,
+        21
+      ]
+    },
+    "playlist.down.normal": {
+      "sheet": "art",
+      "at": [
+        503,
+        380,
+        19,
+        21
+      ]
+    },
+    "playlist.close.normal": {
+      "sheet": "art",
+      "at": [
+        524,
+        380,
+        20,
+        14
+      ]
+    },
+    "playlist.close.pressed": {
+      "sheet": "art",
+      "at": [
+        546,
+        380,
+        20,
+        14
+      ]
+    },
+    "playlist.maximize.normal": {
+      "sheet": "art",
+      "at": [
+        568,
+        380,
+        19,
+        14
+      ]
+    }
+  },
+  "layouts": {
+    "video.main": {
+      "size": [
+        412,
+        363
+      ],
+      "art": "face.main",
+      "slots": {
+        "close": {
+          "at": [
+            6,
+            6,
+            20,
+            14
+          ],
+          "art": {
+            "normal": "main.close.normal",
+            "pressed": "main.close.pressed"
+          },
+          "fromRight": true
+        },
+        "maximize": {
+          "at": [
+            27,
+            6,
+            19,
+            14
+          ],
+          "art": {
+            "normal": "main.maximize.normal"
+          },
+          "fromRight": true
+        },
+        "minimize": {
+          "at": [
+            47,
+            6,
+            19,
+            14
+          ],
+          "art": {
+            "normal": "main.minimize.normal"
+          },
+          "fromRight": true
+        },
+        "full": {
+          "at": [
+            67,
+            6,
+            19,
+            14
+          ],
+          "art": {
+            "normal": "main.full.normal"
+          },
+          "fromRight": true
+        },
+        "play": {
+          "at": [
+            6,
+            6,
+            31,
+            31
+          ],
+          "art": {
+            "normal": "main.play.normal",
+            "checked": "main.play.checked",
+            "checkedPressed": "main.play.checkedPressed"
+          },
+          "fromBottom": true
+        },
+        "prev": {
+          "at": [
+            41,
+            4,
+            37,
+            21
+          ],
+          "art": {
+            "normal": "main.prev.normal"
+          },
+          "fromBottom": true
+        },
+        "rew": {
+          "at": [
+            80,
+            4,
+            37,
+            21
+          ],
+          "art": {
+            "normal": "main.rew.normal"
+          },
+          "fromBottom": true
+        },
+        "ffwd": {
+          "at": [
+            119,
+            4,
+            37,
+            21
+          ],
+          "art": {
+            "normal": "main.ffwd.normal"
+          },
+          "fromBottom": true
+        },
+        "next": {
+          "at": [
+            158,
+            4,
+            37,
+            21
+          ],
+          "art": {
+            "normal": "main.next.normal"
+          },
+          "fromBottom": true
+        },
+        "stop": {
+          "at": [
+            197,
+            4,
+            37,
+            21
+          ],
+          "art": {
+            "normal": "main.stop.normal"
+          },
+          "fromBottom": true
+        },
+        "open": {
+          "at": [
+            74,
+            4,
+            21,
+            21
+          ],
+          "art": {
+            "normal": "main.open.normal"
+          },
+          "fromRight": true,
+          "fromBottom": true
+        },
+        "audio": {
+          "at": [
+            51,
+            4,
+            21,
+            21
+          ],
+          "art": {
+            "normal": "main.audio.normal"
+          },
+          "fromRight": true,
+          "fromBottom": true
+        },
+        "playlist": {
+          "at": [
+            28,
+            4,
+            21,
+            21
+          ],
+          "art": {
+            "normal": "main.playlist.normal"
+          },
+          "fromRight": true,
+          "fromBottom": true
+        },
+        "menu": {
+          "at": [
+            5,
+            4,
+            21,
+            21
+          ],
+          "art": {
+            "normal": "main.menu.normal"
+          },
+          "fromRight": true,
+          "fromBottom": true
+        },
+        "screen": {
+          "at": [
+            6,
+            21,
+            6,
+            42
+          ],
+          "stretchX": true,
+          "stretchY": true
+        },
+        "title": {
+          "at": [
+            9,
+            6,
+            100,
+            14
+          ],
+          "stretchX": true
+        },
+        "seek": {
+          "at": [
+            41,
+            36,
+            67,
+            13
+          ],
+          "stretchX": true,
+          "fromBottom": true
+        },
+        "volume": {
+          "at": [
+            5,
+            26,
+            48,
+            13
+          ],
+          "fromRight": true,
+          "fromBottom": true
+        }
+      }
+    },
+    "video.playlist": {
+      "size": [
+        412,
+        294
+      ],
+      "art": "face.playlist",
+      "slots": {
+        "shuffle": {
+          "at": [
+            28,
+            4,
+            21,
+            21
+          ],
+          "art": {
+            "normal": "playlist.shuffle.normal",
+            "pressed": "playlist.shuffle.pressed",
+            "checked": "playlist.shuffle.checked"
+          },
+          "fromBottom": true
+        },
+        "up": {
+          "at": [
+            24,
+            4,
+            18,
+            21
+          ],
+          "art": {
+            "normal": "playlist.up.normal"
+          },
+          "fromRight": true,
+          "fromBottom": true
+        },
+        "down": {
+          "at": [
+            5,
+            4,
+            19,
+            21
+          ],
+          "art": {
+            "normal": "playlist.down.normal"
+          },
+          "fromRight": true,
+          "fromBottom": true
+        },
+        "close": {
+          "at": [
+            6,
+            6,
+            20,
+            14
+          ],
+          "art": {
+            "normal": "playlist.close.normal",
+            "pressed": "playlist.close.pressed"
+          },
+          "fromRight": true
+        },
+        "maximize": {
+          "at": [
+            27,
+            6,
+            19,
+            14
+          ],
+          "art": {
+            "normal": "playlist.maximize.normal"
+          },
+          "fromRight": true
+        },
+        "queue": {
+          "at": [
+            6,
+            21,
+            22,
+            50
+          ],
+          "stretchX": true,
+          "stretchY": true
+        },
+        "title": {
+          "at": [
+            30,
+            5,
+            160,
+            15
+          ],
+          "stretchX": true
+        }
+      }
+    }
+  }
+}

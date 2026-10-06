@@ -1,0 +1,1134 @@
+{
+  "skin": 1,
+  "label": "zoom-player-brownish",
+  "base": "win95",
+  "window": {
+    "layout": ":"
+  },
+  "sheets": {
+    "art": {
+      "1x": "art/skin.png",
+      "pixelated": false
+    }
+  },
+  "sprites": {
+    "face.main": {
+      "sheet": "art",
+      "at": [
+        0,
+        0,
+        430,
+        360
+      ],
+      "slice": [
+        4,
+        199,
+        56,
+        21
+      ]
+    },
+    "main.close.normal": {
+      "sheet": "art",
+      "at": [
+        432,
+        0,
+        25,
+        27
+      ]
+    },
+    "main.close.pressed": {
+      "sheet": "art",
+      "at": [
+        459,
+        0,
+        25,
+        27
+      ]
+    },
+    "main.maximize.normal": {
+      "sheet": "art",
+      "at": [
+        486,
+        0,
+        25,
+        27
+      ]
+    },
+    "main.maximize.pressed": {
+      "sheet": "art",
+      "at": [
+        513,
+        0,
+        25,
+        27
+      ]
+    },
+    "main.minimize.normal": {
+      "sheet": "art",
+      "at": [
+        540,
+        0,
+        25,
+        27
+      ]
+    },
+    "main.minimize.pressed": {
+      "sheet": "art",
+      "at": [
+        567,
+        0,
+        25,
+        27
+      ]
+    },
+    "main.full.normal": {
+      "sheet": "art",
+      "at": [
+        594,
+        0,
+        25,
+        27
+      ]
+    },
+    "main.full.pressed": {
+      "sheet": "art",
+      "at": [
+        621,
+        0,
+        25,
+        27
+      ]
+    },
+    "main.compact.normal": {
+      "sheet": "art",
+      "at": [
+        648,
+        0,
+        25,
+        27
+      ]
+    },
+    "main.compact.pressed": {
+      "sheet": "art",
+      "at": [
+        675,
+        0,
+        25,
+        27
+      ]
+    },
+    "main.ornament.fnscenecut.normal": {
+      "sheet": "art",
+      "at": [
+        702,
+        0,
+        25,
+        27
+      ]
+    },
+    "main.ornament.fnscenecut.pressed": {
+      "sheet": "art",
+      "at": [
+        729,
+        0,
+        25,
+        27
+      ]
+    },
+    "main.ornament.fnblankingpreset.normal": {
+      "sheet": "art",
+      "at": [
+        756,
+        0,
+        25,
+        27
+      ]
+    },
+    "main.ornament.fnblankingpreset.pressed": {
+      "sheet": "art",
+      "at": [
+        783,
+        0,
+        25,
+        27
+      ]
+    },
+    "main.playlist.normal": {
+      "sheet": "art",
+      "at": [
+        810,
+        0,
+        25,
+        27
+      ]
+    },
+    "main.playlist.pressed": {
+      "sheet": "art",
+      "at": [
+        837,
+        0,
+        25,
+        27
+      ]
+    },
+    "main.ornament.fnchapter.normal": {
+      "sheet": "art",
+      "at": [
+        864,
+        0,
+        25,
+        27
+      ]
+    },
+    "main.ornament.fnchapter.pressed": {
+      "sheet": "art",
+      "at": [
+        891,
+        0,
+        25,
+        27
+      ]
+    },
+    "main.skins.normal": {
+      "sheet": "art",
+      "at": [
+        918,
+        0,
+        25,
+        27
+      ]
+    },
+    "main.skins.pressed": {
+      "sheet": "art",
+      "at": [
+        945,
+        0,
+        25,
+        27
+      ]
+    },
+    "main.menu.normal": {
+      "sheet": "art",
+      "at": [
+        972,
+        0,
+        25,
+        27
+      ]
+    },
+    "main.menu.pressed": {
+      "sheet": "art",
+      "at": [
+        999,
+        0,
+        25,
+        27
+      ]
+    },
+    "main.rew.normal": {
+      "sheet": "art",
+      "at": [
+        0,
+        362,
+        27,
+        25
+      ]
+    },
+    "main.rew.pressed": {
+      "sheet": "art",
+      "at": [
+        29,
+        362,
+        27,
+        25
+      ]
+    },
+    "main.play.normal": {
+      "sheet": "art",
+      "at": [
+        58,
+        362,
+        27,
+        25
+      ]
+    },
+    "main.play.pressed": {
+      "sheet": "art",
+      "at": [
+        87,
+        362,
+        27,
+        25
+      ]
+    },
+    "main.ffwd.normal": {
+      "sheet": "art",
+      "at": [
+        116,
+        362,
+        27,
+        25
+      ]
+    },
+    "main.ffwd.pressed": {
+      "sheet": "art",
+      "at": [
+        145,
+        362,
+        27,
+        25
+      ]
+    },
+    "main.stop.normal": {
+      "sheet": "art",
+      "at": [
+        174,
+        362,
+        27,
+        25
+      ]
+    },
+    "main.stop.pressed": {
+      "sheet": "art",
+      "at": [
+        203,
+        362,
+        27,
+        25
+      ]
+    },
+    "main.prev.normal": {
+      "sheet": "art",
+      "at": [
+        232,
+        362,
+        27,
+        25
+      ]
+    },
+    "main.prev.pressed": {
+      "sheet": "art",
+      "at": [
+        261,
+        362,
+        27,
+        25
+      ]
+    },
+    "main.chapterprev.normal": {
+      "sheet": "art",
+      "at": [
+        290,
+        362,
+        27,
+        25
+      ]
+    },
+    "main.chapterprev.pressed": {
+      "sheet": "art",
+      "at": [
+        319,
+        362,
+        27,
+        25
+      ]
+    },
+    "main.chapternext.normal": {
+      "sheet": "art",
+      "at": [
+        348,
+        362,
+        27,
+        25
+      ]
+    },
+    "main.chapternext.pressed": {
+      "sheet": "art",
+      "at": [
+        377,
+        362,
+        27,
+        25
+      ]
+    },
+    "main.next.normal": {
+      "sheet": "art",
+      "at": [
+        406,
+        362,
+        27,
+        25
+      ]
+    },
+    "main.next.pressed": {
+      "sheet": "art",
+      "at": [
+        435,
+        362,
+        27,
+        25
+      ]
+    },
+    "main.audio.normal": {
+      "sheet": "art",
+      "at": [
+        464,
+        362,
+        27,
+        25
+      ]
+    },
+    "main.audio.pressed": {
+      "sheet": "art",
+      "at": [
+        493,
+        362,
+        27,
+        25
+      ]
+    },
+    "main.subtitles.normal": {
+      "sheet": "art",
+      "at": [
+        522,
+        362,
+        27,
+        25
+      ]
+    },
+    "main.subtitles.pressed": {
+      "sheet": "art",
+      "at": [
+        551,
+        362,
+        27,
+        25
+      ]
+    },
+    "main.open.normal": {
+      "sheet": "art",
+      "at": [
+        580,
+        362,
+        27,
+        25
+      ]
+    },
+    "main.open.pressed": {
+      "sheet": "art",
+      "at": [
+        609,
+        362,
+        27,
+        25
+      ]
+    },
+    "main.ornament.fnbar.normal": {
+      "sheet": "art",
+      "at": [
+        638,
+        362,
+        27,
+        25
+      ]
+    },
+    "main.ornament.fnbar.pressed": {
+      "sheet": "art",
+      "at": [
+        667,
+        362,
+        27,
+        25
+      ]
+    },
+    "main.skipback.normal": {
+      "sheet": "art",
+      "at": [
+        696,
+        362,
+        8,
+        12
+      ]
+    },
+    "main.skipback.pressed": {
+      "sheet": "art",
+      "at": [
+        706,
+        362,
+        8,
+        12
+      ]
+    },
+    "main.skipforward.normal": {
+      "sheet": "art",
+      "at": [
+        716,
+        362,
+        8,
+        12
+      ]
+    },
+    "main.skipforward.pressed": {
+      "sheet": "art",
+      "at": [
+        726,
+        362,
+        8,
+        12
+      ]
+    },
+    "main.volup.normal": {
+      "sheet": "art",
+      "at": [
+        736,
+        362,
+        9,
+        9
+      ]
+    },
+    "main.volup.pressed": {
+      "sheet": "art",
+      "at": [
+        747,
+        362,
+        9,
+        9
+      ]
+    },
+    "main.voldown.normal": {
+      "sheet": "art",
+      "at": [
+        758,
+        362,
+        9,
+        9
+      ]
+    },
+    "main.voldown.pressed": {
+      "sheet": "art",
+      "at": [
+        769,
+        362,
+        9,
+        9
+      ]
+    },
+    "main.faster.normal": {
+      "sheet": "art",
+      "at": [
+        780,
+        362,
+        9,
+        9
+      ]
+    },
+    "main.faster.pressed": {
+      "sheet": "art",
+      "at": [
+        791,
+        362,
+        9,
+        9
+      ]
+    },
+    "main.slower.normal": {
+      "sheet": "art",
+      "at": [
+        802,
+        362,
+        9,
+        9
+      ]
+    },
+    "main.slower.pressed": {
+      "sheet": "art",
+      "at": [
+        813,
+        362,
+        9,
+        9
+      ]
+    },
+    "seek.track": {
+      "sheet": "art",
+      "at": [
+        824,
+        362,
+        40,
+        14
+      ],
+      "slice": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "seek.fill": {
+      "sheet": "art",
+      "at": [
+        866,
+        362,
+        40,
+        14
+      ],
+      "slice": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "volume.0": {
+      "sheet": "art",
+      "at": [
+        908,
+        362,
+        42,
+        14
+      ]
+    },
+    "volume.1": {
+      "sheet": "art",
+      "at": [
+        952,
+        362,
+        42,
+        14
+      ]
+    },
+    "volume.2": {
+      "sheet": "art",
+      "at": [
+        0,
+        389,
+        42,
+        14
+      ]
+    },
+    "volume.3": {
+      "sheet": "art",
+      "at": [
+        44,
+        389,
+        42,
+        14
+      ]
+    },
+    "volume.4": {
+      "sheet": "art",
+      "at": [
+        88,
+        389,
+        42,
+        14
+      ]
+    },
+    "volume.5": {
+      "sheet": "art",
+      "at": [
+        132,
+        389,
+        42,
+        14
+      ]
+    },
+    "volume.6": {
+      "sheet": "art",
+      "at": [
+        176,
+        389,
+        42,
+        14
+      ]
+    },
+    "volume.7": {
+      "sheet": "art",
+      "at": [
+        220,
+        389,
+        42,
+        14
+      ]
+    },
+    "volume.8": {
+      "sheet": "art",
+      "at": [
+        264,
+        389,
+        42,
+        14
+      ]
+    },
+    "volume.9": {
+      "sheet": "art",
+      "at": [
+        308,
+        389,
+        42,
+        14
+      ]
+    },
+    "volume.10": {
+      "sheet": "art",
+      "at": [
+        352,
+        389,
+        42,
+        14
+      ]
+    },
+    "volume.11": {
+      "sheet": "art",
+      "at": [
+        396,
+        389,
+        42,
+        14
+      ]
+    },
+    "rate.normal": {
+      "sheet": "art",
+      "at": [
+        440,
+        389,
+        35,
+        14
+      ]
+    }
+  },
+  "layouts": {
+    "video.main": {
+      "size": [
+        430,
+        360
+      ],
+      "art": "face.main",
+      "slots": {
+        "close": {
+          "at": [
+            0,
+            0,
+            25,
+            27
+          ],
+          "fromRight": true,
+          "art": {
+            "normal": "main.close.normal",
+            "pressed": "main.close.pressed"
+          }
+        },
+        "maximize": {
+          "at": [
+            0,
+            27,
+            25,
+            27
+          ],
+          "fromRight": true,
+          "art": {
+            "normal": "main.maximize.normal",
+            "pressed": "main.maximize.pressed"
+          }
+        },
+        "minimize": {
+          "at": [
+            0,
+            54,
+            25,
+            27
+          ],
+          "fromRight": true,
+          "art": {
+            "normal": "main.minimize.normal",
+            "pressed": "main.minimize.pressed"
+          }
+        },
+        "full": {
+          "at": [
+            0,
+            81,
+            25,
+            27
+          ],
+          "fromRight": true,
+          "art": {
+            "normal": "main.full.normal",
+            "pressed": "main.full.pressed"
+          }
+        },
+        "compact": {
+          "at": [
+            0,
+            108,
+            25,
+            27
+          ],
+          "fromRight": true,
+          "art": {
+            "normal": "main.compact.normal",
+            "pressed": "main.compact.pressed"
+          }
+        },
+        "ornament.fnscenecut": {
+          "at": [
+            0,
+            135,
+            25,
+            27
+          ],
+          "fromRight": true,
+          "art": {
+            "normal": "main.ornament.fnscenecut.normal",
+            "pressed": "main.ornament.fnscenecut.pressed"
+          }
+        },
+        "ornament.fnblankingpreset": {
+          "at": [
+            0,
+            162,
+            25,
+            27
+          ],
+          "fromRight": true,
+          "art": {
+            "normal": "main.ornament.fnblankingpreset.normal",
+            "pressed": "main.ornament.fnblankingpreset.pressed"
+          }
+        },
+        "playlist": {
+          "at": [
+            0,
+            189,
+            25,
+            27
+          ],
+          "fromRight": true,
+          "art": {
+            "normal": "main.playlist.normal",
+            "pressed": "main.playlist.pressed"
+          }
+        },
+        "ornament.fnchapter": {
+          "at": [
+            0,
+            216,
+            25,
+            27
+          ],
+          "fromRight": true,
+          "art": {
+            "normal": "main.ornament.fnchapter.normal",
+            "pressed": "main.ornament.fnchapter.pressed"
+          }
+        },
+        "skins": {
+          "at": [
+            0,
+            243,
+            25,
+            27
+          ],
+          "fromRight": true,
+          "art": {
+            "normal": "main.skins.normal",
+            "pressed": "main.skins.pressed"
+          }
+        },
+        "menu": {
+          "at": [
+            0,
+            270,
+            25,
+            27
+          ],
+          "fromRight": true,
+          "art": {
+            "normal": "main.menu.normal",
+            "pressed": "main.menu.pressed"
+          }
+        },
+        "rew": {
+          "at": [
+            0,
+            0,
+            27,
+            25
+          ],
+          "fromBottom": true,
+          "art": {
+            "normal": "main.rew.normal",
+            "pressed": "main.rew.pressed"
+          }
+        },
+        "play": {
+          "at": [
+            27,
+            0,
+            27,
+            25
+          ],
+          "fromBottom": true,
+          "art": {
+            "normal": "main.play.normal",
+            "pressed": "main.play.pressed"
+          }
+        },
+        "ffwd": {
+          "at": [
+            54,
+            0,
+            27,
+            25
+          ],
+          "fromBottom": true,
+          "art": {
+            "normal": "main.ffwd.normal",
+            "pressed": "main.ffwd.pressed"
+          }
+        },
+        "stop": {
+          "at": [
+            81,
+            0,
+            27,
+            25
+          ],
+          "fromBottom": true,
+          "art": {
+            "normal": "main.stop.normal",
+            "pressed": "main.stop.pressed"
+          }
+        },
+        "prev": {
+          "at": [
+            108,
+            0,
+            27,
+            25
+          ],
+          "fromBottom": true,
+          "art": {
+            "normal": "main.prev.normal",
+            "pressed": "main.prev.pressed"
+          }
+        },
+        "chapterprev": {
+          "at": [
+            135,
+            0,
+            27,
+            25
+          ],
+          "fromBottom": true,
+          "art": {
+            "normal": "main.chapterprev.normal",
+            "pressed": "main.chapterprev.pressed"
+          }
+        },
+        "chapternext": {
+          "at": [
+            162,
+            0,
+            27,
+            25
+          ],
+          "fromBottom": true,
+          "art": {
+            "normal": "main.chapternext.normal",
+            "pressed": "main.chapternext.pressed"
+          }
+        },
+        "next": {
+          "at": [
+            189,
+            0,
+            27,
+            25
+          ],
+          "fromBottom": true,
+          "art": {
+            "normal": "main.next.normal",
+            "pressed": "main.next.pressed"
+          }
+        },
+        "audio": {
+          "at": [
+            216,
+            0,
+            27,
+            25
+          ],
+          "fromBottom": true,
+          "art": {
+            "normal": "main.audio.normal",
+            "pressed": "main.audio.pressed"
+          }
+        },
+        "subtitles": {
+          "at": [
+            243,
+            0,
+            27,
+            25
+          ],
+          "fromBottom": true,
+          "art": {
+            "normal": "main.subtitles.normal",
+            "pressed": "main.subtitles.pressed"
+          }
+        },
+        "open": {
+          "at": [
+            270,
+            0,
+            27,
+            25
+          ],
+          "fromBottom": true,
+          "art": {
+            "normal": "main.open.normal",
+            "pressed": "main.open.pressed"
+          }
+        },
+        "ornament.fnbar": {
+          "at": [
+            297,
+            0,
+            27,
+            25
+          ],
+          "fromBottom": true,
+          "art": {
+            "normal": "main.ornament.fnbar.normal",
+            "pressed": "main.ornament.fnbar.pressed"
+          }
+        },
+        "skipback": {
+          "at": [
+            10,
+            34,
+            8,
+            12
+          ],
+          "fromBottom": true,
+          "art": {
+            "normal": "main.skipback.normal",
+            "pressed": "main.skipback.pressed"
+          }
+        },
+        "skipforward": {
+          "at": [
+            188,
+            34,
+            8,
+            12
+          ],
+          "fromRight": true,
+          "fromBottom": true,
+          "art": {
+            "normal": "main.skipforward.normal",
+            "pressed": "main.skipforward.pressed"
+          }
+        },
+        "volup": {
+          "at": [
+            103,
+            41,
+            9,
+            9
+          ],
+          "fromRight": true,
+          "fromBottom": true,
+          "art": {
+            "normal": "main.volup.normal",
+            "pressed": "main.volup.pressed"
+          }
+        },
+        "voldown": {
+          "at": [
+            103,
+            30,
+            9,
+            9
+          ],
+          "fromRight": true,
+          "fromBottom": true,
+          "art": {
+            "normal": "main.voldown.normal",
+            "pressed": "main.voldown.pressed"
+          }
+        },
+        "faster": {
+          "at": [
+            88,
+            41,
+            9,
+            9
+          ],
+          "fromRight": true,
+          "fromBottom": true,
+          "art": {
+            "normal": "main.faster.normal",
+            "pressed": "main.faster.pressed"
+          }
+        },
+        "slower": {
+          "at": [
+            88,
+            30,
+            9,
+            9
+          ],
+          "fromRight": true,
+          "fromBottom": true,
+          "art": {
+            "normal": "main.slower.normal",
+            "pressed": "main.slower.pressed"
+          }
+        },
+        "screen": {
+          "at": [
+            4,
+            4,
+            26,
+            56
+          ],
+          "stretchX": true,
+          "stretchY": true
+        },
+        "seek": {
+          "at": [
+            21,
+            33,
+            199,
+            14
+          ],
+          "stretchX": true,
+          "fromBottom": true
+        },
+        "volume": {
+          "at": [
+            113,
+            33,
+            42,
+            14
+          ],
+          "fromRight": true,
+          "fromBottom": true
+        },
+        "ornament.rate": {
+          "at": [
+            52,
+            33,
+            35,
+            14
+          ],
+          "fromRight": true,
+          "fromBottom": true,
+          "art": "rate.normal"
+        }
+      }
+    }
+  }
+}

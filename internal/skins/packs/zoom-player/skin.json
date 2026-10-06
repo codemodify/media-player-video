@@ -1,0 +1,1410 @@
+{
+  "skin": 1,
+  "label": "zoom-player",
+  "base": "win95",
+  "window": {
+    "layout": ":"
+  },
+  "sheets": {
+    "art": {
+      "1x": "art/skin.png",
+      "pixelated": false
+    }
+  },
+  "sprites": {
+    "face.main": {
+      "sheet": "art",
+      "at": [
+        0,
+        0,
+        638,
+        454
+      ],
+      "slice": [
+        27,
+        83,
+        72,
+        83
+      ]
+    },
+    "face.transport": {
+      "sheet": "art",
+      "at": [
+        640,
+        0,
+        300,
+        50
+      ]
+    },
+    "main.menu.normal": {
+      "sheet": "art",
+      "at": [
+        942,
+        0,
+        19,
+        19
+      ]
+    },
+    "main.menu.hover": {
+      "sheet": "art",
+      "at": [
+        963,
+        0,
+        19,
+        19
+      ]
+    },
+    "main.skins.normal": {
+      "sheet": "art",
+      "at": [
+        984,
+        0,
+        19,
+        19
+      ]
+    },
+    "main.skins.hover": {
+      "sheet": "art",
+      "at": [
+        1005,
+        0,
+        19,
+        19
+      ]
+    },
+    "main.close.normal": {
+      "sheet": "art",
+      "at": [
+        0,
+        456,
+        19,
+        19
+      ]
+    },
+    "main.close.hover": {
+      "sheet": "art",
+      "at": [
+        21,
+        456,
+        19,
+        19
+      ]
+    },
+    "main.maximize.normal": {
+      "sheet": "art",
+      "at": [
+        42,
+        456,
+        19,
+        19
+      ]
+    },
+    "main.maximize.hover": {
+      "sheet": "art",
+      "at": [
+        63,
+        456,
+        19,
+        19
+      ]
+    },
+    "main.maximize.checked": {
+      "sheet": "art",
+      "at": [
+        84,
+        456,
+        19,
+        19
+      ]
+    },
+    "main.maximize.checkedHover": {
+      "sheet": "art",
+      "at": [
+        105,
+        456,
+        19,
+        19
+      ]
+    },
+    "main.maximize.checkedPressed": {
+      "sheet": "art",
+      "at": [
+        126,
+        456,
+        19,
+        19
+      ]
+    },
+    "main.minimize.normal": {
+      "sheet": "art",
+      "at": [
+        147,
+        456,
+        19,
+        19
+      ]
+    },
+    "main.minimize.hover": {
+      "sheet": "art",
+      "at": [
+        168,
+        456,
+        19,
+        19
+      ]
+    },
+    "main.full.normal": {
+      "sheet": "art",
+      "at": [
+        189,
+        456,
+        19,
+        19
+      ]
+    },
+    "main.full.hover": {
+      "sheet": "art",
+      "at": [
+        210,
+        456,
+        19,
+        19
+      ]
+    },
+    "main.play.normal": {
+      "sheet": "art",
+      "at": [
+        231,
+        456,
+        45,
+        45
+      ]
+    },
+    "main.play.hover": {
+      "sheet": "art",
+      "at": [
+        278,
+        456,
+        45,
+        45
+      ]
+    },
+    "main.play.pressed": {
+      "sheet": "art",
+      "at": [
+        325,
+        456,
+        45,
+        45
+      ]
+    },
+    "main.play.checked": {
+      "sheet": "art",
+      "at": [
+        372,
+        456,
+        45,
+        45
+      ]
+    },
+    "main.play.checkedHover": {
+      "sheet": "art",
+      "at": [
+        419,
+        456,
+        45,
+        45
+      ]
+    },
+    "main.play.checkedPressed": {
+      "sheet": "art",
+      "at": [
+        466,
+        456,
+        45,
+        45
+      ]
+    },
+    "main.prev.normal": {
+      "sheet": "art",
+      "at": [
+        513,
+        456,
+        31,
+        31
+      ]
+    },
+    "main.prev.hover": {
+      "sheet": "art",
+      "at": [
+        546,
+        456,
+        31,
+        31
+      ]
+    },
+    "main.next.normal": {
+      "sheet": "art",
+      "at": [
+        579,
+        456,
+        31,
+        31
+      ]
+    },
+    "main.next.hover": {
+      "sheet": "art",
+      "at": [
+        612,
+        456,
+        31,
+        31
+      ]
+    },
+    "main.rew.normal": {
+      "sheet": "art",
+      "at": [
+        645,
+        456,
+        25,
+        25
+      ]
+    },
+    "main.rew.hover": {
+      "sheet": "art",
+      "at": [
+        672,
+        456,
+        25,
+        25
+      ]
+    },
+    "main.stop.normal": {
+      "sheet": "art",
+      "at": [
+        699,
+        456,
+        25,
+        25
+      ]
+    },
+    "main.stop.hover": {
+      "sheet": "art",
+      "at": [
+        726,
+        456,
+        25,
+        25
+      ]
+    },
+    "main.ffwd.normal": {
+      "sheet": "art",
+      "at": [
+        753,
+        456,
+        25,
+        25
+      ]
+    },
+    "main.ffwd.hover": {
+      "sheet": "art",
+      "at": [
+        780,
+        456,
+        25,
+        25
+      ]
+    },
+    "main.open.normal": {
+      "sheet": "art",
+      "at": [
+        807,
+        456,
+        25,
+        25
+      ]
+    },
+    "main.open.hover": {
+      "sheet": "art",
+      "at": [
+        834,
+        456,
+        25,
+        25
+      ]
+    },
+    "main.playlist.normal": {
+      "sheet": "art",
+      "at": [
+        861,
+        456,
+        23,
+        23
+      ]
+    },
+    "main.playlist.hover": {
+      "sheet": "art",
+      "at": [
+        886,
+        456,
+        23,
+        23
+      ]
+    },
+    "main.playlist.checked": {
+      "sheet": "art",
+      "at": [
+        911,
+        456,
+        23,
+        23
+      ]
+    },
+    "main.playlist.checkedHover": {
+      "sheet": "art",
+      "at": [
+        936,
+        456,
+        23,
+        23
+      ]
+    },
+    "main.playlist.checkedPressed": {
+      "sheet": "art",
+      "at": [
+        961,
+        456,
+        23,
+        23
+      ]
+    },
+    "main.audio.normal": {
+      "sheet": "art",
+      "at": [
+        986,
+        456,
+        23,
+        23
+      ]
+    },
+    "main.audio.hover": {
+      "sheet": "art",
+      "at": [
+        0,
+        503,
+        23,
+        23
+      ]
+    },
+    "main.audio.checked": {
+      "sheet": "art",
+      "at": [
+        25,
+        503,
+        23,
+        23
+      ]
+    },
+    "main.audio.checkedHover": {
+      "sheet": "art",
+      "at": [
+        50,
+        503,
+        23,
+        23
+      ]
+    },
+    "main.audio.checkedPressed": {
+      "sheet": "art",
+      "at": [
+        75,
+        503,
+        23,
+        23
+      ]
+    },
+    "seek.track": {
+      "sheet": "art",
+      "at": [
+        100,
+        503,
+        313,
+        18
+      ],
+      "slice": [
+        0,
+        149,
+        0,
+        149
+      ]
+    },
+    "seek.fill": {
+      "sheet": "art",
+      "at": [
+        415,
+        503,
+        313,
+        18
+      ],
+      "slice": [
+        0,
+        149,
+        0,
+        149
+      ]
+    },
+    "volume.0": {
+      "sheet": "art",
+      "at": [
+        730,
+        503,
+        79,
+        14
+      ]
+    },
+    "volume.1": {
+      "sheet": "art",
+      "at": [
+        811,
+        503,
+        79,
+        14
+      ]
+    },
+    "volume.2": {
+      "sheet": "art",
+      "at": [
+        892,
+        503,
+        79,
+        14
+      ]
+    },
+    "volume.3": {
+      "sheet": "art",
+      "at": [
+        0,
+        528,
+        79,
+        14
+      ]
+    },
+    "volume.4": {
+      "sheet": "art",
+      "at": [
+        81,
+        528,
+        79,
+        14
+      ]
+    },
+    "volume.5": {
+      "sheet": "art",
+      "at": [
+        162,
+        528,
+        79,
+        14
+      ]
+    },
+    "volume.6": {
+      "sheet": "art",
+      "at": [
+        243,
+        528,
+        79,
+        14
+      ]
+    },
+    "volume.7": {
+      "sheet": "art",
+      "at": [
+        324,
+        528,
+        79,
+        14
+      ]
+    },
+    "volume.8": {
+      "sheet": "art",
+      "at": [
+        405,
+        528,
+        79,
+        14
+      ]
+    },
+    "volume.9": {
+      "sheet": "art",
+      "at": [
+        486,
+        528,
+        79,
+        14
+      ]
+    },
+    "volume.10": {
+      "sheet": "art",
+      "at": [
+        567,
+        528,
+        79,
+        14
+      ]
+    },
+    "volume.11": {
+      "sheet": "art",
+      "at": [
+        648,
+        528,
+        79,
+        14
+      ]
+    },
+    "volume.12": {
+      "sheet": "art",
+      "at": [
+        729,
+        528,
+        79,
+        14
+      ]
+    },
+    "volume.13": {
+      "sheet": "art",
+      "at": [
+        810,
+        528,
+        79,
+        14
+      ]
+    },
+    "volume.14": {
+      "sheet": "art",
+      "at": [
+        891,
+        528,
+        79,
+        14
+      ]
+    },
+    "volume.15": {
+      "sheet": "art",
+      "at": [
+        0,
+        544,
+        79,
+        14
+      ]
+    },
+    "volume.16": {
+      "sheet": "art",
+      "at": [
+        81,
+        544,
+        79,
+        14
+      ]
+    },
+    "volume.17": {
+      "sheet": "art",
+      "at": [
+        162,
+        544,
+        79,
+        14
+      ]
+    },
+    "volume.18": {
+      "sheet": "art",
+      "at": [
+        243,
+        544,
+        79,
+        14
+      ]
+    },
+    "volume.19": {
+      "sheet": "art",
+      "at": [
+        324,
+        544,
+        79,
+        14
+      ]
+    },
+    "volume.20": {
+      "sheet": "art",
+      "at": [
+        405,
+        544,
+        79,
+        14
+      ]
+    },
+    "volume.21": {
+      "sheet": "art",
+      "at": [
+        486,
+        544,
+        79,
+        14
+      ]
+    },
+    "volume.22": {
+      "sheet": "art",
+      "at": [
+        567,
+        544,
+        79,
+        14
+      ]
+    },
+    "volume.23": {
+      "sheet": "art",
+      "at": [
+        648,
+        544,
+        79,
+        14
+      ]
+    },
+    "volume.24": {
+      "sheet": "art",
+      "at": [
+        729,
+        544,
+        79,
+        14
+      ]
+    },
+    "volume.25": {
+      "sheet": "art",
+      "at": [
+        810,
+        544,
+        79,
+        14
+      ]
+    },
+    "volume.26": {
+      "sheet": "art",
+      "at": [
+        891,
+        544,
+        79,
+        14
+      ]
+    },
+    "volume.27": {
+      "sheet": "art",
+      "at": [
+        0,
+        560,
+        79,
+        14
+      ]
+    },
+    "volume.28": {
+      "sheet": "art",
+      "at": [
+        81,
+        560,
+        79,
+        14
+      ]
+    },
+    "volume.29": {
+      "sheet": "art",
+      "at": [
+        162,
+        560,
+        79,
+        14
+      ]
+    },
+    "volume.30": {
+      "sheet": "art",
+      "at": [
+        243,
+        560,
+        79,
+        14
+      ]
+    },
+    "face.playlist": {
+      "sheet": "art",
+      "at": [
+        324,
+        560,
+        454,
+        294
+      ],
+      "slice": [
+        27,
+        83,
+        72,
+        83
+      ]
+    },
+    "playlist.repeat.normal": {
+      "sheet": "art",
+      "at": [
+        780,
+        560,
+        25,
+        25
+      ]
+    },
+    "playlist.repeat.hover": {
+      "sheet": "art",
+      "at": [
+        807,
+        560,
+        25,
+        25
+      ]
+    },
+    "playlist.repeat.checked": {
+      "sheet": "art",
+      "at": [
+        834,
+        560,
+        25,
+        25
+      ]
+    },
+    "playlist.repeat.checkedHover": {
+      "sheet": "art",
+      "at": [
+        861,
+        560,
+        25,
+        25
+      ]
+    },
+    "playlist.repeat.checkedPressed": {
+      "sheet": "art",
+      "at": [
+        888,
+        560,
+        25,
+        25
+      ]
+    },
+    "playlist.add.normal": {
+      "sheet": "art",
+      "at": [
+        915,
+        560,
+        25,
+        25
+      ]
+    },
+    "playlist.add.hover": {
+      "sheet": "art",
+      "at": [
+        942,
+        560,
+        25,
+        25
+      ]
+    },
+    "playlist.menu.normal": {
+      "sheet": "art",
+      "at": [
+        969,
+        560,
+        25,
+        25
+      ]
+    },
+    "playlist.menu.hover": {
+      "sheet": "art",
+      "at": [
+        996,
+        560,
+        25,
+        25
+      ]
+    },
+    "playlist.shuffle.normal": {
+      "sheet": "art",
+      "at": [
+        0,
+        856,
+        25,
+        25
+      ]
+    },
+    "playlist.shuffle.hover": {
+      "sheet": "art",
+      "at": [
+        27,
+        856,
+        25,
+        25
+      ]
+    },
+    "playlist.shuffle.checked": {
+      "sheet": "art",
+      "at": [
+        54,
+        856,
+        25,
+        25
+      ]
+    },
+    "playlist.shuffle.checkedHover": {
+      "sheet": "art",
+      "at": [
+        81,
+        856,
+        25,
+        25
+      ]
+    },
+    "playlist.shuffle.checkedPressed": {
+      "sheet": "art",
+      "at": [
+        108,
+        856,
+        25,
+        25
+      ]
+    },
+    "playlist.sort.normal": {
+      "sheet": "art",
+      "at": [
+        135,
+        856,
+        25,
+        25
+      ]
+    },
+    "playlist.sort.hover": {
+      "sheet": "art",
+      "at": [
+        162,
+        856,
+        25,
+        25
+      ]
+    },
+    "playlist.up.normal": {
+      "sheet": "art",
+      "at": [
+        189,
+        856,
+        25,
+        25
+      ]
+    },
+    "playlist.up.hover": {
+      "sheet": "art",
+      "at": [
+        216,
+        856,
+        25,
+        25
+      ]
+    },
+    "playlist.down.normal": {
+      "sheet": "art",
+      "at": [
+        243,
+        856,
+        25,
+        25
+      ]
+    },
+    "playlist.down.hover": {
+      "sheet": "art",
+      "at": [
+        270,
+        856,
+        25,
+        25
+      ]
+    },
+    "playlist.close.normal": {
+      "sheet": "art",
+      "at": [
+        297,
+        856,
+        19,
+        19
+      ]
+    },
+    "playlist.close.hover": {
+      "sheet": "art",
+      "at": [
+        318,
+        856,
+        19,
+        19
+      ]
+    },
+    "playlist.maximize.normal": {
+      "sheet": "art",
+      "at": [
+        339,
+        856,
+        19,
+        19
+      ]
+    },
+    "playlist.maximize.hover": {
+      "sheet": "art",
+      "at": [
+        360,
+        856,
+        19,
+        19
+      ]
+    },
+    "playlist.maximize.checked": {
+      "sheet": "art",
+      "at": [
+        381,
+        856,
+        19,
+        19
+      ]
+    },
+    "playlist.maximize.checkedHover": {
+      "sheet": "art",
+      "at": [
+        402,
+        856,
+        19,
+        19
+      ]
+    },
+    "playlist.maximize.checkedPressed": {
+      "sheet": "art",
+      "at": [
+        423,
+        856,
+        19,
+        19
+      ]
+    }
+  },
+  "layouts": {
+    "video.main": {
+      "size": [
+        638,
+        454
+      ],
+      "art": "face.main",
+      "slots": {
+        "menu": {
+          "at": [
+            6,
+            5,
+            19,
+            19
+          ],
+          "art": {
+            "normal": "main.menu.normal",
+            "hover": "main.menu.hover"
+          }
+        },
+        "skins": {
+          "at": [
+            28,
+            5,
+            19,
+            19
+          ],
+          "art": {
+            "normal": "main.skins.normal",
+            "hover": "main.skins.hover"
+          }
+        },
+        "close": {
+          "at": [
+            7,
+            5,
+            19,
+            19
+          ],
+          "art": {
+            "normal": "main.close.normal",
+            "hover": "main.close.hover"
+          },
+          "fromRight": true
+        },
+        "maximize": {
+          "at": [
+            29,
+            5,
+            19,
+            19
+          ],
+          "art": {
+            "normal": "main.maximize.normal",
+            "hover": "main.maximize.hover",
+            "checked": "main.maximize.checked",
+            "checkedHover": "main.maximize.checkedHover",
+            "checkedPressed": "main.maximize.checkedPressed"
+          },
+          "fromRight": true
+        },
+        "minimize": {
+          "at": [
+            51,
+            5,
+            19,
+            19
+          ],
+          "art": {
+            "normal": "main.minimize.normal",
+            "hover": "main.minimize.hover"
+          },
+          "fromRight": true
+        },
+        "full": {
+          "at": [
+            73,
+            5,
+            19,
+            19
+          ],
+          "art": {
+            "normal": "main.full.normal",
+            "hover": "main.full.hover"
+          },
+          "fromRight": true
+        },
+        "playlist": {
+          "at": [
+            7,
+            16,
+            23,
+            23
+          ],
+          "art": {
+            "normal": "main.playlist.normal",
+            "hover": "main.playlist.hover",
+            "checked": "main.playlist.checked",
+            "checkedHover": "main.playlist.checkedHover",
+            "checkedPressed": "main.playlist.checkedPressed"
+          },
+          "fromRight": true,
+          "fromBottom": true
+        },
+        "audio": {
+          "at": [
+            34,
+            16,
+            23,
+            23
+          ],
+          "art": {
+            "normal": "main.audio.normal",
+            "hover": "main.audio.hover",
+            "checked": "main.audio.checked",
+            "checkedHover": "main.audio.checkedHover",
+            "checkedPressed": "main.audio.checkedPressed"
+          },
+          "fromRight": true,
+          "fromBottom": true
+        },
+        "screen": {
+          "at": [
+            7,
+            29,
+            7,
+            73
+          ],
+          "stretchX": true,
+          "stretchY": true
+        },
+        "title": {
+          "at": [
+            52,
+            7,
+            150,
+            14
+          ],
+          "stretchX": true
+        },
+        "seek": {
+          "at": [
+            6,
+            51,
+            6,
+            18
+          ],
+          "stretchX": true,
+          "fromBottom": true
+        },
+        "volume": {
+          "at": [
+            6,
+            21,
+            79,
+            14
+          ],
+          "fromBottom": true
+        }
+      }
+    },
+    "video.transport": {
+      "size": [
+        300,
+        50
+      ],
+      "art": "face.transport",
+      "slots": {
+        "play": {
+          "at": [
+            128,
+            0,
+            45,
+            45
+          ],
+          "art": {
+            "normal": "main.play.normal",
+            "hover": "main.play.hover",
+            "pressed": "main.play.pressed",
+            "checked": "main.play.checked",
+            "checkedHover": "main.play.checkedHover",
+            "checkedPressed": "main.play.checkedPressed"
+          }
+        },
+        "prev": {
+          "at": [
+            90,
+            7,
+            31,
+            31
+          ],
+          "art": {
+            "normal": "main.prev.normal",
+            "hover": "main.prev.hover"
+          }
+        },
+        "next": {
+          "at": [
+            180,
+            7,
+            31,
+            31
+          ],
+          "art": {
+            "normal": "main.next.normal",
+            "hover": "main.next.hover"
+          }
+        },
+        "rew": {
+          "at": [
+            58,
+            10,
+            25,
+            25
+          ],
+          "art": {
+            "normal": "main.rew.normal",
+            "hover": "main.rew.hover"
+          }
+        },
+        "stop": {
+          "at": [
+            26,
+            10,
+            25,
+            25
+          ],
+          "art": {
+            "normal": "main.stop.normal",
+            "hover": "main.stop.hover"
+          }
+        },
+        "ffwd": {
+          "at": [
+            218,
+            10,
+            25,
+            25
+          ],
+          "art": {
+            "normal": "main.ffwd.normal",
+            "hover": "main.ffwd.hover"
+          }
+        },
+        "open": {
+          "at": [
+            250,
+            10,
+            25,
+            25
+          ],
+          "art": {
+            "normal": "main.open.normal",
+            "hover": "main.open.hover"
+          }
+        }
+      }
+    },
+    "video.playlist": {
+      "size": [
+        454,
+        294
+      ],
+      "art": "face.playlist",
+      "slots": {
+        "repeat": {
+          "at": [
+            68,
+            15,
+            25,
+            25
+          ],
+          "art": {
+            "normal": "playlist.repeat.normal",
+            "hover": "playlist.repeat.hover",
+            "checked": "playlist.repeat.checked",
+            "checkedHover": "playlist.repeat.checkedHover",
+            "checkedPressed": "playlist.repeat.checkedPressed"
+          },
+          "fromBottom": true
+        },
+        "add": {
+          "at": [
+            97,
+            15,
+            25,
+            25
+          ],
+          "art": {
+            "normal": "playlist.add.normal",
+            "hover": "playlist.add.hover"
+          },
+          "fromBottom": true
+        },
+        "menu": {
+          "at": [
+            155,
+            15,
+            25,
+            25
+          ],
+          "art": {
+            "normal": "playlist.menu.normal",
+            "hover": "playlist.menu.hover"
+          },
+          "fromBottom": true
+        },
+        "shuffle": {
+          "at": [
+            39,
+            15,
+            25,
+            25
+          ],
+          "art": {
+            "normal": "playlist.shuffle.normal",
+            "hover": "playlist.shuffle.hover",
+            "checked": "playlist.shuffle.checked",
+            "checkedHover": "playlist.shuffle.checkedHover",
+            "checkedPressed": "playlist.shuffle.checkedPressed"
+          },
+          "fromBottom": true
+        },
+        "sort": {
+          "at": [
+            68,
+            15,
+            25,
+            25
+          ],
+          "art": {
+            "normal": "playlist.sort.normal",
+            "hover": "playlist.sort.hover"
+          },
+          "fromRight": true,
+          "fromBottom": true
+        },
+        "up": {
+          "at": [
+            39,
+            15,
+            25,
+            25
+          ],
+          "art": {
+            "normal": "playlist.up.normal",
+            "hover": "playlist.up.hover"
+          },
+          "fromRight": true,
+          "fromBottom": true
+        },
+        "down": {
+          "at": [
+            10,
+            15,
+            25,
+            25
+          ],
+          "art": {
+            "normal": "playlist.down.normal",
+            "hover": "playlist.down.hover"
+          },
+          "fromRight": true,
+          "fromBottom": true
+        },
+        "close": {
+          "at": [
+            7,
+            5,
+            19,
+            19
+          ],
+          "art": {
+            "normal": "playlist.close.normal",
+            "hover": "playlist.close.hover"
+          },
+          "fromRight": true
+        },
+        "maximize": {
+          "at": [
+            29,
+            5,
+            19,
+            19
+          ],
+          "art": {
+            "normal": "playlist.maximize.normal",
+            "hover": "playlist.maximize.hover",
+            "checked": "playlist.maximize.checked",
+            "checkedHover": "playlist.maximize.checkedHover",
+            "checkedPressed": "playlist.maximize.checkedPressed"
+          },
+          "fromRight": true
+        },
+        "queue": {
+          "at": [
+            7,
+            29,
+            28,
+            70
+          ],
+          "stretchX": true,
+          "stretchY": true
+        },
+        "title": {
+          "at": [
+            30,
+            5,
+            160,
+            15
+          ],
+          "stretchX": true
+        }
+      }
+    }
+  }
+}

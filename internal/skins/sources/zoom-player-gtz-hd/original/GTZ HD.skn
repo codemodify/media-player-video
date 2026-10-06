@@ -1,0 +1,323 @@
+SkinData(Name=GTZ HD By Godwin,Type=Media)
+
+SkinFileName    = (GTZ-HD.bmp)
+ActiveGroups    = (1)
+TimelineCursor = (gtzHD.cur)
+
+cTransColor     = (FF0000)
+pTransColor     = (FF0000)
+iTransColor     = (FF0000)
+eTransColor     = (FF0000)
+FillRectNT(0,0,<WinWidth>-0,<WinHeight>-0,000000)
+
+StartGroup(1,2)
+iWinWidth       = (300)
+iWinHeight      = (200)
+iVidWidth       = (286)
+iVidHeight      = (94)
+iVidTop         = (34)
+iVidLeft        = (7)
+iMinWidth       = (285)
+iMinHeight      = (214)
+EndGroup(1,2)
+
+StartGroup(8192,1024)
+iWinWidth       = (300)
+iWinHeight      = (200)
+iVidWidth       = (288)
+iVidHeight      = (170)
+iVidTop         = (5)
+iVidLeft        = (6)
+iMinWidth       = (160)
+iMinHeight      = (120)
+
+tLineWidth      = (<WinWidth>-12)
+tLineHeight     = (17)
+tLineLeft       = (6)
+tLineTop	= (<winheight>-24)
+tLineFontHeight = (14)
+tLineFontYOfs   = (-1)
+tLineFontFace   = (Tahoma)
+tLineFontColor  = (ffffff)
+tLineFontStyle  = (bold)
+TimeLineFontShade(-1,000000,-1,000000)
+
+TimeLineBG(685,160,18)
+TimeLineFG(666,160,18)
+
+
+EndGroup(8192,1024)
+
+
+
+
+
+
+Startgroup(64,128)
+iWinWidth       = (300)
+iWinHeight      = (237)
+iVidWidth       = (300)
+iVidHeight      = (237)
+iVidLeft        = (0)
+iVidTop         = (0)
+iMinWidth       = (40)
+iMinHeight      = (30)
+
+FillRectNT(0,0,<WinWidth>-0,<WinHeight>-0,000000)
+
+EndGroup(64,128)
+
+StartGroup(1,2)
+DrawExText(DestX=14,DestY=4,Width=<WinWidth>-143,Height=15,Align=Left,FontName=arial bold,FontSize=14,FontColor=000000,FontStyle=bold,shaderight=B2B1B1,shadebottom=B2B1B1,Text=<FileBase>,Function=fnmax)
+EndGroup(1,2)
+
+
+StartGroup(1,2)
+
+tLineWidth      = (<WinWidth>-12)
+tLineHeight     = (17)
+tLineLeft       = (6)
+tLineTop	= (<winheight>-69)
+tLineFontHeight = (14)
+tLineFontYOfs   = (-1)
+tLineFontFace   = (Tahoma)
+tLineFontColor  = (ffffff)
+tLineFontStyle  = (bold)
+TimeLineFontShade(-1,000000,-1,000000)
+
+TimeLineBG(685,160,18)
+TimeLineFG(666,160,18)
+
+//Top Left corner
+CopyBitmap(0,0,30,35,0,0)
+
+//Top Bar
+TileBitmapH(20,0,100,35,30,0,<WinWidth>-152)
+
+//Top Right corner
+CopyBitmap(666,0,134,35,<WinWidth>-134,0)
+
+//Left Bar
+TileBitmapV(0,36,6,5,0,35,<WinHeight>-50)
+// Right Bar
+TileBitmapV(794,36,6,5,<WinWidth>-6,35,<WinHeight>-50)
+
+
+//Bottom Left corner
+CopyBitmap(0,36,50,71,0,<WinHeight>-71)
+//Bottom Right Corner
+CopyBitmap(753,36,47,71,<WinWidth>-47,<WinHeight>-71)
+//Bottom Bar
+TileBitmapH(38,36,100,71,50,<WinHeight>-71,<WinWidth>-90)
+
+CreateExButton(Type=Normal,SrcX=582,SrcY=320,Width=21,Height=21,DestX=<WinWidth>-120,DestY=3,function=fnzoom,Hint=Fullscreen to Zoom,AniSpeed=10)
+CreateExButton(Type=Normal,SrcX=625,SrcY=320,Width=21,Height=21,DestX=<WinWidth>-97,DestY=3,function=fnfullscreen,Hint=Fullscreen/Restore,AniSpeed=10)
+CreateExButton(Type=Normal,SrcX=668,SrcY=320,Width=21,Height=21,DestX=<WinWidth>-74,DestY=3,function=fnMinimize,Hint=Minimize,AniSpeed=10)
+CreateExButton(Type=Normal,SrcX=624,SrcY=342,Width=21,Height=21,DestX=<WinWidth>-51,DestY=3,function=fnMax,Hint=Maximize,AniSpeed=10)
+CreateExButton(Type=Normal,SrcX=667,SrcY=342,Width=21,Height=21,DestX=<WinWidth>-28,DestY=3,function=fnExit,Hint=EXIT,AniSpeed=10)
+
+CreateExButton(TransColor=FF0000,Type=Normal,SrcX=544,SrcY=277,Width=42,Height=41,DestX=<WinHalfWidth>-138,DestY=<WinHeight>-45,function=fnPrevChapter,Hint=Previous Chapter/Track,AniSpeed=10)
+
+CreateExButton(Type=Normal,SrcX=651,SrcY=235,Width=37,Height=41,DestX=<WinHalfWidth>-96,DestY=<WinHeight>-45,function=fnRewind,hint=Rewind,AniSpeed=10)
+
+CreateExButton(TransColor=FF0000,Type=Normal,SrcX=726,SrcY=193,Width=37,Height=41,DestX=<WinHalfWidth>-59,DestY=<WinHeight>-45,function=fnOpen,Hint=Open Files,AniSpeed=10)
+
+CreateExButton(Transcolor=FF0000,Type=Normal,SrcX=714,SrcY=277,Width=43,Height=42,DestX=<WinHalfWidth>-22,DestY=<WinHeight>-45,function=fnPlay,Activate=Play,ActiveX=564,ActiveY=234,ActivedownX=607,ActivedownY=234,hint=Play/Pause,AniSpeed=10)
+
+CreateExButton(TransColor=FF0000,Type=Normal,SrcX=651,SrcY=193,Width=37,Height=41,DestX=<WinHalfWidth>+21,DestY=<WinHeight>-45,function=fnStop,hint=Stop,AniSpeed=10)
+
+CreateExButton(Type=Normal,SrcX=726,SrcY=235,Width=37,Height=41,DestX=<WinHalfWidth>+58,DestY=<WinHeight>-45,function=fnFastForward,hint=Fast Forward,AniSpeed=10)
+
+CreateExButton(TransColor=FF0000,Type=Normal,SrcX=629,SrcY=277,Width=42,Height=41,DestX=<WinHalfWidth>+95,DestY=<WinHeight>-45,function=fnNextChapter,Hint=Next Chapter/Track,AniSpeed=10)
+
+EndGroup(1,2)
+
+OSDPopUp(MinWidth=20,MinHeight=10,xMargin=5,yMargin=5,TransColor=FF00FF)
+FillOSDRect(0,0,<OSDWidth>,<OSDHeight>,000000)
+GradientOSDRectV(1,1,<OSDWidth>-2,<OSDHeight>-2,747474,2D2D31)
+
+ResizeBox(0,0,8,8,3)
+ResizeBox(<WinWidth>-8,0,8,8,2)
+ResizeBox(0,<WinHeight>-18,18,18,1)
+ResizeBox(<WinWidth>-18,<WinHeight>-18,18,18,0)
+
+
+Startgroup(8192,1024)
+//Top Left corner
+CopyBitmap(0,27,20,8,0,0)
+//Top Bar
+TileBitmapH(22,27,100,8,20,0,<WinWidth>-40)
+//Top Right corner
+CopyBitmap(780,27,20,8,<WinWidth>-20,0)
+//Left Bar
+TileBitmapV(0,38,7,15,0,8,<WinHeight>-14)
+// Right Bar
+TileBitmapV(793,38,7,15,<WinWidth>-7,8,<WinHeight>-16)
+//Bottom Left corner
+CopyBitmap(0,54,10,8,0,<WinHeight>-8)
+//Bottom Right Corner
+CopyBitmap(790,54,10,8,<WinWidth>-10,<WinHeight>-8)
+//Bottom Bar
+TileBitmapH(21,55,100,7,10,<WinHeight>-7,<WinWidth>-20)
+
+Endgroup(8192,1024)
+
+
+
+Startgroup(1,64,8192)
+
+//Playlist
+FillPLRect(0,0,<PLWinWidth>,<PLWinHeight>,000000)
+//Top Left corner
+CopyplBitmap(0,0,30,35,0,0)
+//Top Bar
+TileplBitmapH(20,0,100,35,30,0,<plWinWidth>-52)
+//Top Right corner
+CopyplBitmap(712,320,88,35,<plWinWidth>-88,0)
+//Left Bar
+TileplBitmapV(0,36,6,5,0,35,<plWinHeight>-50)
+// Right Bar
+TileplBitmapV(794,36,6,5,<plWinWidth>-6,35,<plWinHeight>-50)
+//Bottom Left corner
+CopyplBitmap(0,36,50,71,0,<plWinHeight>-71)
+//Bottom Right Corner
+CopyplBitmap(753,36,47,71,<plWinWidth>-47,<plWinHeight>-71)
+//Bottom Bar
+TileplBitmapH(38,36,100,71,50,<plWinHeight>-71,<plWinWidth>-90)
+
+FillPLRect(4,34,<PLWinWidth>-14,<PLWinHeight>-91,000000)
+
+DrawExText(Target=PlayList,DestX=1,DestY=1,Width=<WinWidth>,Height=<winheight>,Align=Left,FontName=arial bold,FontSize=14,Text=,Function=fnplmax)
+
+DrawExText(Target=PlayList,DestX=14,DestY=4,Width=<WinWidth>-92,Height=15,Align=Left,FontName=arial bold,FontSize=14,FontColor=000000,FontStyle=bold,shaderight=B2B1B1,shadebottom=B2B1B1,Text=<Playlistitems> | <Playlisttotal>,hint=Playlist Items | Playlist Total Time,Function=fnplmax)
+
+PlayListData(DestX=4,DestY=31,MinWidth=282,MinHeight=122,Width=<PLWinWidth>-8,Height=<PLWinHeight>-82,Background=757575,Border=000000,SelectBG=FE9000,SelectFG=000000,SelectBorder=000000,Highlight=FCD49F,ScrollBGX=607,ScrollBGY=203,ScrollBGW=18,ScrollBGH=12,ScrollFace=6F6F6F,ScrollFGX=607,ScrollFGY=160,ScrollFGW=18,ScrollFGH=39,ScrollWidth=18,SearchBG=606060,FontFace=arial bold,FontHeight=13,FontStyle=bold,FontSpace=18)
+
+
+CreateExButton(Target=PlayList,Type=Extended,SrcX=581,SrcY=342,Width=21,Height=21,DestX=<plWinWidth>-74,DestY=3,function=exgroupset,functionparam=2,Hint=Switch to Mini Playlist,AniSpeed=10)
+
+
+CreateExButton(Target=PlayList,Type=Normal,SrcX=624,SrcY=342,Width=21,Height=21,DestX=<plWinWidth>-51,DestY=3,function=fnplMax,Hint=Maximize Playlist,AniSpeed=10)
+CreateExButton(Target=PlayList,Type=Normal,SrcX=667,SrcY=342,Width=21,Height=21,DestX=<plWinWidth>-28,DestY=3,function=fnplaylist,Hint=Playlist,AniSpeed=10)
+
+CreateExButton(Target=PlayList,TransColor=FF0000,Type=Normal,SrcX=726,SrcY=364,Width=37,Height=41,DestX=<plWinHalfWidth>-110,DestY=<plWinHeight>-45,ActiveX=726,ActiveY=406,ActiveDownX=763,ActiveDownY=406,Activate=RandomPlay,Function=fnRandomPlay,Hint=Random Play,AniSpeed=10)
+
+CreateExButton(Target=PlayList,TransColor=FF0000,Type=Normal,SrcX=576,SrcY=448,Width=37,Height=41,DestX=<plWinHalfWidth>-73,DestY=<plWinHeight>-45,ActiveX=651,ActiveY=448,ActiveDownX=688,ActiveDownY=448,Activate=LoopPlay,Function=fnLoopPlay,Hint=Loop Current Track,AniSpeed=10)
+
+CreateExButton(Target=PlayList,TransColor=FF0000,Type=Normal,SrcX=576,SrcY=364,Width=37,Height=41,DestX=<plWinHalfWidth>-36,DestY=<plWinHeight>-45,function=fnPLItemUp,Hint=Move Selected Items Up,AniSpeed=10)
+
+CreateExButton(Target=PlayList,TransColor=FF0000,Type=Normal,SrcX=651,SrcY=364,Width=37,Height=41,DestX=<plWinHalfWidth>+1,DestY=<plWinHeight>-45,function=fnPLItemDown,Hint=Move Selected Items Down,AniSpeed=10)
+
+CreateExButton(Target=PlayList,TransColor=FF0000,Type=Normal,SrcX=651,SrcY=406,Width=37,Height=41,DestX=<plWinHalfWidth>+38,DestY=<plWinHeight>-45,function=fnPLClear,Hint=Clear Play List,AniSpeed=10)
+
+CreateExButton(Target=PlayList,TransColor=FF0000,Type=Normal,SrcX=576,SrcY=406,Width=37,Height=41,DestX=<plWinHalfWidth>+75,DestY=<plWinHeight>-45,function=fnPLControl,Hint=Open Advanced Controls,AniSpeed=10)
+
+ResizePLBox(0,0,8,8,3)
+ResizePLBox(<PLWinWidth>-8,0,8,8,2)
+ResizePLBox(0,<PLWinHeight>-18,18,18,1)
+ResizePLBox(<PLWinWidth>-18,<PLWinHeight>-18,18,18,0)
+Endgroup(1,64,8192)
+
+Startgroup(2,128,1024)
+//Top Left corner
+CopyplBitmap(0,27,20,8,0,0)
+//Top Bar
+TileplBitmapH(22,27,100,8,20,0,<plWinWidth>-40)
+//Top Right corner
+CopyplBitmap(780,27,20,8,<plWinWidth>-20,0)
+//Left Bar
+TileplBitmapV(0,38,7,15,0,8,<plWinHeight>-14)
+// Right Bar
+TileplBitmapV(793,38,7,15,<plWinWidth>-7,8,<plWinHeight>-16)
+//Bottom Left corner
+CopyplBitmap(0,54,10,8,0,<plWinHeight>-8)
+//Bottom Right Corner
+CopyplBitmap(790,54,10,8,<plWinWidth>-10,<plWinHeight>-8)
+//Bottom Bar
+TileplBitmapH(21,55,100,7,10,<plWinHeight>-7,<plWinWidth>-20)
+
+PlayListData(DestX=6,DestY=6,MinWidth=200,MinHeight=52,Width=<PLWinWidth>-12,Height=<PLWinHeight>-12,Background=757575,Border=000000,SelectBG=FE7700,SelectFG=000000,SelectBorder=000000,Highlight=FCD49F,ScrollBGX=607,ScrollBGY=203,ScrollBGW=18,ScrollBGH=12,ScrollFace=6F6F6F,ScrollFGX=607,ScrollFGY=160,ScrollFGW=18,ScrollFGH=39,ScrollWidth=18,SearchBG=606060,FontFace=arial bold,FontHeight=13,FontStyle=bold,FontSpace=18)
+Endgroup(2,128,1024)
+
+startgroup(64)
+CreateExButton(Target=PlayList,Type=Extended,SrcX=581,SrcY=342,Width=21,Height=21,DestX=<plWinWidth>-74,DestY=3,function=exgroupset,functionparam=128,Hint=Switch to Mini Playlist,AniSpeed=10)
+endgroup(64)
+
+startgroup(8192)
+CreateExButton(Target=PlayList,Type=Extended,SrcX=581,SrcY=342,Width=21,Height=21,DestX=<plWinWidth>-74,DestY=3,function=exgroupset,functionparam=1024,Hint=Switch to Mini Playlist,AniSpeed=10)
+endgroup(8192)
+
+
+
+
+cBarFontSize    = (25)
+cBarFontYOfs    = (-1)
+cBarFontFace    = (Tahoma)
+cBarFontColor   = (ffffff)
+cBarFontStyle   = (bold)
+cBarButWidth    = (50)
+cBarButHeight   = (51)
+cBarTLWidth     = (<cBarWidth>-39)
+cBarTLHeight    = (32)
+cBarTLLeft      = (18)
+cBarTLTop       = (10)
+cBarRightMargin = (25)
+
+TimeLineCBarBG(762,160,12)
+TimeLineCBarFG(732,160,7)
+TimeLineCBarFontShade(-1,000000,-1,000000)
+TimeLineCBarStart(704,160,35)
+
+TileCBarBitmapH(661,108,35,51,40,0,<cBarFullWidth>)
+CopyCBarBitmap(618,108,41,51,0,0)
+CopyCBarBitmap(775,108,25,51,<cBarFullWidth>-25,0)
+CopyCBarBitmap(698,108,21,51,<cBarWidth>-21,0)
+
+CreateExButton(Target=CBar,Type=Normal,SrcX=0,SrcY=108,function=fnPlay,Activate=Play,activex=0,activey=160,activedownx=50,activedowny=160,hint=Play/Pause,AniSpeed=10)
+
+CreateExButton(Target=CBar,Type=Normal,SrcX=0,SrcY=160,function=fnPause,hint=Pause,AniSpeed=10)
+
+CreateExButton(Target=CBar,Type=Normal,SrcX=102,SrcY=108,function=fnStop,hint=Stop,AniSpeed=10)
+
+CreateExButton(Target=CBar,Type=Normal,SrcX=405,SrcY=160,function=fnOpen,hint=Open Files,AniSpeed=10)
+
+CreateExButton(Target=CBar,Type=Normal,SrcX=405,SrcY=108,function=fnPrevChapter,Hint=Previous Chapter/Track,AniSpeed=10)
+
+CreateExButton(Target=CBar,Type=Normal,SrcX=506,SrcY=108,function=fnNextChapter,Hint=Next Chapter/Track,AniSpeed=10)
+
+CreateExButton(Target=CBar,Type=Normal,SrcX=203,SrcY=108,function=fnRewind,hint=Rewind,AniSpeed=10)
+
+CreateExButton(Target=CBar,Type=Normal,SrcX=304,SrcY=108,function=fnFastForward,hint=Fast Forward,AniSpeed=10)
+
+CreateExButton(Target=CBar,Type=Normal,SrcX=304,SrcY=160,function=fnzoomin,hint=Zoom In,AniSpeed=10)
+
+CreateExButton(Target=CBar,Type=Normal,SrcX=203,SrcY=160,function=fnzoomout,hint=Zoom Out,AniSpeed=10)
+
+CreateExButton(Target=CBar,Type=Normal,SrcX=0,SrcY=212,function=fnVolUp,hint=Increase Volume,AniSpeed=10)
+
+CreateExButton(Target=CBar,Type=Normal,SrcX=102,SrcY=212,function=fnVolDown,hint=Decrease Volume,AniSpeed=10)
+
+CreateExButton(Target=CBar,Type=Normal,SrcX=203,SrcY=212,function=fnmute,Activate=Mute,activex=0,activey=316,activedownx=50,activedowny=316,hint=Mute,AniSpeed=10)
+
+CreateExButton(Target=CBar,Type=Normal,SrcX=304,SrcY=212,Function=fnAudioTrack,Hint=Next Audio Track,AniSpeed=10)
+
+CreateExButton(Target=CBar,Type=Normal,SrcX=0,SrcY=264,Function=fnDVDSub,Hint=Next Subtitle Track,AniSpeed=10)
+
+CreateExButton(Target=CBar,Type=Normal,SrcX=102,SrcY=160,function=fnMediaNav,hint=Media Library Navigator,AniSpeed=10)
+
+CreateExButton(Target=CBar,Type=Normal,SrcX=203,SrcY=264,function=fnPlayListNav,hint=Play List Navigator,AniSpeed=10)
+
+CreateExButton(Target=CBar,Type=Normal,SrcX=304,SrcY=264,function=fnFileNav,hint=File Navigator,AniSpeed=10)
+
+CreateExButton(Target=CBar,Type=Normal,SrcX=102,SrcY=316,function=fnContextNav,hint= Context Navigator,AniSpeed=10)
+
+CreateExButton(Target=CBar,Type=Normal,SrcX=102,SrcY=264,function=fnFullScreen,hint=Fullscreen/Restore,AniSpeed=10)
+
+CreateExButton(Target=CBar,Type=Normal,SrcX=405,SrcY=212,function=fnzoom,hint=Fullscreen to Zoom,AniSpeed=10)
+
+CreateExButton(Target=CBar,Type=Normal,SrcX=405,SrcY=264,function=fnEject,hint=Eject Drive,AniSpeed=10)
+
+CreateExButton(Target=CBar,Type=Normal,SrcX=506,SrcY=160,function=fnExit,hint=Exit,AniSpeed=10)
+
+
+NavData(BGImage=GTZnav.bmp,ICONImage=defaulticon.bmp,IconSize=48,48,DefaultX=0,DefaultY=240,PictureX=0,PictureY=0,AudioX=96,AudioY=0,VideoX=96,VideoY=144,DVDX=96,DVDY=48,ExecuteX=0,ExecuteY=48,URLX=0,URLY=144,ArchiveX=0,ArchiveY=48,FolderX=96,FolderY=96,PlayListX=0,PlayListY=240,CDX=96,CDY=48,HDX=0,HDY=96,LeftX=0,LeftY=192,RightX=96,RightY=192)

@@ -1,0 +1,250 @@
+SkinData(Name=Silverchrome by Blight,Type=Audio)
+
+// Set Default Active Groups
+ActiveGroups    = (1)
+AudioSkin       = (1)
+
+// FileName
+SkinFileName    = (Silverchrome.bmp)
+
+// Initial settings:
+iWinWidth       = (340)
+iWinHeight      = (25)
+StartGroup(1)
+iMinWidth       = (340)
+EndGroup(1)
+StartGroup(2)
+iMinWidth       = (180)
+EndGroup(2)
+StartGroup(64,8192)
+iMinWidth       = (140)
+EndGroup(64,8192)
+iMinHeight      = (25)
+tLineNoText     = (1)
+cBarFontHeight  = (20)
+cBarFontYOfs    = (-2)
+cBarFontFace    = (Tahoma)
+cBarFontColor   = (FFFFFF)
+cBarFontStyle   = (Bold)
+cBarButWidth    = (26)
+cBarButHeight   = (35)
+cBarRightMargin = (13)
+iTransColor     = (FF0000)
+pTransColor     = (FF0000)
+cTransColor     = (FF0000)
+eTransColor     = (FF0000)
+
+// Dynamic settings (items with window-size relative positioning):
+tLineHeight     = (6)
+tLineTop        = (15)
+
+StartGroup(1)
+tLineLeft       = (116)
+tLineWidth      = (<WinWidth>-188)
+DrawExText(DestX=116,DestY=1,Width=<WinWidth>-188,Height=14,Align=Center,FontName=Tahoma,FontSize=10,FontColor=EF3F00,FontStyle=None,Text=<TimeLineText>,ShadeBottom=BFBFBF)
+EndGroup(1)
+
+StartGroup(2)
+tLineLeft       = (50)
+tLineWidth      = (<WinWidth>-78)
+DrawExText(DestX=50,DestY=1,Width=<WinWidth>-78,Height=14,Align=Center,FontName=Tahoma,FontSize=10,FontColor=EF3F00,FontStyle=None,Text=<TimeLineText>,ShadeBottom=BFBFBF)
+EndGroup(2)
+
+StartGroup(64,8192)
+tLineLeft       = (10)
+tLineWidth      = (<WinWidth>-20)
+DrawExText(DestX=10,DestY=1,Width=<WinWidth>-20,Height=14,Align=Center,FontName=Tahoma,FontSize=10,FontColor=EF3F00,FontStyle=None,Text=<TimeLineText>,ShadeBottom=BFBFBF)
+EndGroup(64,8192)
+
+// TimeLine background and foreground source bitmap position
+TimeLineFG(40,524,40)
+TimeLineBG(127,105,40)
+TimeLineStart(215,289,5)
+TimeLineEnd(215,264,5)
+
+cBarTLWidth     = (<cBarWidth>-8)
+cBarTLHeight    = (23)
+cBarTLLeft      = (6)
+cBarTLTop       = (6)
+
+// Control Bar TimeLine background source bitmap position
+TimeLineCBarFG(225,269,48)
+TimeLineCBarBG(225,240,48)
+TimeLineCBarEnd(225,292,12)
+TimeLineCBarStart(249,292,12)
+TimeLineCBarFontShade(606060,606060,707070,303030)
+
+// Setup display for OSD Popup messages.
+OSDPopUp(MinWidth=20,MinHeight=20,xMargin=10,yMargin=8,TransColor=FF0000)
+FillOSDRect(0,0,<OSDWidth>,<OSDHeight>,606060)
+CopyOSDBitmap(238,350,10,10,0,0);
+CopyOSDBitmap(238,374,10,10,0,<OSDHeight>-10);
+CopyOSDBitmap(263,350,10,10,<OSDWidth>-10,0);
+CopyOSDBitmap(263,374,10,10,<OSDWidth>-10,<OSDHeight>-10);
+TileOSDBitmapH(248,350,16,5,10,0,<OSDWidth>-20)
+TileOSDBitmapH(248,379,16,5,10,<OSDHeight>-5,<OSDWidth>-20)
+TileOSDBitmapV(238,360,5,16,0,10,<OSDHeight>-20)
+TileOSDBitmapV(268,360,5,16,<OSDWidth>-5,10,<OSDHeight>-20)
+
+// Control Bar Background
+TileCBarBitmapH(225,234,48,35,0,0,<cBarFullWidth>)
+
+// Right of TimeLine Control Bar Side
+CopyCBarBitmap(214,349,12,35,<cBarWidth>-12,0)
+// Left Control Bar Side
+CopyCBarBitmap(198,349,16,35,0,0)
+// Right Control Bar Side
+CopyCBarBitmap(225,349,24,35,<cBarFullWidth>-13,0)
+
+// Background
+TileBitmapH(0,505,40,25,0,0,<WinWidth>)
+
+// Left/Right Transparency
+CopyBitmap(120,505,20,25,0,0)
+CopyBitmap(172,505,20,25,<WinWidth>-20,0)
+
+// Cover Transparency Button Glyphs
+CopyBitmap(104,350,11,11,9,7)
+CopyBitmap(104,361,11,11,<WinWidth>-20,7)
+
+// Left/Right Resize
+CopyBitmap(215,299,5,13,0,6)
+CopyBitmap(220,299,5,13,<WinWidth>-5,6)
+
+StartGroup(1,2)
+// Left buttons
+CreateExButton(Type=Normal,SrcX=120,SrcY=505,Width=24,Height=25,DestX=  0,DestY=0,TransColor=FF0000,Function=fnExit,Hint=Exit Program)
+
+// Right buttons
+CreateExButton(Type=Normal,SrcX=168,SrcY=505,Width=24,Height=25,DestX=<WinWidth>-24,DestY=0,TransColor=FF0000,Function=fnAudioMode,Hint=Switch to Full Display)
+EndGroup(1,2)
+
+StartGroup(1)
+// Button Sep
+CopyBitmap( 0,530,1,25,112,0)
+CopyBitmap(21,530,1,25,<WinWidth>-69,0)
+
+// Left buttons
+CreateExButton(Type=Normal,SrcX= 88,SrcY=530,Width=22,Height=25,DestX= 24,DestY=0,Function=fnPrevChapter,Hint=Previous Chapter/Track)
+CreateExButton(Type=Normal,SrcX=176,SrcY=530,Width=22,Height=25,DestX= 46,DestY=0,Function=fnStop,Hint=Stop)
+CreateExButton(Type=Normal,SrcX=  0,SrcY=530,Activate=Play,ActiveX=242,ActiveY=505,Width=22,Height=25,DestX=68,DestY=0,Function=fnPlay,Hint=Play/Pause)
+CreateExButton(Type=Normal,SrcX= 44,SrcY=530,Width=22,Height=25,DestX= 90,DestY=0,Function=fnNextChapter,Hint=Next Chapter/Track)
+
+// Right buttons
+CreateExButton(Type=Normal,SrcX=220,SrcY=530,Width=22,Height=25,DestX=<WinWidth>-46,DestY=0,Function=fnPlayList,Hint=Playlist Editor)
+CreateExButton(Type=Normal,SrcX=132,SrcY=530,Activate=Mute,ActiveX=220,ActiveY=505,Width=22,Height=25,DestX=<WinWidth>-68,DestY=0,Function=fnMute,Hint=Mute)
+EndGroup(1)
+
+StartGroup(2)
+// Button Sep
+CopyBitmap( 0,530,1,25,46,0)
+CopyBitmap(21,530,1,25,<WinWidth>-25,0)
+
+// Left Buttons
+CreateExButton(Type=Normal,SrcX=  0,SrcY=530,Activate=Play,ActiveX=242,ActiveY=505,Width=22,Height=25,DestX=24,DestY=0,Function=fnPlay,Hint=Play/Pause)
+EndGroup(2)
+
+// Control Bar Buttons (Order of creation determines the display order within the Control Bar)
+CreateExButton(Type=Normal,Target=CBar,SrcX=  0,SrcY=349,Function=fnPrevChapter,Hint=Previous Chapter/Track)
+CreateExButton(Type=Normal,Target=CBar,SrcX= 52,SrcY=247,Function=fnRewind,Hint=Rewind)
+CreateExButton(Type=Normal,Target=CBar,SrcX=  0,SrcY=213,Function=fnStop,Hint=Stop)
+CreateExButton(Type=Normal,Target=CBar,SrcX= 52,SrcY=213,Function=fnPlay,Hint=Play / Pause)
+CreateExButton(Type=Normal,Target=CBar,SrcX=  0,SrcY=247,Function=fnFastForward,Hint=Fast Forward)
+CreateExButton(Type=Normal,Target=CBar,SrcX=104,SrcY=213,Function=fnNextChapter,Hint=Next Chapter/Track)
+CreateExButton(Type=Normal,Target=CBar,SrcX= 52,SrcY=576,Function=fnMute,Hint=Mute Audio)
+CreateExButton(Type=Normal,Target=CBar,SrcX=104,SrcY=315,Function=fnAudioTrack,Hint=Next Audio Track)
+CreateExButton(Type=Normal,Target=CBar,SrcX= 52,SrcY=315,Function=fnDVDSub,Hint=Next Subtitle Track)
+CreateExButton(Type=Normal,Target=CBar,SrcX=104,SrcY=281,Function=fnFullscreen,Hint=Fullscreen/Restore)
+CreateExButton(Type=Normal,Target=CBar,SrcX=  0,SrcY=315,Function=fnZoom,Hint=Fullscreen to Zoom)
+CreateExButton(Type=Normal,Target=CBar,SrcX=104,SrcY=247,Function=fnZoomIn,Hint=Zoom In)
+CreateExButton(Type=Normal,Target=CBar,SrcX=  0,SrcY=281,Function=fnZoomOut,Hint=Zoom Out)
+CreateExButton(Type=Normal,Target=CBar,SrcX= 52,SrcY=349,Function=fnOptions,Hint=Options)
+CreateExButton(Type=Normal,Target=CBar,SrcX=156,SrcY=213,Function=fnEject,Hint=Eject)
+CreateExButton(Type=Normal,Target=CBar,SrcX=156,SrcY=281,Function=fnPlayList,Hint=Playlist Editor)
+CreateExButton(Type=Normal,Target=CBar,SrcX=156,SrcY=247,Function=fnOpen,Hint=Open Media)
+CreateExButton(Type=Normal,Target=CBar,SrcX=  0,SrcY=576,Function=fnRadioManager,Hint=Station Editor)
+CreateExButton(Type=Normal,Target=CBar,SrcX= 52,SrcY=281,Function=fnExit,Hint=Close Player)
+
+// Playlist Corners
+CopyPLBitmap(0,0,16,21,0,0)
+CopyPLBitmap(131,0,46,21,<PLWinWidth>-46,0)
+CopyPLBitmap(167,91,16,31,0,<PLWinHeight>-31)
+CopyPLBitmap(209,91,16,31,<PLWinWidth>-16,<PLWinHeight>-31)
+// Playlist Sides
+TilePLBitmapV(98,21,6,42,0,21,<PLWinHeight>-52)
+TilePLBitmapV(103,21,6,42,<PLWinWidth>-6,21,<PLWinHeight>-52)
+TilePLBitmapH(16,0,44,21,16,0,<PLWinWidth>-48)
+TilePLBitmapH(182,93,28,29,16,<PLWinHeight>-29,<PLWinWidth>-32)
+// Fill Background behind playlist (important)
+FillPLRect(6,19,<PLWinWidth>-12,<PLWinHeight>-47,000000)
+
+// Data for the Playlist display
+StartGroup(-16777216)
+PlayListData(DestX=6,DestY=19,MinWidth=182,MinHeight=150,Width=<PLWinWidth>-12,Height=<PLWinHeight>-47,Border=575757,Background=9F9F9F,SearchBG=9F9F9F,Foreground=000000,SelectBG=008FFF,SelectBorder=006FDF,SelectFG=000000,Highlight=FFFFFF,ScrollBG=7F7F7F,ScrollFace=6F6F6F,ScrollDark=5F5F5F,ScrollLight=7F7F7F,ScrollWidth=17,ScrollFGX=210,ScrollFGY=213,ScrollFGW=15,ScrollFGH=36,FontFace=Arial,FontHeight=11,FontSpace=13)
+CreateExButton(Type=Extended,Target=PlayList,SrcX=169,SrcY=555,Width=21,Height=21,DestX=51,DestY=<PLWinHeight>-25,Function=exGroupToggle,FunctionParam=16777216,Hint=Show Extra Controls)
+CreateExButton(Type=Normal,Target=PlayList,SrcX=  0,SrcY=171,Width=31,Height=21,DestX=<PLWinWidth>-108,DestY=<PLWinHeight>-25,Function=fnPLAddFiles,Hint=Add Files to Playlist)
+EndGroup(-16777216)
+
+StartGroup(16777216)
+PlayListData(DestX=6,DestY=19,MinWidth=403,MinHeight=150,Width=<PLWinWidth>-12,Height=<PLWinHeight>-47,Border=575757,Background=9F9F9F,SearchBG=9F9F9F,Foreground=000000,SelectBG=008FFF,SelectBorder=006FDF,SelectFG=000000,Highlight=FFFFFF,ScrollBG=7F7F7F,ScrollFace=6F6F6F,ScrollDark=5F5F5F,ScrollLight=7F7F7F,ScrollWidth=17,ScrollFGX=210,ScrollFGY=213,ScrollFGW=15,ScrollFGH=36,FontFace=Arial,FontHeight=11,FontSpace=13)
+// Bottom Buttons
+CreateExButton(Type=Normal,Target=PlayList,SrcX=162,SrcY=143,Width=21,Height=21,DestX= 74,DestY=<PLWinHeight>-25,ActiveX=204,ActiveY=143,Activate=LoopPlay,Function=fnLoopPlay,Hint=Loop Current Track)
+CreateExButton(Type=Normal,Target=PlayList,SrcX=  0,SrcY=171,Width=31,Height=21,DestX= 97,DestY=<PLWinHeight>-25,Function=fnPLAddFiles,Hint=Add Files to Playlist)
+CreateExButton(Type=Normal,Target=PlayList,SrcX=186,SrcY=171,Width=31,Height=21,DownX=186,DownY=192,DestX=130,DestY=<PLWinHeight>-25,Function=fnPLAddDir,Hint=Add Directory to Playlist)
+CreateExButton(Type=Normal,Target=PlayList,SrcX= 62,SrcY=192,Width=31,Height=21,DestX=163,DestY=<PLWinHeight>-25,Function=fnPLRemove,Hint=Remove Selected Items)
+CreateExButton(Type=Normal,Target=PlayList,SrcX= 62,SrcY=171,Width=31,Height=21,DestX=196,DestY=<PLWinHeight>-25,Function=fnPLClear,Hint=Clear Playlist)
+CreateExButton(Type=Normal,Target=PlayList,SrcX=  0,SrcY=192,Width=31,Height=21,DestX=229,DestY=<PLWinHeight>-25,Function=fnPLLoadList,Hint=Load Playlist)
+CreateExButton(Type=Normal,Target=PlayList,SrcX=124,SrcY=171,Width=31,Height=21,DestX=262,DestY=<PLWinHeight>-25,Function=fnPLSaveList,Hint=Save Playlist)
+CreateExButton(Type=Normal,Target=PlayList,SrcX=124,SrcY=192,Width=31,Height=21,DestX=295,DestY=<PLWinHeight>-25,Function=fnPLSort,Hint=Sort Playlist)
+CreateExButton(Type=Extended,Target=PlayList,SrcX=211,SrcY=555,Width=21,Height=21,DestX=51,DestY=<PLWinHeight>-25,Function=exGroupToggle,FunctionParam=16777216,Hint=Hide Extra Controls)
+EndGroup(16777216)
+
+CreateExButton(Type=Normal,Target=PlayList,SrcX= 62,SrcY=555,Width=21,Height=21,DestX=5,DestY=<PLWinHeight>-25,TransColor=FF0000,ActiveX=104,ActiveY=555,Activate=PLMagnet,Function=fnPLMagToggle,Hint=Magnetic Hard Docking)
+CreateExButton(Type=Normal,Target=PlayList,SrcX=177,SrcY=342,DownX=177,DownY=363,Width=21,Height=21,DestX=28,DestY=<PLWinHeight>-25,ActiveX=99,ActiveY=505,Activate=RandomPlay,Function=fnRandomPlay,Hint=Random Play)
+CreateExButton(Type=Normal,Target=PlayList,SrcX=  0,SrcY=555,Width=31,Height=21,DestX=<PLWinWidth>- 75,DestY=<PLWinHeight>-25,Function=fnPLControl,Hint=Open Advanced Controls)
+CreateExButton(Type=Normal,Target=PlayList,SrcX=148,SrcY=122,Width=18,Height=21,DestX=<PLWinWidth>- 42,DestY=<PLWinHeight>-25,Function=fnPLItemUp,Hint=Move Selected Items Up)
+CreateExButton(Type=Normal,Target=PlayList,SrcX=184,SrcY=122,Width=19,Height=21,DestX=<PLWinWidth>- 24,DestY=<PLWinHeight>-25,TransColor=FF0000,Function=fnPLItemDown,Hint=Move Selected Items Down)
+// Top Right Buttons
+CreateExButton(Type=Normal,Target=Playlist,SrcX=157,SrcY= 21,DownX=157,DownY=35,Width=20,Height=14,DestX=<PLWinWidth>- 26,DestY=6,TransColor=FF0000,Function=fnPlayList,Hint=Close Playlist Editor)
+CreateExButton(Type=Normal,Target=Playlist,SrcX=  0,SrcY=157,Width=19,Height=14,DestX=<PLWinWidth>- 46,DestY=6,Function=fnPLMax,Hint=Maximize Window)
+// Top Button separator
+CopyPLBitmap(86,4,5,15,<PLWinWidth>-51,4)
+// Item Counter
+DrawExText(Target=PlayList,DestX=12,DestY=6,Width=<PLWinWidth>-121,Height=12,Align=Center,FontName=Tahoma,FontSize=10,FontColor=FFFFFF,FontStyle=Bold,Text=<PlayListItems>,ShadeLeft=808080,ShadeRight=808080,ShadeBottom=303030)
+// Duration Separator
+CopyPLBitmap(86,4,5,15,<PLWinWidth>-113,4)
+// Total Duration Display
+DrawExText(Target=PlayList,DestX=<PLWinWidth>-108,DestY=6,Width=56,Height=12,Align=Right,FontName=Tahoma,FontSize=10,FontColor=FFFFFF,FontStyle=Bold,Text=<PlayListTotal>,ShadeLeft=808080,ShadeRight=808080,ShadeBottom=303030)
+// Expanded resize area due to round corners
+ResizePLBox(0,0,10,10,3)
+ResizePLBox(<PLWinWidth>-10,0,10,10,2)
+ResizePLBox(0,<PLWinHeight>-10,10,10,1)
+ResizePLBox(<PLWinWidth>-10,<PLWinHeight>-10,10,10,0)
+
+// EQ - Fixed size, no size constants required
+EQData(Width=300,Height=132,BarX=0,BarY=384,BarW=10,BarH=100,BarC=27,BarPX=14,BarPY=10,Bar0X=40,Bar0Y=10,Bar1X=60,Bar1Y=10,Bar2X=80,Bar2Y=10,Bar3X=100,Bar3Y=10,Bar4X=120,Bar4Y=10,Bar5X=140,Bar5Y=10,Bar6X=160,Bar6Y=10,Bar7X=180,Bar7Y=10,Bar8X=200,Bar8Y=10,Bar9X=220,Bar9Y=10)
+FillEQRect(0,0,300,140,606060)
+CopyEQBitmap(238,350,10,10,0,0)
+CopyEQBitmap(263,350,10,10,300-10,0)
+CopyEQBitmap(238,374,10,10,0,132-10)
+CopyEQBitmap(263,374,10,10,300-10,132-10)
+TileEQBitmapH(248,350,16,5,10,0,300-20)
+TileEQBitmapH(248,379,16,5,10,132-5,300-20)
+TileEQBitmapV(238,360,5,16,0,10,132-20)
+TileEQBitmapV(268,360,5,16,300-5,10,132-20)
+CopyEQBitmap(259,342,14,7,12,114)
+CopyEQBitmap(165,164,10,7,40,114)
+CopyEQBitmap(176,164,12,7,59,114)
+CopyEQBitmap(189,164,12,7,79,114)
+CopyEQBitmap(202,164,14,7,98,114)
+CopyEQBitmap(217,164,7,7,122,114)
+CopyEQBitmap(200,342,9,7,141,114)
+CopyEQBitmap(210,342,9,7,161,114)
+CopyEQBitmap(220,342,12,7,179,114)
+CopyEQBitmap(233,342,12,7,199,114)
+CopyEQBitmap(246,342,12,7,219,114)
+CreateExButton(Type=Normal,Target=EQ,SrcX=  0,SrcY=484,Width=40,Height=21,DestX=250,DestY= 10,Function=fnEQEditor,Hint=Select/Edit Equalizer Profiles)
+CreateExButton(Type=Normal,Target=EQ,SrcX= 80,SrcY=484,Width=40,Height=21,DestX=250,DestY= 35,Function=fnEQReset,Hint=Reset Equalizer)
+CreateExButton(Type=Normal,Target=EQ,SrcX=160,SrcY=484,Width=40,Height=21,DestX=250,DestY=101,Function=fnEqualizer,Hint=Close Equalizer)
+CreateExButton(Type=Normal,Target=EQ,SrcX=149,SrcY=358,DownX=149,DownY=371,Width=28,Height=13,DestX=250,DestY= 62,ActiveX=240,ActiveY=484,Activate=EQState,Function=fnEQToggle,Hint=Enable/Disable the Equalizer)
+CreateExButton(Type=Normal,Target=EQ,SrcX=125,SrcY=555,Width=22,Height=13,DestX=250,DestY= 82,ActiveX=135,ActiveY=47,Activate=EQMagnet,Function=fnEQMagToggle,Hint=Magnetic Hard Docking)

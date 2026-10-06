@@ -1,0 +1,62 @@
+[
+  {
+    "skin": "zoom-player",
+    "source": "https://www.inmatrix.com/skins/gui/Onyx.zps",
+    "file": "zoom-player/Onyx.zps",
+    "sha256": "7b6ce0888d64671b36e51a58e85eceb68fd8dc5eb9a2eb38cd9f094357b7dcdb"
+  },
+  {
+    "skin": "zoom-player-silver",
+    "source": "https://www.inmatrix.com/skins/gui/Silverchrome.zps",
+    "file": "zoom-player-silver/Silverchrome.zps",
+    "sha256": "abfcf742bdb9b1b7d5554127ca9d0c7223c4b8648564f7334fbb923a198681de"
+  },
+  {
+    "skin": "quicktime",
+    "source": "https://www.inmatrix.com/skins/gui/iFix.zps",
+    "file": "quicktime/iFix.zps",
+    "sha256": "e087f32df7371190cb485c494d3c20c2441a7ad2386cd48e4fdb0e3140cd4272"
+  },
+  {
+    "skin": "bsplayer",
+    "source": "https://bsplayer.com/bsplayer-english/skin.html?cmd=download-skin&id=253",
+    "file": "bsplayer/Base.bsz",
+    "sha256": "845f1dec2015759aa41f732f2a2cf62c3b692441f61b7189c1fba7e3a3fe6658"
+  },
+  {
+    "skin": "series-9",
+    "source": "https://w2krepo.somnolescent.net/Windows%20Media%20Player/Skins/9SeriesDefault.wmz",
+    "file": "series-9/9SeriesDefault.wmz",
+    "sha256": "6af05468fcce6af5359d79b5c73ffdb0470e7c54aab077a42b1f2e365fa85be0"
+  },
+  {
+    "skin": "vlc",
+    "source": "https://download.videolan.org/pub/videolan/vlc/0.8.6/vlc-0.8.6.tar.bz2",
+    "archive_sha256": "17b114d1fe0177c6639b3fb0985c47362bcf1a405bf5fb401aeffb5dc9b3dba7"
+  },
+  {
+    "skin": "powerdvd",
+    "source": "https://archive.org/download/powerdvd-5/PowerDVD.7z",
+    "archive_sha256": "61727fb99c5893ccb03b44761142e76c141af99cd8f725638b561126e35ec6fb",
+    "resource": "UI_Skin_File_Group/ui_skin.dll",
+    "resource_sha256": "e76535cca7730f0103e0d2ffcc1b3486e53ff128f795860e12959b701bc46c07"
+  },
+  {
+    "skin": "zoom-player-fusion",
+    "source": "https://www.inmatrix.com/skins/gui/Fusion%208.1.5.zps",
+    "file": "zoom-player-fusion/Fusion 8.1.5.zps",
+    "sha256": "b07f91c1ec1780a4337a89814c3ad329cd1b3ba8c80b877d6d99cde5fff1c254"
+  },
+  {
+    "skin": "zoom-player-gtz-hd",
+    "source": "https://www.inmatrix.com/skins/gui/GTZ%20HD.zps",
+    "file": "zoom-player-gtz-hd/GTZ HD.zps",
+    "sha256": "2d80d0fd65503876494a5c04b140017f7b58649de43a5ebdf97c66e2e9ed64bd"
+  },
+  {
+    "skin": "zoom-player-brownish",
+    "source": "https://www.inmatrix.com/skins/gui/Brownish.zps",
+    "file": "zoom-player-brownish/Brownish.zps",
+    "sha256": "b77a606e46afb697b4a4aa409a41f1fac093459f728705509fc936660ac62b97"
+  }
+]

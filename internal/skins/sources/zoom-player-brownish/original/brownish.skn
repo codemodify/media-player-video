@@ -1,0 +1,237 @@
+SkinData(Name=Brownish by Blight,Type=Media)
+
+// Base Information used when loading the skin:
+SkinFileName    = (brownish.bmp)
+
+// Initial settings:
+iWinWidth       = (430)
+iWinHeight      = (360)
+iVidWidth       = (400)
+iVidHeight      = (300)
+iVidLeft        = (4)
+iVidTop         = (4)
+iMinWidth       = (352)
+iMinHeight      = (264)
+tLineFontHeight = (11)
+tLineFontYOfs   = (0)
+tLineFontFace   = (Tahoma)
+tLineFontColor  = (FFFFFF)
+tLineFontStyle  = (Bold)
+cBarFontHeight  = (11)
+cBarFontYOfs    = (0)
+cBarFontFace    = (Tahoma)
+cBarFontColor   = (FFFFFF)
+cBarFontStyle   = (Bold)
+cBarButWidth    = (25)
+cBarButHeight   = (24)
+//iTransColor     = (B5968C)
+
+// Dynamic settings (items with window-size relative positioning):
+tLineWidth      = (<WinWidth>-220)
+tLineHeight     = (14)
+tLineLeft       = (21)
+tLineTop        = (<WinHeight>-47)
+
+cBarTLWidth     = (<cBarWidth>-12)
+cBarTLHeight    = (14)
+cBarTLLeft      = (6)
+cBarTLTop       = (5)
+
+// TimeLine background and foreground source bitmap position
+TimeLineBG(57,4,40)
+TimeLineFG(17,4,40)
+
+// User Interface elements such as Volume and Play Rate Controls
+VolumeExData(SrcX=208,SrcY=0,DestX=<WinWidth>-155,DestY=<WinHeight>-47,Width=42,Height=14,Images=12)
+RateExData(SrcX=172,SrcY=0,DestX=<WinWidth>-87,DestY=<WinHeight>-47,Width=35,Height=14)
+
+// Control Bar TimeLine background source bitmap position
+TimeLineCBarBG(113,55,40)
+TimeLineCBarFG(73,55,40)
+
+// Control Bar and Integrated timeline Bitmap Separator (active/inactive areas)
+TimeLineActive(65,55,2,14,1,0)
+TimeLineCBarActive(69,55,2,14,1,0)
+
+// Left Control Bar Side
+CopyCBarBitmap(115,0,6,24,0,0)
+
+// Right Control Bar Side
+CopyCBarBitmap(121,0,6,24,<cBarWidth>-6,0)
+
+// Top Control Bar Bar
+TileCBarBitmapH(128,0,40,5,6,0,<cBarWidth>-12)
+
+// Bottom Control Bar Bar
+TileCBarBitmapH(128,5,40,5,6,<cBarHeight>-5,<cBarWidth>-12)
+
+// Top Left corner
+CopyBitmap(0,23,4,4,0,0)
+
+// Top Right corner
+CopyBitmap(0,72,25,1,<WinWidth>-25,0)
+
+// Bottom Left corner
+CopyBitmap(0,99,1,25,0,<WinHeight>-25)
+
+// Bottom Left corner top
+CopyBitmap(0,27,3,31,0,<WinHeight>-57)
+
+// Bottom Right Corner
+CopyBitmap(32,28,26,26,<WinWidth>-26,<WinHeight>-26)
+
+// Bottom Right top
+CopyBitmap(6,28,25,30,<WinWidth>-25,<WinHeight>-56)
+
+// Video Bottom bar
+TileBitmapH(4,26,40,1,3,<WinHeight>-56,<WinWidth>-28)
+
+// Bar background
+FillRect(3,<WinHeight>-55,<WinWidth>-29,29,B4968B)
+
+// Bar Bottom Separator
+FillRect(0,<WinHeight>-26,<WinWidth>-26,1,9E8075)
+
+// Bar Right Separator
+FillRect(<WinWidth>-26,<WinHeight>-55,1,29,9E8075)
+
+// Left bar
+TileBitmapV(0,27,4,40,0,4,<WinHeight>-60)
+
+// Right bar
+TileBitmapV(5,28,26,40,<WinWidth>-26,1,<WinHeight>-57)
+
+// Top Bar
+TileBitmapH(4,23,40,4,4,0,<WinWidth>-29)
+
+// Bottom Bar
+TileBitmapH(59,28,40,25,1,<WinHeight>-25,<WinWidth>-27)
+
+// Timeline left side
+CopyBitmap(0,0,17,22,4,<WinHeight>-51)
+// Timeline right side
+CopyBitmap(97,0,17,22,<WinWidth>-199,<WinHeight>-51)
+// Timeline top
+TileBitmapH(17,0,40,4,21,<WinHeight>-51,<WinWidth>-220)
+// Timeline bottom
+TileBitmapH(17,18,40,4,21,<WinHeight>-33,<WinWidth>-220)
+
+// Volume bar left side
+CopyBitmap(100,28,23,22,<WinWidth>-178,<WinHeight>-51)
+// Volume bar right side
+CopyBitmap(124,28,11,22,<WinWidth>-113,<WinHeight>-51)
+// Volume bar top
+CopyBitmap(17,0,42,4,<WinWidth>-155,<WinHeight>-51)
+// Volume bar bottom
+CopyBitmap(17,18,42,4,<WinWidth>-155,<WinHeight>-33)
+
+// Rate bar right side
+CopyBitmap(148,28,23,22,<WinWidth>-52,<WinHeight>-51)
+// Rate bar left side
+CopyBitmap(136,28,11,22,<WinWidth>-98,<WinHeight>-51)
+// Rate bar top
+CopyBitmap(17,0,35,4,<WinWidth>-87,<WinHeight>-51)
+// Rate bar bottom
+CopyBitmap(17,18,35,4,<WinWidth>-87,<WinHeight>-33)
+
+// Video Area
+FillRect(4,4,<VidWidth>,<VidHeight>,000000NT)
+
+// Right Buttons
+CreateExButton(Type=Normal,SrcX=  0,SrcY= 72,Width=25,Height=27,DestX=<WinWidth>-25,DestY=  0,Function=fnExit,Hint=Exit Program)
+CreateExButton(Type=Normal,SrcX= 50,SrcY= 72,Width=25,Height=27,DestX=<WinWidth>-25,DestY= 27,Function=fnMax,Hint=Maximize Window)
+CreateExButton(Type=Normal,SrcX=100,SrcY= 72,Width=25,Height=27,DestX=<WinWidth>-25,DestY= 54,Function=fnMinimize,Hint=Minimize Window)
+CreateExButton(Type=Normal,SrcX=  0,SrcY= 99,Width=25,Height=27,DestX=<WinWidth>-25,DestY= 81,Function=fnFullScreen,Hint=FullScreen Mode)
+CreateExButton(Type=Normal,SrcX= 50,SrcY= 99,Width=25,Height=27,DestX=<WinWidth>-25,DestY=108,Function=fnZoom,Hint=Zoom Mode)
+CreateExButton(Type=Normal,SrcX=250,SrcY=125,Width=25,Height=27,DestX=<WinWidth>-25,DestY=135,Function=fnSceneCut,Hint=Scene Cut Editor)
+CreateExButton(Type=Normal,SrcX=150,SrcY=125,Width=25,Height=27,DestX=<WinWidth>-25,DestY=162,Function=fnBlankingPreset,Hint=Blanking Preset Editor)
+CreateExButton(Type=Normal,SrcX=100,SrcY=126,Width=25,Height=27,DestX=<WinWidth>-25,DestY=189,Function=fnPlayList,Hint=Play List Editor)
+CreateExButton(Type=Normal,SrcX=  0,SrcY=126,Width=25,Height=27,DestX=<WinWidth>-25,DestY=216,Function=fnChapter,Hint=Chapter Editor)
+CreateExButton(Type=Normal,SrcX= 50,SrcY=126,Width=25,Height=27,DestX=<WinWidth>-25,DestY=243,Function=fnSkin,Hint=Skin Selector)
+CreateExButton(Type=Normal,SrcX=100,SrcY= 99,Width=25,Height=27,DestX=<WinWidth>-25,DestY=270,Function=fnOptions,Hint=Options)
+// Right Button divider
+CopyBitmap(0,72,25,1,<WinWidth>-25,297)
+
+// Bottom Buttons
+CreateExButton(Type=Normal,SrcX=  0,SrcY=203,Width=27,Height=25,DestX=  0,DestY=<WinHeight>-25,Function=fnRewind,Hint=Rewind)
+CreateExButton(Type=Normal,SrcX=  0,SrcY=153,Width=27,Height=25,DestX= 27,DestY=<WinHeight>-25,Function=fnPlay,Hint=Play / Pause Video)
+CreateExButton(Type=Normal,SrcX=  0,SrcY=178,Width=27,Height=25,DestX= 54,DestY=<WinHeight>-25,Function=fnFastForward,Hint=Fast Forward)
+CreateExButton(Type=Normal,SrcX= 54,SrcY=153,Width=27,Height=25,DestX= 81,DestY=<WinHeight>-25,Function=fnStop,Hint=Stop Video)
+CreateExButton(Type=Normal,SrcX= 54,SrcY=178,Width=27,Height=25,DestX=108,DestY=<WinHeight>-25,Function=fnPrevTrack,Hint=Previous Track)
+CreateExButton(Type=Normal,SrcX=162,SrcY=178,Width=27,Height=25,DestX=135,DestY=<WinHeight>-25,Function=fnPrevChapter,Hint=Previous Chapter)
+CreateExButton(Type=Normal,SrcX=216,SrcY=178,Width=27,Height=25,DestX=162,DestY=<WinHeight>-25,Function=fnNextChapter,Hint=Next Chapter)
+CreateExButton(Type=Normal,SrcX=108,SrcY=178,Width=27,Height=25,DestX=189,DestY=<WinHeight>-25,Function=fnNextTrack,Hint=Next Track)
+CreateExButton(Type=Normal,SrcX=270,SrcY=203,Width=27,Height=25,DestX=216,DestY=<WinHeight>-25,Function=fnAudioTrack,Hint=Next Audio Track)
+CreateExButton(Type=Normal,SrcX=270,SrcY=178,Width=27,Height=25,DestX=243,DestY=<WinHeight>-25,Function=fnDVDSub,Hint=Next Subtitle Track)
+CreateExButton(Type=Normal,SrcX=108,SrcY=153,Width=27,Height=25,DestX=270,DestY=<WinHeight>-25,Function=fnOpen,Hint=Open Media)
+CreateExButton(Type=Normal,SrcX=108,SrcY=203,Width=27,Height=25,DestX=297,DestY=<WinHeight>-25,Function=fnBar,Hint=Show / Hide Control Bar)
+// Bottom Button divider
+CopyBitmap(0,153,1,25,324,<WinHeight>-25)
+
+// TimeLine Buttons
+CreateExButton(Type=Normal,SrcX=151,SrcY=71,Width=8,Height=12,DestX=            10,DestY=<WinHeight>-46,Function=fnSkipBackward,Hint=Skip Backwards)
+CreateExButton(Type=Normal,SrcX=151,SrcY=84,Width=8,Height=12,DestX=<WinWidth>-196,DestY=<WinHeight>-46,Function=fnSkipForward,Hint=Skip Forward)
+// Volume bar Buttons
+CreateExButton(Type=Normal,SrcX=154,SrcY=51,Width=9,Height= 9,DestX=<WinWidth>-112,DestY=<WinHeight>-50,Function=fnVolUp,Hint=Increase Volume)
+CreateExButton(Type=Normal,SrcX=154,SrcY=61,Width=9,Height= 9,DestX=<WinWidth>-112,DestY=<WinHeight>-39,Function=fnVolDown,Hint=Decrease Volume)
+// Rate bar Buttons
+CreateExButton(Type=Normal,SrcX=154,SrcY=51,Width=9,Height= 9,DestX=<WinWidth>- 97,DestY=<WinHeight>-50,Function=fnIncRate,Hint=Increase Play Rate)
+CreateExButton(Type=Normal,SrcX=154,SrcY=61,Width=9,Height= 9,DestX=<WinWidth>- 97,DestY=<WinHeight>-39,Function=fnDecRate,Hint=Decrease Play Rate)
+
+// Control Bar Buttons
+AddBarButton(0,252,fnPlay,Play / Pause Video)
+AddBarButton(100,228,fnSlowMotion,Slow Motion)
+AddBarButton(50,228,fnFastForward,Fast Forward)
+AddBarButton(100,276,fnPrevChapter,Previous Chapter)
+AddBarButton(150,276,fnNextChapter,Next Chapter)
+AddBarButton(50,252,fnStop,Stop Video)
+AddBarButton(0,276,fnPrevTrack,Previous Track)
+AddBarButton(50,276,fnNextTrack,Next Track)
+AddBarButton(250,252,fnAudioTrack,Next Audio Track)
+AddBarButton(250,228,fnDVDSub,Next Subtitle Track)
+AddBarButton(200,252,fnZoomIn,Zoom-In)
+AddBarButton(200,228,fnZoomOut,Zoom-Out)
+AddBarButton(200,276,fnZoom,Zoom Mode)
+AddBarButton(150,300,fnFullScreen,FullScreen Mode)
+AddBarButton(100,300,fnARCycle,Cycle Aspect Ratio Modes)
+AddBarButton(200,300,fnBlankingNav,Blanking Navigator)
+AddBarButton(0,300,fnVolUp,Increase Volume)
+AddBarButton(50,300,fnVolDown,Decrease Volume)
+AddBarButton(150,228,fnEject,Eject)
+AddBarButton(150,252,fnOpen,Open Media)
+AddBarButton(100,252,fnExit,Exit Program)
+
+// Example of a Biliniar streched bitmap copy
+//CopyStretchedBitmap(150,98,52,27,4,4,<VidWidth>,<VidHeight>)
+
+// Example of a Gradient fill of the Video Area, Red to White
+//GradientRectV(4,4,<VidWidth>,<VidHeight>,FF00FF,00FF00)
+
+// Example of Transparent bitmap copy
+//CopyTransBitmap(251,0,32,16,10,10,ECD000)
+
+// Example of Alpha Blended Mask Copy, Mask must be aligned to the right of the bitmap (and of the same size)
+//CopyMaskedBitmap(267,153,16,16,<WinWidth>-24,<WinHeight>-50)
+
+// Example of a button using the EX functions (see online skinning tutorial for a list of functions).
+//CreateExButton(Type=Extended,SrcX=0,SrcY=72,Width=25,Height=27,DestX=0,DestY=0,Function=exSetAR,FunctionParam=1,Hint=Set Aspect Ratio to Source Aspect Ratio)
+
+// Example of a filter property opening button
+//CreateExButton(Type=Filter,SrcX=0,SrcY=72,Width=25,Height=27,DestX=0,DestY=0,StringParam=DivX|XviD|MPEG4|MPEG-4,Hint=Open any MPEG4 based decoder filter)
+
+// Example of a Transparent Button
+//CreateExButton(Type=Normal,SrcX=32,SrcY=55,Width=16,Height=16,DestX=<WinWidth>-22,DestY=<WinHeight>-50,Function=fnInfo,TransColor=ECD000,Hint=File Information)
+
+// Example of an Alpha Blended Button with Hovering (Mouse-Over)
+//CreateExButton(Type=Normal,SrcX=251,SrcY=153,Width=16,Height=16,HoverX=299,HoverY=153,AlphaX=283,AlphaY=153,DestX=<WinHalfWidth>+22,DestY=<WinHeight>-50,Function=fnInfo,Hint=File Information)
+
+// Example of Drawing Dynamic Text, First draw the Shadow (One Pixel lower and drawn first)
+//DrawExText(DestX=5,DestY=<WinHeight>-56,Width=<WinWidth>-10,Height=20,Align=Center,Case=UpFirst,FontName=Arial,FontSize=8,FontColor=000000,FontStyle=Bold,Text=<FileName>)
+// Then the Actual Text
+//DrawExText(DestX=5,DestY=<WinHeight>-57,Width=<WinWidth>-10,Height=20,Align=Center,Case=UpFirst,FontName=Arial,FontSize=8,FontColor=FFFFFF,FontStyle=Bold,Text=<FileName>)
+
+// Another example of Drawing Dynamic Text (Playing times)
+//DrawExText(DestX=5,DestY=<WinHeight>-57,Width=<WinWidth>-10,Height=20,Align=Center,Case=UpFirst,FontName=Arial,FontSize=8,FontColor=FFFFFF,FontStyle=Bold,Text=At <Time> out of <Duration> - Remaining: <TimeRemain>)
+
+// Example of using the same graphics of the Play Rate Bar for Audio Balance
+//BalanceExData(SrcX=172,SrcY=0,DestX=<WinWidth>-87,DestY=<WinHeight>-47,Width=35,Height=14)
